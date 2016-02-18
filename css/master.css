@@ -1,0 +1,27 @@
+  body {
+  font-family: monospace;
+  position: fixed;
+  left: 25%;
+  right: 25%;
+  top: 5%;
+
+  padding: 0;
+  color: black;
+}
+h1 {
+  font: 300 30px/100% monospace;
+}
+header {
+  margin: 0 auto;
+  text-align: center;
+}
+.animated.fadeInDown {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+}
+.animated.fadeIn {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+}
