@@ -1,27 +1,28 @@
   body {
   font-family: monospace;
-  position: fixed;
-  left: 25%;
-  right: 25%;
-  top: 5%;
-
-  padding: 0;
-  color: black;
+  margin: 40px auto;
+  max-width: 650px;
+  line-height: 1.6;
+  font-size: 18px;
+  padding: 0 10px;
+  color: #444
 }
 h1 {
   font: 300 30px/100% monospace;
 }
-header {
-  margin: 0 auto;
-  text-align: center;
+
+
+a {
+  color: #446688;
+  text-decoration: none;
+  outline: 0;
+  padding-bottom: 1px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
 }
-.animated.fadeInDown {
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-}
-.animated.fadeIn {
-  -webkit-animation-delay: 1s;
-  animation-delay: 1s;
-  -webkit-animation-duration: 3s;
-  animation-duration: 3s;
-}
+
+a:hover {
+  color: #3c5977;
+  border-color: #446688; }
+
+a:active {
+  border-width: 2px; }
