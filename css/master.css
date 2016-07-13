@@ -1,28 +1,86 @@
   body {
-  font-family: monospace;
+  font-family: 'Space Mono', monospace;;
   margin: 40px auto;
-  max-width: 650px;
+  max-width: 790px;
   line-height: 1.6;
-  font-size: 18px;
-  padding: 0 10px;
-  color: #444
+  font-size: 40px;
+  color: #fff;
+  background: #292b36;
 }
 h1 {
-  font: 300 30px/100% monospace;
+  font-family: 'Space Mono', monospace;
 }
+a.link:hover {
+  color: #3c5977;
+  border-color: #446688; }
 
+a.link:active {
+  border-width: 2px; }
 
-a {
+a.link {
   color: #446688;
   text-decoration: none;
   outline: 0;
   padding-bottom: 1px;
   border-bottom: 1px solid rgba(0, 0, 0, 0);
 }
-
-a:hover {
-  color: #3c5977;
-  border-color: #446688; }
-
-a:active {
-  border-width: 2px; }
+h1 {
+  position: relative;
+  font-size: 3vw;
+  color: #fff;
+}
+h1:after {
+  content: '';
+  height: 140%;
+  width: 1px;
+  background: transparent;
+  position: absolute;
+  display: block;
+  right: -1vw;
+  top: -20%;
+  animation: blink 1.2s linear infinite;
+}
+@-moz-keyframes blink {
+  49% {
+    background: transparent;
+  }
+  50% {
+    background: #fff;
+  }
+  100% {
+    background: #fff;
+  }
+}
+@-webkit-keyframes blink {
+  49% {
+    background: transparent;
+  }
+  50% {
+    background: #fff;
+  }
+  100% {
+    background: #fff;
+  }
+}
+@-o-keyframes blink {
+  49% {
+    background: transparent;
+  }
+  50% {
+    background: #fff;
+  }
+  100% {
+    background: #fff;
+  }
+}
+@keyframes blink {
+  49% {
+    background: transparent;
+  }
+  50% {
+    background: #fff;
+  }
+  100% {
+    background: #fff;
+  }
+}
