@@ -83,10 +83,11 @@
       background: rgba(112, 93, 207, 0.06);
     }
 
-    #sidebar a.toc-h2 { padding-left: 1rem; font-weight: 600; margin-top: 0.5rem; }
-    #sidebar a.toc-h3 { padding-left: 1.8rem; }
-    #sidebar a.toc-h4 { padding-left: 2.6rem; }
-    #sidebar a.toc-h5 { padding-left: 3.4rem; }
+    #sidebar a.toc-h1 { padding-left: 1rem; font-weight: 700; margin-top: 0.6rem; font-size: 0.95rem; }
+    #sidebar a.toc-h2 { padding-left: 1.5rem; font-weight: 600; margin-top: 0.3rem; }
+    #sidebar a.toc-h3 { padding-left: 2rem; }
+    #sidebar a.toc-h4 { padding-left: 2.6rem; font-size: 0.82rem; }
+    #sidebar a.toc-h5 { padding-left: 3.2rem; font-size: 0.8rem; }
 
     #sidebar-toggle {
       display: none;
@@ -117,8 +118,8 @@
       font-weight: 600;
     }
 
-    h1 { font-size: 2.4em; }
-    h2 { font-size: 2em; border-bottom: 1px solid var(--hr-color); padding-bottom: 0.3em; }
+    h1 { font-size: 2.4em; border-bottom: 2px solid var(--hr-color); padding-bottom: 0.3em; }
+    h2 { font-size: 1.9em; border-bottom: 1px solid var(--hr-color); padding-bottom: 0.3em; }
     h3 { font-size: 1.6em; }
     h4 { font-size: 1.35em; }
     h5 { font-size: 1.2em; }
@@ -284,9 +285,14 @@
 
       // Move images that precede a heading to after the heading
       md = md.replace(
-        /((?:!\[[^\]]*\]\([^)]+\)\n)+)\n*(#{2,5}\s+[^\n]+)/g,
+        /((?:!\[[^\]]*\]\([^)]+\)\n)+)\n*(#{1,6}\s+[^\n]+)/g,
         '$2\n$1'
       );
+
+      // Shift all headings up one level (## -> #, ### -> ##, etc.)
+      md = md.replace(/^(#{2,6})\s/gm, (match, hashes) => {
+        return '#'.repeat(hashes.length - 1) + ' ';
+      });
 
       // Convert Obsidian callouts to custom HTML
       // Match callout blocks: > [!type] optional title\n> content lines
@@ -364,7 +370,7 @@
     }
 
     function buildTOC() {
-      const headings = document.querySelectorAll('#content h2, #content h3, #content h4, #content h5');
+      const headings = document.querySelectorAll('#content h1, #content h2, #content h3, #content h4, #content h5');
       const toc = document.getElementById('toc');
       const fragment = document.createDocumentFragment();
 
@@ -390,7 +396,7 @@
 
     function setupScrollSpy() {
       const links = document.querySelectorAll('#toc a');
-      const headings = document.querySelectorAll('#content h2, #content h3, #content h4, #content h5');
+      const headings = document.querySelectorAll('#content h1, #content h2, #content h3, #content h4, #content h5');
 
       const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
