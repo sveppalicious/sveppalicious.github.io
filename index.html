@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Orders of Birds</title>
+  <style>
+    :root {
+      --bg-primary: #1e1e1e;
+      --bg-secondary: #262626;
+      --text-primary: #dcddde;
+      --text-muted: #999;
+      --text-accent: #7f6df2;
+      --link-color: #7f6df2;
+      --link-hover: #a38ff7;
+      --hr-color: #444;
+      --callout-info-bg: rgba(8, 109, 221, 0.1);
+      --callout-info-border: #086ddd;
+      --callout-info-icon: #086ddd;
+      --callout-tip-bg: rgba(8, 185, 78, 0.1);
+      --callout-tip-border: #08b94e;
+      --callout-tip-icon: #08b94e;
+      --bold-color: #e0e0e0;
+      --code-bg: #2b2b2b;
+      --blockquote-border: #444;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Inter", sans-serif;
+      background-color: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.6;
+      padding: 2rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      color: var(--text-primary);
+      margin-top: 1.5em;
+      margin-bottom: 0.5em;
+      font-weight: 600;
+    }
+
+    h1 { font-size: 2em; }
+    h2 { font-size: 1.6em; border-bottom: 1px solid var(--hr-color); padding-bottom: 0.3em; }
+    h3 { font-size: 1.3em; }
+    h4 { font-size: 1.15em; }
+    h5 { font-size: 1.05em; }
+
+    p {
+      margin-bottom: 0.8em;
+    }
+
+    em {
+      color: var(--text-muted);
+    }
+
+    strong {
+      color: var(--bold-color);
+    }
+
+    a {
+      color: var(--link-color);
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: var(--link-hover);
+      text-decoration: underline;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid var(--hr-color);
+      margin: 2em 0;
+    }
+
+    ul, ol {
+      margin-bottom: 0.8em;
+      padding-left: 1.8em;
+    }
+
+    li {
+      margin-bottom: 0.3em;
+    }
+
+    img {
+      max-width: 100%;
+      border-radius: 6px;
+      margin: 0.5em 0;
+    }
+
+    blockquote {
+      border-left: 3px solid var(--blockquote-border);
+      padding: 0.5em 1em;
+      margin: 0.8em 0;
+      color: var(--text-muted);
+    }
+
+    /* Obsidian-style callouts */
+    .callout {
+      border-radius: 6px;
+      padding: 1em 1.2em;
+      margin: 1em 0;
+      border-left: 4px solid;
+    }
+
+    .callout-title {
+      font-weight: 600;
+      margin-bottom: 0.4em;
+      display: flex;
+      align-items: center;
+      gap: 0.5em;
+    }
+
+    .callout-title svg {
+      flex-shrink: 0;
+    }
+
+    .callout-content p:last-child {
+      margin-bottom: 0;
+    }
+
+    .callout-info {
+      background-color: var(--callout-info-bg);
+      border-color: var(--callout-info-border);
+    }
+
+    .callout-info .callout-title {
+      color: var(--callout-info-icon);
+    }
+
+    .callout-tip {
+      background-color: var(--callout-tip-bg);
+      border-color: var(--callout-tip-border);
+    }
+
+    .callout-tip .callout-title {
+      color: var(--callout-tip-icon);
+    }
+
+    #content {
+      animation: fadeIn 0.3s ease-in;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    /* Two images side-by-side when consecutive */
+    .img-pair {
+      display: flex;
+      gap: 1em;
+      margin: 0.5em 0;
+    }
+
+    .img-pair img {
+      flex: 1;
+      min-width: 0;
+      object-fit: contain;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 1rem;
+      }
+
+      .img-pair {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="content">Loading...</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script>
+    function preprocessObsidian(md) {
+      // Convert Obsidian image embeds: ![[filename]] -> ![](photos/filename)
+      md = md.replace(/!\[\[([^\]]+\.(png|jpg|jpeg|gif|svg|webp))\]\]/gi, (match, filename) => {
+        return `![](photos/${encodeURIComponent(filename)})`;
+      });
+
+      // Convert Obsidian callouts to custom HTML
+      // Match callout blocks: > [!type] optional title\n> content lines
+      const lines = md.split('\n');
+      const result = [];
+      let i = 0;
+
+      while (i < lines.length) {
+        const calloutMatch = lines[i].match(/^>\s*\[!(\w+)\]\s*(.*)?$/);
+        if (calloutMatch) {
+          const type = calloutMatch[1].toLowerCase();
+          const customTitle = calloutMatch[2] || '';
+          const title = customTitle || type.charAt(0).toUpperCase() + type.slice(1);
+
+          // Collect callout content
+          const contentLines = [];
+          i++;
+          while (i < lines.length && /^>\s?(.*)$/.test(lines[i])) {
+            const contentMatch = lines[i].match(/^>\s?(.*)$/);
+            contentLines.push(contentMatch[1]);
+            i++;
+          }
+
+          const icon = type === 'info'
+            ? '<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>'
+            : '<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>';
+
+          const content = contentLines.join('\n');
+
+          result.push(`<div class="callout callout-${type}">`);
+          result.push(`<div class="callout-title">${icon} ${title}</div>`);
+          result.push(`<div class="callout-content">\n\n${content}\n\n</div>`);
+          result.push(`</div>`);
+          result.push('');
+        } else {
+          result.push(lines[i]);
+          i++;
+        }
+      }
+
+      return result.join('\n');
+    }
+
+    function pairConsecutiveImages(html) {
+      // Find consecutive <p><img></p><p><img></p> and wrap them in .img-pair
+      return html.replace(
+        /(<p>\s*<img[^>]+>\s*<\/p>\s*)(<p>\s*<img[^>]+>\s*<\/p>)/g,
+        '<div class="img-pair">$1$2</div>'
+      );
+    }
+
+    async function render() {
+      try {
+        const response = await fetch('Orders.md');
+        if (!response.ok) throw new Error('Failed to load Orders.md');
+        let md = await response.text();
+
+        md = preprocessObsidian(md);
+
+        marked.setOptions({
+          breaks: true,
+          gfm: true,
+        });
+
+        let html = marked.parse(md);
+        html = pairConsecutiveImages(html);
+
+        document.getElementById('content').innerHTML = html;
+      } catch (err) {
+        document.getElementById('content').innerHTML =
+          `<p style="color: #ff6b6b;">Error loading content: ${err.message}</p>`;
+      }
+    }
+
+    render();
+  </script>
+</body>
+</html>
