@@ -117,11 +117,11 @@
       font-weight: 600;
     }
 
-    h1 { font-size: 2em; }
-    h2 { font-size: 1.6em; border-bottom: 1px solid var(--hr-color); padding-bottom: 0.3em; }
-    h3 { font-size: 1.3em; }
-    h4 { font-size: 1.15em; }
-    h5 { font-size: 1.05em; }
+    h1 { font-size: 2.4em; }
+    h2 { font-size: 2em; border-bottom: 1px solid var(--hr-color); padding-bottom: 0.3em; }
+    h3 { font-size: 1.6em; }
+    h4 { font-size: 1.35em; }
+    h5 { font-size: 1.2em; }
 
     p {
       margin-bottom: 0.8em;
@@ -281,6 +281,12 @@
       md = md.replace(/!\[\[([^\]]+\.(png|jpg|jpeg|gif|svg|webp))\]\]/gi, (match, filename) => {
         return `![](photos/${encodeURIComponent(filename)})`;
       });
+
+      // Move images that precede a heading to after the heading
+      md = md.replace(
+        /((?:!\[[^\]]*\]\([^)]+\)\n)+)\n*(#{2,5}\s+[^\n]+)/g,
+        '$2\n$1'
+      );
 
       // Convert Obsidian callouts to custom HTML
       // Match callout blocks: > [!type] optional title\n> content lines
