@@ -383,7 +383,9 @@
 > [!Tip] Fun Facts
 > A newly hatched parasitic cuckoo chick will often use its back to push the host's original eggs or chicks out of the nest, ensuring it gets all the food. 
 > 
-> The Greater Roadrunner can reach ground speeds of up to 35 km/h. Cuckoo eggs often evolve to perfectly mimic the color and pattern of the host bird's eggs to avoid being detected and thrown out. 
+> The Greater Roadrunner can reach ground speeds of up to 35 km/h. 
+> 
+> Cuckoo eggs often evolve to perfectly mimic the color and pattern of the host bird's eggs to avoid being detected and thrown out. 
 > 
 > Hawk-cuckoos mimic *Accipiter/Astur* forest hawks to avoid recognition by hosts. 
 > 
