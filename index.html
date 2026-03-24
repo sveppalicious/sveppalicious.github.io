@@ -6,23 +6,23 @@
   <title>Orders of Birds</title>
   <style>
     :root {
-      --bg-primary: #1e1e1e;
-      --bg-secondary: #262626;
-      --text-primary: #dcddde;
-      --text-muted: #999;
-      --text-accent: #7f6df2;
-      --link-color: #7f6df2;
-      --link-hover: #a38ff7;
-      --hr-color: #444;
-      --callout-info-bg: rgba(8, 109, 221, 0.1);
+      --bg-primary: #ffffff;
+      --bg-secondary: #f6f6f6;
+      --text-primary: #1a1a1a;
+      --text-muted: #555;
+      --text-accent: #705dcf;
+      --link-color: #705dcf;
+      --link-hover: #5a45b5;
+      --hr-color: #ddd;
+      --callout-info-bg: rgba(8, 109, 221, 0.08);
       --callout-info-border: #086ddd;
       --callout-info-icon: #086ddd;
-      --callout-tip-bg: rgba(8, 185, 78, 0.1);
+      --callout-tip-bg: rgba(8, 185, 78, 0.08);
       --callout-tip-border: #08b94e;
       --callout-tip-icon: #08b94e;
-      --bold-color: #e0e0e0;
-      --code-bg: #2b2b2b;
-      --blockquote-border: #444;
+      --bold-color: #1a1a1a;
+      --code-bg: #f3f3f3;
+      --blockquote-border: #ddd;
     }
 
     * {
@@ -36,9 +36,78 @@
       background-color: var(--bg-primary);
       color: var(--text-primary);
       line-height: 1.6;
+      margin: 0;
+      display: flex;
+    }
+
+    #sidebar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 260px;
+      height: 100vh;
+      overflow-y: auto;
+      background: var(--bg-secondary);
+      border-right: 1px solid var(--hr-color);
+      padding: 1.5rem 0;
+      font-size: 0.85rem;
+      z-index: 10;
+    }
+
+    #sidebar .toc-title {
+      font-weight: 700;
+      font-size: 0.95rem;
+      padding: 0 1rem 0.8rem;
+      color: var(--text-primary);
+      border-bottom: 1px solid var(--hr-color);
+      margin-bottom: 0.5rem;
+    }
+
+    #sidebar a {
+      display: block;
+      padding: 0.25rem 1rem;
+      color: var(--text-muted);
+      text-decoration: none;
+      border-left: 3px solid transparent;
+      transition: all 0.15s;
+    }
+
+    #sidebar a:hover {
+      color: var(--text-primary);
+      background: rgba(0,0,0,0.04);
+    }
+
+    #sidebar a.active {
+      color: var(--link-color);
+      border-left-color: var(--link-color);
+      background: rgba(112, 93, 207, 0.06);
+    }
+
+    #sidebar a.toc-h2 { padding-left: 1rem; font-weight: 600; margin-top: 0.5rem; }
+    #sidebar a.toc-h3 { padding-left: 1.8rem; }
+    #sidebar a.toc-h4 { padding-left: 2.6rem; }
+    #sidebar a.toc-h5 { padding-left: 3.4rem; }
+
+    #sidebar-toggle {
+      display: none;
+      position: fixed;
+      top: 0.8rem;
+      left: 0.8rem;
+      z-index: 20;
+      background: var(--bg-secondary);
+      border: 1px solid var(--hr-color);
+      border-radius: 6px;
+      padding: 0.4rem 0.6rem;
+      cursor: pointer;
+      font-size: 1.2rem;
+      color: var(--text-primary);
+    }
+
+    .main-content {
+      margin-left: 260px;
       padding: 2rem;
       max-width: 900px;
-      margin: 0 auto;
+      width: calc(100% - 260px);
     }
 
     h1, h2, h3, h4, h5, h6 {
@@ -168,9 +237,25 @@
       object-fit: contain;
     }
 
-    @media (max-width: 600px) {
-      body {
+    @media (max-width: 768px) {
+      #sidebar {
+        transform: translateX(-100%);
+        transition: transform 0.25s ease;
+      }
+
+      #sidebar.open {
+        transform: translateX(0);
+      }
+
+      #sidebar-toggle {
+        display: block;
+      }
+
+      .main-content {
+        margin-left: 0;
+        width: 100%;
         padding: 1rem;
+        padding-top: 3rem;
       }
 
       .img-pair {
@@ -180,7 +265,14 @@
   </style>
 </head>
 <body>
-  <div id="content">Loading...</div>
+  <button id="sidebar-toggle" aria-label="Toggle navigation">&#9776;</button>
+  <nav id="sidebar">
+    <div class="toc-title">Table of Contents</div>
+    <div id="toc"></div>
+  </nav>
+  <div class="main-content">
+    <div id="content">Loading...</div>
+  </div>
 
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script>
@@ -257,11 +349,60 @@
         html = pairConsecutiveImages(html);
 
         document.getElementById('content').innerHTML = html;
+        buildTOC();
+        setupScrollSpy();
       } catch (err) {
         document.getElementById('content').innerHTML =
           `<p style="color: #ff6b6b;">Error loading content: ${err.message}</p>`;
       }
     }
+
+    function buildTOC() {
+      const headings = document.querySelectorAll('#content h2, #content h3, #content h4, #content h5');
+      const toc = document.getElementById('toc');
+      const fragment = document.createDocumentFragment();
+
+      headings.forEach((h, i) => {
+        const id = 'section-' + i;
+        h.id = id;
+
+        const a = document.createElement('a');
+        a.href = '#' + id;
+        a.textContent = h.textContent;
+        a.className = 'toc-' + h.tagName.toLowerCase();
+        a.addEventListener('click', (e) => {
+          e.preventDefault();
+          h.scrollIntoView({ behavior: 'smooth' });
+          // Close sidebar on mobile
+          document.getElementById('sidebar').classList.remove('open');
+        });
+        fragment.appendChild(a);
+      });
+
+      toc.appendChild(fragment);
+    }
+
+    function setupScrollSpy() {
+      const links = document.querySelectorAll('#toc a');
+      const headings = document.querySelectorAll('#content h2, #content h3, #content h4, #content h5');
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            links.forEach(l => l.classList.remove('active'));
+            const active = document.querySelector(`#toc a[href="#${entry.target.id}"]`);
+            if (active) active.classList.add('active');
+          }
+        });
+      }, { rootMargin: '0px 0px -70% 0px' });
+
+      headings.forEach(h => observer.observe(h));
+    }
+
+    // Mobile sidebar toggle
+    document.getElementById('sidebar-toggle').addEventListener('click', () => {
+      document.getElementById('sidebar').classList.toggle('open');
+    });
 
     render();
   </script>
