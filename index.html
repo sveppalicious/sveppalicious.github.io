@@ -313,7 +313,12 @@
   <script>
     function preprocessObsidian(md) {
       // Convert Obsidian image embeds: ![[filename]] -> ![](photos/filename)
-      md = md.replace(/!\[\[([^\]]+\.(png|jpg|jpeg|gif|svg|webp))\]\]/gi, (match, filename) => {
+      // Handles both with and without file extensions
+      md = md.replace(/!\[\[([^\]]+)\]\]/gi, (match, filename) => {
+        // Add .png extension if no image extension present
+        if (!/\.(png|jpg|jpeg|gif|svg|webp)$/i.test(filename)) {
+          filename = filename + '.png';
+        }
         return `![](photos/${encodeURIComponent(filename)})`;
       });
 
@@ -387,6 +392,30 @@
       );
     }
 
+    function addListIcons(container) {
+      const iconMap = {
+        'Distribution:': '🌍',
+        'Habitats:': '🌿',
+        'Recognition:': '🔍',
+        'Feeding ecology:': '🍽️',
+        'Breeding behavior:': '🪺',
+      };
+      container.querySelectorAll('li').forEach(li => {
+        const strong = li.querySelector('strong');
+        if (!strong) return;
+        const text = strong.textContent;
+        for (const [key, icon] of Object.entries(iconMap)) {
+          if (text === key) {
+            const span = document.createElement('span');
+            span.className = 'field-icon';
+            span.textContent = icon + ' ';
+            li.insertBefore(span, li.firstChild);
+            break;
+          }
+        }
+      });
+    }
+
     async function render() {
       try {
         const response = await fetch('Orders.md');
@@ -404,6 +433,7 @@
         html = pairConsecutiveImages(html);
 
         document.getElementById('content').innerHTML = html;
+        addListIcons(document.getElementById('content'));
         buildTOC();
         setupScrollSpy();
       } catch (err) {
