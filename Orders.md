@@ -31,7 +31,7 @@
 ---
 
 ![[Pasted image 20260323144519.png]]
-![[Pasted image 20260323153057.png]]
+![[Screenshot 2026-03-25 at 01-31-48 Phylogeny Explorer - Birds of the World.png]]
 ### Rheiformes: nandues/rheas
 
 > [!Info]
