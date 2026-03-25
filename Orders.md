@@ -65,11 +65,9 @@
 - **Breeding behavior:** Polyandrous, multiple females lay in a male's nest containing up to 15 eggs, who raises them alone. Chicks precocial. Eggs are glossy and sometimes colorful
 
 > [!Tip] Fun Facts
-> In forests tinamous roost in trees. However, their feet do not grasp, so they balance on their tarsi instead. 
-> 
-> Tinamou vocalizations are a distinctive part of the neotropic dawn chorus. 
-> 
-> Smallest heart and lungs in birds
+> - In forests tinamous roost in trees. However, their feet do not grasp, so they balance on their tarsi instead.
+> - Tinamou vocalizations are a distinctive part of the neotropic dawn chorus.
+> - Smallest heart and lungs in birds
 
 **Specimens:**
 - *Tinamus solitarius* (1) — [Solitary Tinamou](https://ebird.org/species/soltin1)
@@ -91,11 +89,9 @@
 - **Breeding behavior:** Monogamous. Nest in a burrow, eggs as much as 20% of body weight, clutch size two. At least the male solely incubates. Functional pair of ovaries
 
 > [!Tip] Fun Facts
-> Some males help incubate eggs they did not father. 
-> 
-> If you try to find the vestigial wing nub on a live kiwi, it will bite you. 
-> 
-> Although often considered nocturnal, predator-free populations are active during the day
+> - Some males help incubate eggs they did not father.
+> - If you try to find the vestigial wing nub on a live kiwi, it will bite you.
+> - Although often considered nocturnal, predator-free populations are active during the day
 
 **Specimens:**
 - *Apteryx mantelli* (5) — [North Island Brown Kiwi](https://ebird.org/species/nibkiw1)
@@ -116,11 +112,9 @@
 - **Breeding behavior:** Polygynous, females lay eggs in male nest, 5–15 eggs
 
 > [!Tip] Fun Facts
-> In 1932 Australia mustered a military operation to reduce Emu numbers, because they were accused of destroying crops. The emus suffered minimal losses and successfully repelled their antagonists after a six-day assault. 
-> 
-> Emus can pant like mammals. 
-> 
-> Cassowaries can use infrasound communication, i.e., sounds below the range of human hearing
+> - In 1932 Australia mustered a military operation to reduce Emu numbers, because they were accused of destroying crops. The emus suffered minimal losses and successfully repelled their antagonists after a six-day assault.
+> - Emus can pant like mammals.
+> - Cassowaries can use infrasound communication, i.e., sounds below the range of human hearing
 
 **Specimens:**
 - *Casuarius bennetti* (6) — [Dwarf Cassowary](https://ebird.org/species/dwacas1)
@@ -170,9 +164,8 @@
 - **Breeding behavior:** Diverse, many polygynous where males have leks or harems. Others monogamous. Chicks precocial
 
 > [!Tip] Fun Facts
-> Megapodes use environmental incubation for their eggs, and will either bury them in a mound of rotting vegetation or beach sand. 
-> 
-> The wild-type ancestor of the domestic chicken, the red junglefowl, is extinct in the wild. Wild populations are descended from feral chickens
+> - Megapodes use environmental incubation for their eggs, and will either bury them in a mound of rotting vegetation or beach sand.
+> - The wild-type ancestor of the domestic chicken, the red junglefowl, is extinct in the wild. Wild populations are descended from feral chickens
 
 **Specimens:**
 - *Macrocephalon maleo* (13) — [Maleo](https://ebird.org/species/maleo1)
@@ -204,11 +197,9 @@
 - **Breeding behavior:** Monogamous. Perform elaborate synchronized courtship displays, with complex head movements. Colonial breeders. Nest constructed out of mud, a "volcano" in a mudflat. Clutch size one. Bi-parental care, parents produce crop milk. Chicks semiprecocial, leave the nest after a few days and are looked after collectively, though fed by parents. Sexual maturity at 3-6 years
 
 > [!Tip] Fun Facts
-> Pink and red coloration in flamingo plumage is carotenoid based and derived from crustacean diet. Before these pigments could be supplemented in captive birds, zoo flamingos were white. 
-> 
-> Captive flamingos live up to 60 years. 
-> 
-> Although considered "tropical," three species live in the high Andes in Saline lakes up to 4500 m in elevation
+> - Pink and red coloration in flamingo plumage is carotenoid based and derived from crustacean diet. Before these pigments could be supplemented in captive birds, zoo flamingos were white.
+> - Captive flamingos live up to 60 years.
+> - Although considered "tropical," three species live in the high Andes in Saline lakes up to 4500 m in elevation
 
 **Specimens:**
 - *Phoenicopterus ruber* (21) — [American Flamingo](https://ebird.org/species/grefla2)
@@ -229,11 +220,9 @@
 - **Breeding behavior:** Like their flamingo relatives, they have complex pair-bonding displays including head bobbing and synchronized swimming. Build floating nests. Grebe eggs are unique in that they can survive being submerged. Chicks are semiprecocial, and ride on their parents' backs. They have distinctive zebra stripes
 
 > [!Tip] Fun Facts
-> Flightlessness has evolved 4 times in grebes. 
-> 
-> Grebes eat their own feathers, and no one knows why. 
-> 
-> Grebes can barely walk on land
+> - Flightlessness has evolved 4 times in grebes.
+> - Grebes eat their own feathers, and no one knows why.
+> - Grebes can barely walk on land
 
 **Specimens:**
 - *Tachybaptus ruficollis* (22) — [Little Grebe](https://ebird.org/species/litgre1)
@@ -259,9 +248,8 @@
 - **Breeding behavior:** Monogamous, nest extremely simple, bi-parental care, produce crop milk. Chicks altricial
 
 > [!Tip] Fun Facts
-> Unlike other birds, they have the musculature to drink water without tilting their heads back. 
-> 
-> Carrier pigeons can navigate back to their home cage by olfaction
+> - Unlike other birds, they have the musculature to drink water without tilting their heads back.
+> - Carrier pigeons can navigate back to their home cage by olfaction
 
 **Specimens:**
 - *Columba palumbus* (25) — [Common Wood-Pigeon](https://ebird.org/species/cowpig1)
@@ -284,11 +272,9 @@
 - **Breeding behavior:** They are vocal birds that engage in "duetting" to defend territories. Nesting habits vary by species; two are monogamous, while the Subdesert Mesite is cooperative/polyandrous (one female with multiple males). Simple platform nests made of sticks, low to the ground in bushes or vines. Chicks semiprecocial, leaving nest 1-2 days after hatching
 
 > [!Tip] Fun Facts
-> Poorly known. 
-> 
-> Nearly flightless despite having the physical ability to fly; run or freeze when threatened. 
-> 
-> Possess powder down (special feathers that crumble into a fine dust for feather care), an unusual trait more associated with non-relatives like herons and parrots
+> - Poorly known.
+> - Nearly flightless despite having the physical ability to fly; run or freeze when threatened.
+> - Possess powder down (special feathers that crumble into a fine dust for feather care), an unusual trait more associated with non-relatives like herons and parrots
 
 **Specimens:**
 - *Monias benschii* (28) — [Subdesert Mesite](https://ebird.org/species/submes1)
@@ -333,11 +319,9 @@
 - **Breeding behavior:** Most species polygynous and practice lekking. Males gather in a specific area to perform elaborate lekking displays to attract females: puffing out feathers, inflating neck sacs, and "turning inside out" to transform into a white cloud of feathers. No nest, build; eggs are laid directly on the bare ground
 
 > [!Tip] Fun Facts
-> The Kori Bustard and the Great Bustard are tied for the title of the heaviest flying bird in the world, with large males weighing up to 18 kg. Despite their size, they are strong flyers, though they prefer to run or hide if threatened. 
-> 
-> Large size disparity between sexes; in some species, the male can be up to four times the weight of the female. 
-> 
-> Many species threatened by overhunting and habitat loss, most species require large areas to maintain populations
+> - The Kori Bustard and the Great Bustard are tied for the title of the heaviest flying bird in the world, with large males weighing up to 18 kg. Despite their size, they are strong flyers, though they prefer to run or hide if threatened.
+> - Large size disparity between sexes; in some species, the male can be up to four times the weight of the female.
+> - Many species threatened by overhunting and habitat loss, most species require large areas to maintain populations
 
 **Specimens:**
 - *Tetrax tetrax* (52) — [Little Bustard](https://ebird.org/species/litbus1)
@@ -358,9 +342,8 @@
 - **Breeding behavior:** Generally monogamous and territorial. Build flimsy, pigeon-like platform nests made of sticks high in the trees. Both parents share the duties of incubating the eggs and feeding the chicks, which are semiprecocial and can climb through branches well before they can fly
 
 > [!Tip] Fun Facts
-> Turacos are some of the only birds with true green and red pigments (Turacoverdin and Turacin). In most birds, green is created by feather structure, but turacos have copper-based chemicals in their feathers. 
-> 
-> Some species, like the Grey Go-away-bird, are named after their loud, nasal alarm call that sounds exactly like they are shouting *"Go away!"* to intruders or predators
+> - Turacos are some of the only birds with true green and red pigments (Turacoverdin and Turacin). In most birds, green is created by feather structure, but turacos have copper-based chemicals in their feathers.
+> - Some species, like the Grey Go-away-bird, are named after their loud, nasal alarm call that sounds exactly like they are shouting *"Go away!"* to intruders or predators
 
 **Specimens:**
 - *Tauraco livingstonii* (53) — [Livingstone's Turaco](https://ebird.org/species/livtur1)
@@ -381,15 +364,11 @@
 - **Breeding behavior:** Famous for obligate brood parasitism in about 40% of species, which is thought to have evolved multiple times. Here, eggs are laid in the nests of other species, leaving the host parents to hatch and feed the cuckoo chick. However, other cuckoo species, including North American species and terrestrial species, build their own nests and raise their own young
 
 > [!Tip] Fun Facts
-> A newly hatched parasitic cuckoo chick will often use its back to push the host's original eggs or chicks out of the nest, ensuring it gets all the food. 
-> 
-> The Greater Roadrunner can reach ground speeds of up to 35 km/h. 
-> 
-> Cuckoo eggs often evolve to perfectly mimic the color and pattern of the host bird's eggs to avoid being detected and thrown out. 
-> 
-> Hawk-cuckoos mimic *Accipiter/Astur* forest hawks to avoid recognition by hosts. 
-> 
-> Ground-cuckoos follow large mammals or army ants, feeding on large insects or small vertebrates disturbed by them
+> - A newly hatched parasitic cuckoo chick will often use its back to push the host's original eggs or chicks out of the nest, ensuring it gets all the food.
+> - The Greater Roadrunner can reach ground speeds of up to 35 km/h.
+> - Cuckoo eggs often evolve to perfectly mimic the color and pattern of the host bird's eggs to avoid being detected and thrown out.
+> - Hawk-cuckoos mimic *Accipiter/Astur* forest hawks to avoid recognition by hosts.
+> - Ground-cuckoos follow large mammals or army ants, feeding on large insects or small vertebrates disturbed by them
 
 **Specimens:**
 - *Geococcyx californianus* (42) — [Greater Roadrunner](https://ebird.org/species/greroa)
@@ -546,11 +525,9 @@
 - **Breeding behavior:** Nest in total darkness inside caves. They build nests out of a paste of regurgitated fruit pulp and droppings. Chicks altricial
 
 > [!Tip] Fun Facts
-> Oilbirds use echolocation (clicks) to navigate deep, pitch-black cave systems, a trait they share with bats and some swifts.
-> 
-> Named oilbird because the chicks are so fatty from eating wax palm fruit, they can be used as a torch.
-> 
-> One of the loudest birds
+> - Oilbirds use echolocation (clicks) to navigate deep, pitch-black cave systems, a trait they share with bats and some swifts.
+> - Named oilbird because the chicks are so fatty from eating wax palm fruit, they can be used as a torch.
+> - One of the loudest birds
 
 **Specimens:**
 - *Steatornis caripennis* (32) — [Oilbird](https://ebird.org/species/oilbir1)
@@ -613,9 +590,8 @@
 - **Breeding behavior:** Swifts use saliva to glue nests to vertical surfaces; Hummingbirds build delicate cups of spider silk and lichen. Many hummingbirds have spectacular aerial breeding displays
 
 > [!Tip] Fun Facts
-> Swifts can remain in the air for 10 consecutive months without ever landing, even sleeping while flying. 
-> 
-> Hummingbirds are the only birds capable of truly flying backwards
+> - Swifts can remain in the air for 10 consecutive months without ever landing, even sleeping while flying.
+> - Hummingbirds are the only birds capable of truly flying backwards
 
 **Specimens:**
 - *Hemiprocne mystacea* (37) — [Moustached Treeswift](https://ebird.org/species/moutre1)
@@ -685,9 +661,8 @@
 - **Breeding behavior:** Monogamous and highly territorial. They build nests very close to the water's edge, often on small islands, to minimize the distance they must travel on land. They are famous for carrying their semiprecocial chicks on their backs to protect them from large fish and cold water
 
 > [!Tip] Fun Facts
-> Loons are known for their haunting, "yodeling" calls that are a staple sound of the northern wilderness. 
-> 
-> To take off from water, they require a "runway" of up to several hundred meters, flapping their wings and running across the surface to gain enough speed for lift-off
+> - Loons are known for their haunting, "yodeling" calls that are a staple sound of the northern wilderness.
+> - To take off from water, they require a "runway" of up to several hundred meters, flapping their wings and running across the surface to gain enough speed for lift-off
 
 **Specimens:**
 - *Gavia stellata* (54) — [Red-throated Loon](https://ebird.org/species/retloo)
@@ -732,9 +707,8 @@
 - **Breeding behavior:** Known for being "K-strategists": they have very slow reproductive rates. Most species lay a single egg per year (or every two years or more) and have long incubation and chick-rearing periods. They are often monogamous and mate for life. Chicks altricial
 
 > [!Tip] Fun Facts
-> The 'Wandering' Albatrosses have the largest wingspan of any living bird, reaching 3.5 meters. 
-> 
-> Many species in this order have a "musty" smell due to a specialized stomach oil they produce; they use this oil both as an energy-rich food source for chicks and as a projectile defense mechanism against predators
+> - The 'Wandering' Albatrosses have the largest wingspan of any living bird, reaching 3.5 meters.
+> - Many species in this order have a "musty" smell due to a specialized stomach oil they produce; they use this oil both as an energy-rich food source for chicks and as a projectile defense mechanism against predators
 
 **Specimens:**
 - *Diomedea exulans* (59) — [Snowy Albatross](https://ebird.org/species/wanalb1)
@@ -759,9 +733,8 @@
 - **Breeding behavior:** Most species are colonial nesters, building massive stick nests in tall trees or on cliffs. They are generally monogamous and often return to the same nest site for many years, adding more material each time. Chicks altricial
 
 > [!Tip] Fun Facts
-> Since they cannot sing, storks communicate through "bill-clattering," rapidly snapping their mandibles together to produce a loud rattling sound. 
-> 
-> To keep cool in hot climates, many storks practice defecating on their own legs so the evaporating liquid cools their blood vessels
+> - Since they cannot sing, storks communicate through "bill-clattering," rapidly snapping their mandibles together to produce a loud rattling sound.
+> - To keep cool in hot climates, many storks practice defecating on their own legs so the evaporating liquid cools their blood vessels
 
 **Specimens:**
 - *Ciconia ciconia* (64) — [White Stork](https://ebird.org/species/whisto1)
@@ -782,11 +755,9 @@
 - **Breeding behavior:** Most species are colonial nesters. They often perform ritualized greeting ceremonies at the nest, such as the "sky-pointing" of boobies or the throat-sac inflation of frigatebirds. Chicks altricial
 
 > [!Tip] Fun Facts
-> Gannets and boobies lack of external nostrils in many species (to prevent water from entering the lungs during high-speed dives). 
-> 
-> Anhingas have less preen oil than other water birds, meaning their feathers get soaked rather than shedding water. This makes them less buoyant but forces them to stand with their wings spread out to dry after fishing. 
-> 
-> Frigatebirds have highly reduced legs and cannot walk on land or swim
+> - Gannets and boobies lack of external nostrils in many species (to prevent water from entering the lungs during high-speed dives).
+> - Anhingas have less preen oil than other water birds, meaning their feathers get soaked rather than shedding water. This makes them less buoyant but forces them to stand with their wings spread out to dry after fishing.
+> - Frigatebirds have highly reduced legs and cannot walk on land or swim
 
 **Specimens:**
 - *Fregata ariel* (71) — [Lesser Frigatebird](https://ebird.org/species/lesfri)
@@ -810,9 +781,8 @@
 - **Breeding behavior:** Most are highly colonial, nesting in large groups called "heronries." They typically build platform nests of sticks in trees or reedbeds. Many develop spectacular "nuptial plumes" (long, delicate feathers) or other ornaments during the breeding season. Chicks altricial
 
 > [!Tip] Fun Facts
-> The Shoebill has a massive, clog-shaped bill and a prehistoric appearance; it is known for standing motionless for hours waiting for lungfish to surface. 
-> 
-> The hammerkop builds the largest nest of any bird
+> - The Shoebill has a massive, clog-shaped bill and a prehistoric appearance; it is known for standing motionless for hours waiting for lungfish to surface.
+> - The hammerkop builds the largest nest of any bird
 
 **Specimens:**
 - *Pelecanus occidentalis* (65) — [Brown Pelican](https://ebird.org/species/brnpel)
@@ -842,13 +812,10 @@
 - **Breeding behavior:** Most species nest in pairs. Build large, bulky stick nests (eyries), often placed high in trees or on cliff ledges. Chicks altricial, older chick will often kill younger if food scarce
 
 > [!Tip] Fun Facts
-> Their eyes have two "foveae" (focus points), allowing them to see forward and to the side simultaneously. 
-> 
-> Fish specialists have modified scales to grip their prey. 
-> 
-> Secretarybird is the only "terrestrial" raptor, killing prey with feet.
-> 
-New and Old World vultures are not related, only one clade of new world vultures locate carrion by olfaction
+> - Their eyes have two "foveae" (focus points), allowing them to see forward and to the side simultaneously.
+> - Fish specialists have modified scales to grip their prey.
+> - Secretarybird is the only "terrestrial" raptor, killing prey with feet.
+> - New and Old World vultures are not related, only one clade of new world vultures locate carrion by olfaction
 
 **Specimens:**
 - *Sarcoramphus papa* (93) — [King Vulture](https://ebird.org/species/kinvul1)
@@ -898,11 +865,9 @@ New and Old World vultures are not related, only one clade of new world vultures
 - **Breeding behavior:** Highly social, cooperative breeders. Helpers, usually offspring from previous years, stay on to feed future broods. Simple cup nest, chicks altricial
 
 > [!Tip] Fun Facts
-> Feet allow unusual movements "running" though vegetation and acrobatic postures. 
-> 
-> Highly social, roost and rest in "clumps" to conserve heat. 
-> 
-> Avoid water, dust bathe instead
+> - Feet allow unusual movements "running" though vegetation and acrobatic postures.
+> - Highly social, roost and rest in "clumps" to conserve heat.
+> - Avoid water, dust bathe instead
 
 **Specimens:**
 - *Colius macrourus* (103) — [Blue-naped Mousebird](https://ebird.org/species/blnmou1)
@@ -944,11 +909,9 @@ New and Old World vultures are not related, only one clade of new world vultures
 - **Breeding behavior:** Cavity nest in tree or termite mound. Biparental care, chicks altricial
 
 > [!Tip] Fun Facts
-> Trogons have thin skin "wet toilet paper" and considered by some to be the most difficult birds to prepare as skins. 
-> 
-> The long "tail" of a quetzal are elongated uppertail covert feathers. 
-> 
-> Cannot walk or hop
+> - Trogons have thin skin "wet toilet paper" and considered by some to be the most difficult birds to prepare as skins.
+> - The long "tail" of a quetzal are elongated uppertail covert feathers.
+> - Cannot walk or hop
 
 **Specimens:**
 - *Trogon collaris* (105) — [Collared Trogon](https://ebird.org/species/coltro1)
@@ -969,11 +932,9 @@ New and Old World vultures are not related, only one clade of new world vultures
 - **Breeding behavior:** Obligate cavity nesters. Hornbills famous for "sealing" the nest. The female enters a tree cavity and, with the male's help, walls herself in with mud, droppings, and fruit pulp. She remains in this "prison" for weeks while the male feeds her through a tiny slit until the chicks are ready. Chicks altricial. Monogamous with biparental care
 
 > [!Tip] Fun Facts
-> Hornbills have 1st and second vertebrae fused. Cask is usually hollow and resonates when they vocalize. 
-> 
-> Hornbills employ 'ballistic feeding' where they pick fruits with the tip of the beak, and then throw it backwards into the throat, bypassing the need for direct manipulation. 
-> 
-> Hoopoes can spray a smelly secretion from their uropygial gland to defend nest
+> - Hornbills have 1st and second vertebrae fused. Cask is usually hollow and resonates when they vocalize.
+> - Hornbills employ 'ballistic feeding' where they pick fruits with the tip of the beak, and then throw it backwards into the throat, bypassing the need for direct manipulation.
+> - Hoopoes can spray a smelly secretion from their uropygial gland to defend nest
 
 **Specimens:**
 - *Buceros rhinoceros* (108) — [Rhinoceros Hornbill](https://ebird.org/species/rhihor1)
@@ -996,13 +957,10 @@ New and Old World vultures are not related, only one clade of new world vultures
 - **Breeding behavior:** Obligate cavity nesters. Generally monogamous with biparental care, chicks altricial
 
 > [!Tip] Fun Facts
-> Woodpeckers have spongy bone at the front to the skull that functions as a shock absorber. 
-> 
-> Honeyguides are famous for leading humans and honey badgers to beehives; they wait for the "partner" to break the hive open so they can eat the wax and larvae. 
-> 
-> Toucans employ "ballistic feeding" where they pick fruits with the tip of the beak, and then throw it backwards into the throat, bypassing the need for direct manipulation. 
-> 
-> Jacamars have tremendous memory capability, can discern toxic butterflies from their non-toxic mimics
+> - Woodpeckers have spongy bone at the front to the skull that functions as a shock absorber.
+> - Honeyguides are famous for leading humans and honey badgers to beehives; they wait for the "partner" to break the hive open so they can eat the wax and larvae.
+> - Toucans employ "ballistic feeding" where they pick fruits with the tip of the beak, and then throw it backwards into the throat, bypassing the need for direct manipulation.
+> - Jacamars have tremendous memory capability, can discern toxic butterflies from their non-toxic mimics
 
 **Specimens:**
 - *Galbula ruficauda* (109) — [Rufous-tailed Jacamar](https://ebird.org/species/rutjac1)
@@ -1028,9 +986,8 @@ New and Old World vultures are not related, only one clade of new world vultures
 - **Breeding behavior:** Obligate cavity nesters, most excavate in earthen banks. Chicks altricial, generally monogamous with biparental care
 
 > [!Tip] Fun Facts
-> Bee-eaters specialize in catching stinging insects in mid-air (rubbing the stinger off against a branch before swallowing). 
-> 
-> Kingfishers have specialized "double foveae" in their eyes, allowing them to focus accurately both in the air and underwater despite the refraction of light
+> - Bee-eaters specialize in catching stinging insects in mid-air (rubbing the stinger off against a branch before swallowing).
+> - Kingfishers have specialized "double foveae" in their eyes, allowing them to focus accurately both in the air and underwater despite the refraction of light
 
 **Specimens:**
 - *Merops nubicus* (110) — [Northern Carmine Bee-eater](https://ebird.org/species/ncbeat1)
@@ -1055,9 +1012,8 @@ New and Old World vultures are not related, only one clade of new world vultures
 - **Breeding behavior:** Build stick nests in trees. Monogamous with bi-parental care. Chicks altricial
 
 > [!Tip] Fun Facts
-> Their name "Seriema" comes from the Tupi word for "crested." Known for their loud, barking calls that can be heard for over a mile, often described as sounding like a "maniacal laugh" or a yelping dog. 
-> 
-> Second toe claw semi-extensile, reminiscent of recently extinct relatives the terrorbirds
+> - Their name "Seriema" comes from the Tupi word for "crested." Known for their loud, barking calls that can be heard for over a mile, often described as sounding like a "maniacal laugh" or a yelping dog.
+> - Second toe claw semi-extensile, reminiscent of recently extinct relatives the terrorbirds
 
 **Specimens:**
 - *Cariama burmeisteri* (118) — [Black-legged Seriema](https://ebird.org/species/bllser1)
@@ -1079,9 +1035,8 @@ New and Old World vultures are not related, only one clade of new world vultures
 - **Breeding behavior:** They generally do not build nests. Use cliff ledges, tree cavities, or old nests of other birds
 
 > [!Tip] Fun Facts
-> Many falcons have dark "mustache" stripes (malar stripes) under their eyes, which are thought to reduce glare from the sun, similar to "eye black" worn by athletes. 
-> 
-> The **Peregrine Falcon** is the fastest animal on the planet, reaching speeds over 380 km/h during its hunting stoop
+> - Many falcons have dark "mustache" stripes (malar stripes) under their eyes, which are thought to reduce glare from the sun, similar to "eye black" worn by athletes.
+> - The **Peregrine Falcon** is the fastest animal on the planet, reaching speeds over 380 km/h during its hunting stoop
 
 **Specimens:**
 - *Falcobaenus albogularis* (120) — [White-throated Caracara](https://ebird.org/species/whtcar1)
