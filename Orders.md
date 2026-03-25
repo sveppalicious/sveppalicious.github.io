@@ -125,7 +125,7 @@
 ### Galloanserae: waterfowl and wildfowl
 
 ![[Pasted image 20260323144802.png]]
-![[Screenshot 2026-03-25 at 01-43-14 Phylogeny Explorer - Birds of the World.png]]
+![[Screenshot 2026-03-25 at 18-25-28 Phylogeny Explorer - Birds of the World.png]]
 #### Anseriformes: screamers, magpie goose, geese, ducks and swans
 
 > [!Info]
@@ -151,7 +151,7 @@
 ---
 
 ![[Pasted image 20260323144827.png]]
-![[Screenshot 2026-03-25 at 01-45-38 Phylogeny Explorer - Birds of the World.png]]
+![[Screenshot 2026-03-25 at 18-26-32 Phylogeny Explorer - Birds of the World.png]]
 #### Galliformes: megapodes, curassows, guans, guineafowl, grouse, pheasants
 
 > [!Info]
@@ -207,7 +207,7 @@
 ---
 
 ![[Pasted image 20260323150035.png]]
-![[Pasted image 20260323154022.png]]
+![[Screenshot 2026-03-25 at 18-28-16 Phylogeny Explorer - Birds of the World.png]]
 ##### Podicipediformes: grebes
 
 > [!Info]
