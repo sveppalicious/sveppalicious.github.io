@@ -8,8 +8,8 @@
 
 ## Palaeognathae
 
-![[Screenshot 2026-03-25 at 01-17-52 Phylogeny Explorer - Birds of the World]]
-![[Pasted image 20260323152950.png]]
+![[Pasted image 20260323144428.png]]
+![[Screenshot 2026-03-25 at 01-21-49 Phylogeny Explorer - Birds of the World.png]]
 
 ### Struthioniformes: ostriches
 
