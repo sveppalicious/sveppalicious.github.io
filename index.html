@@ -236,6 +236,32 @@
       object-fit: contain;
     }
 
+    #credits {
+      margin-top: 3rem;
+      padding-top: 1rem;
+      color: var(--text-muted);
+      font-size: 0.9em;
+      line-height: 1.6;
+    }
+
+    #credits h2 {
+      font-size: 1.2em;
+      color: var(--text-primary);
+      border-bottom: none;
+    }
+
+    #credits ol {
+      padding-left: 1.5em;
+    }
+
+    #credits li {
+      margin-bottom: 0.6em;
+    }
+
+    #credits a {
+      color: var(--link-color);
+    }
+
     @media (max-width: 768px) {
       #sidebar {
         transform: translateX(-100%);
@@ -271,6 +297,16 @@
   </nav>
   <div class="main-content">
     <div id="content">Loading...</div>
+    <footer id="credits">
+      <hr>
+      <h2>Sources</h2>
+      <ol>
+        <li>Order descriptions (info boxes) adapted from: Lovette, I. J. &amp; Fitzpatrick, J. W. (Eds.). <em>Handbook of Bird Biology</em>, 3rd ed., Cornell Lab of Ornithology / Wiley, pp.&nbsp;43–59.</li>
+        <li>Remaining taxonomic text from: Hosner, P. <em>A Higher-Level Classification of Birds</em>. Course materials, University of Iceland.</li>
+        <li>Phylogeny images are screenshots from the <a href="https://birdsoftheworld.org/bow/phylogeny" target="_blank">Birds of the World Phylogeny Explorer</a>:<br>
+          Miller, E. T., McTavish, E. J., Gerbracht, J. A., Schloss, M., Iliff, M. J., Lepage, D., Rasmussen, P. &amp; Sullivan, B. L. (2025). <em>The Phylogeny of the Birds of the World Tree v1.6 / Taxonomy v2025</em>. Cornell Lab of Ornithology, Ithaca, NY, USA.</li>
+      </ol>
+    </footer>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
