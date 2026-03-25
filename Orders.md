@@ -52,7 +52,7 @@
 ---
 
 ![[Pasted image 20260323144537.png]]
-![[Pasted image 20260324115925.png]]
+![[Screenshot 2026-03-25 at 01-38-16 Phylogeny Explorer - Birds of the World.png]]
 ### Tinamiformes: tinamous
 
 > [!Info]
@@ -78,7 +78,7 @@
 ---
 
 ![[Pasted image 20260323144551.png]]
-![[Pasted image 20260324115815.png]]
+![[Screenshot 2026-03-25 at 01-39-53 Phylogeny Explorer - Birds of the World.png]]
 ### Apterygiformes: kiwis
 
 > [!Info]
@@ -103,7 +103,7 @@
 ---
 
 ![[Pasted image 20260323144725.png]]
-![[Pasted image 20260324120007.png]]
+![[Screenshot 2026-03-25 at 01-41-14 Phylogeny Explorer - Birds of the World.png]]
 ### Casuariiformes: cassowaries, emus
 
 > [!Info]
@@ -131,7 +131,7 @@
 ### Galloanserae: waterfowl and wildfowl
 
 ![[Pasted image 20260323144802.png]]
-![[Pasted image 20260324120100.png]]
+![[Screenshot 2026-03-25 at 01-43-14 Phylogeny Explorer - Birds of the World.png]]
 #### Anseriformes: screamers, magpie goose, geese, ducks and swans
 
 > [!Info]
@@ -157,7 +157,7 @@
 ---
 
 ![[Pasted image 20260323144827.png]]
-![[Pasted image 20260324115412.png]]
+![[Screenshot 2026-03-25 at 01-45-38 Phylogeny Explorer - Birds of the World.png]]
 #### Galliformes: megapodes, curassows, guans, guineafowl, grouse, pheasants
 
 > [!Info]
@@ -191,7 +191,7 @@
 #### Mirandornithes: flamingos and grebes
 
 ![[Pasted image 20260323150025.png]]
-![[Pasted image 20260323153902.png]]
+![[Screenshot 2026-03-25 at 01-47-02 Phylogeny Explorer - Birds of the World.png]]
 ##### Phoenicopteriformes: flamingos
 
 > [!Info]
