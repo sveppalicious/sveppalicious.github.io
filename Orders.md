@@ -21,6 +21,8 @@
 - **Recognition:** Huge size, hoof-like didactyl feet, two vestigial wing claws (synapomorphy), huge, flightless, sternum lacks keel, well-developed wings, loose soft feathers, lack uropygial gland
 - **Feeding ecology:** Primarily herbivorous
 - **Breeding behavior:** Polygamous, nest defended by male and dominant female, eggs dumped by other females in territory, clutch size ~25, eggs largest in the world by size, but smallest by relative volume, chicks precocial
+- **Feet:** Didactyl
+- **Chick development:** Precocial
 
 > [!Tip] Fun Facts
 > Largest bird, can run 70 mph, sometimes broods will join and become as large as 300 chicks
@@ -42,6 +44,8 @@
 - **Recognition:** Large size, feet tridactyl, flightless, sternum lacks keel, well-developed wings — relatively largest in flightless Paleognathae, loose soft feathers, lack uropygial gland
 - **Feeding ecology:** Omnivorous — plants, fruits, seeds, invertebrates
 - **Breeding behavior:** Polyandrous, multiple females lay in a male's nest containing up to 60 eggs, who raise them alone. Chicks precocial
+- **Feet:** Tridactyl
+- **Chick development:** Precocial
 
 > [!Tip] Fun Facts
 > There is a small feral population of Greater Rheas in Germany
@@ -63,6 +67,8 @@
 - **Recognition:** Small to medium size, can fly but performance limited, sternum lacks keel, normal feathers, bill short and decurved, camouflaged appearance, have powder down, tail always short
 - **Feeding ecology:** Omnivorous — plants, fruits, seeds, invertebrates
 - **Breeding behavior:** Polyandrous, multiple females lay in a male's nest containing up to 15 eggs, who raises them alone. Chicks precocial. Eggs are glossy and sometimes colorful
+- **Feet:** Anisodactyl
+- **Chick development:** Precocial
 
 > [!Tip] Fun Facts
 > - In forests tinamous roost in trees. However, their feet do not grasp, so they balance on their tarsi instead.
@@ -87,6 +93,8 @@
 - **Recognition:** Medium size, eyes reduced, wings vestigial (synapomorphy), no keel on sternum, long and flexible bill with nostril at tip (synapomorphy), hair-like plumage lacks barbules, lacks uropygial gland
 - **Feeding ecology:** Invertebrates, worms and arthropods. Heavily reliant on olfaction
 - **Breeding behavior:** Monogamous. Nest in a burrow, eggs as much as 20% of body weight, clutch size two. At least the male solely incubates. Functional pair of ovaries
+- **Feet:** Anisodactyl
+- **Chick development:** Precocial
 
 > [!Tip] Fun Facts
 > - Some males help incubate eggs they did not father.
@@ -110,6 +118,8 @@
 - **Recognition:** Large, feet tridactyl, flightless, sternum lacks keel, wings highly reduced, primaries reduced to single quills (Cassowary), loose soft feathers, bright facial skin, casque (cassowary) lack uropygial gland
 - **Feeding ecology:** Omnivorous, fruits, seeds, insects
 - **Breeding behavior:** Polygynous, females lay eggs in male nest, 5–15 eggs
+- **Feet:** Tridactyl
+- **Chick development:** Precocial
 
 > [!Tip] Fun Facts
 > - In 1932 Australia mustered a military operation to reduce Emu numbers, because they were accused of destroying crops. The emus suffered minimal losses and successfully repelled their antagonists after a six-day assault.
@@ -136,6 +146,8 @@
 - **Recognition:** Aquatic adaptations; feet palmate, bill wide and flattened with lamellae, specialized for filter-feeding, grazing or aquatic predation; plumage thick and waterproof, pronounced sexual dimorphism in some groups
 - **Feeding ecology:** Diverse, filter-feeders sieve small invertebrates and plants, grazers feed on grasses and aquatic vegetation, predators consume fish, mollusks, aquatic invertebrates; generalists may engage in all to some degree
 - **Breeding behavior:** Monogamous or seasonal pair bonding. Chicks precocial
+- **Feet:** Palmate
+- **Chick development:** Precocial
 
 > [!Tip] Fun Facts
 > Become flightless for ~two weeks while simultaneously molting all flight feathers. During this period, species with elaborate male plumage undergo an "ecplise" molt where they have a "hen" (female-like) plumage
@@ -162,6 +174,8 @@
 - **Recognition:** Chicken-like birds, stocky bodies, short-rounded wings. Strong legs, some species adorned with tarsal spurs. Many species have strong sexual dimorphism
 - **Feeding ecology:** Generalist, primarily seeds and grains but also insects; curassows and guans mainly frugivorous
 - **Breeding behavior:** Diverse, many polygynous where males have leks or harems. Others monogamous. Chicks precocial
+- **Feet:** Anisodactyl
+- **Chick development:** Precocial
 
 > [!Tip] Fun Facts
 > - Megapodes use environmental incubation for their eggs, and will either bury them in a mound of rotting vegetation or beach sand.
@@ -195,6 +209,8 @@
 - **Recognition:** It's a flamingo. Long legs and neck, unique downturned "baleen" bill, pink plumage from carotenoid pigments in diet
 - **Feeding ecology:** Comb-like lamellae in bill filter out micro-organisms, primarily microcrustaceans but also algae. They often stir up food with their feet
 - **Breeding behavior:** Monogamous. Perform elaborate synchronized courtship displays, with complex head movements. Colonial breeders. Nest constructed out of mud, a "volcano" in a mudflat. Clutch size one. Bi-parental care, parents produce crop milk. Chicks semiprecocial, leave the nest after a few days and are looked after collectively, though fed by parents. Sexual maturity at 3-6 years
+- **Feet:** Palmate
+- **Chick development:** Semiprecocial
 
 > [!Tip] Fun Facts
 > - Pink and red coloration in flamingo plumage is carotenoid based and derived from crustacean diet. Before these pigments could be supplemented in captive birds, zoo flamingos were white.
@@ -218,6 +234,8 @@
 - **Recognition:** Small to medium sized foot-propelled diving waterbirds with lobate feet. Dagger-like bill. Feet/legs far back on body. Dense waterproof plumage. Many species have head crests, tufts, or eyes of a striking color, which are prominent in species recognition and mating displays
 - **Feeding ecology:** Fish and invertebrates, a few species specialize on large crustaceans
 - **Breeding behavior:** Like their flamingo relatives, they have complex pair-bonding displays including head bobbing and synchronized swimming. Build floating nests. Grebe eggs are unique in that they can survive being submerged. Chicks are semiprecocial, and ride on their parents' backs. They have distinctive zebra stripes
+- **Feet:** Lobate
+- **Chick development:** Semiprecocial
 
 > [!Tip] Fun Facts
 > - Flightlessness has evolved 4 times in grebes.
@@ -246,6 +264,8 @@
 - **Recognition:** Small to medium-sized birds with strong, direct flight; small bill with a fleshy cere. Arboreal and cursorial ecotypes
 - **Feeding ecology:** Frugivorous or granivorous, generally specialized on one of the two. Many are important seed dispersers. Some are specialists, e.g. bamboo seeds
 - **Breeding behavior:** Monogamous, nest extremely simple, bi-parental care, produce crop milk. Chicks altricial
+- **Feet:** Anisodactyl
+- **Chick development:** Altricial
 
 > [!Tip] Fun Facts
 > - Unlike other birds, they have the musculature to drink water without tilting their heads back.
@@ -270,6 +290,8 @@
 - **Recognition:** Small to medium-sized ground birds with horizontal carriage look a bit like rails or small pigeons. Short, rounded wings and sturdy legs for walking, and long tails with elongated undertail coverts. Plumage is cryptic — browns, greys, and rufous tones that blend into the leaf litter
 - **Feeding ecology:** Omnivorous ground-feeders. Forage by walking slowly across forest floor, flicking over leaves to find insects, spiders, seeds, and small fruits
 - **Breeding behavior:** They are vocal birds that engage in "duetting" to defend territories. Nesting habits vary by species; two are monogamous, while the Subdesert Mesite is cooperative/polyandrous (one female with multiple males). Simple platform nests made of sticks, low to the ground in bushes or vines. Chicks semiprecocial, leaving nest 1-2 days after hatching
+- **Feet:** Anisodactyl
+- **Chick development:** Semiprecocial
 
 > [!Tip] Fun Facts
 > - Poorly known.
@@ -293,6 +315,8 @@
 - **Recognition:** They have small, pigeon-like heads and necks but compact, sturdy bodies. Their wings and tails are long and pointed, adapted for fast direct flight. Plumage is exceptionally cryptic, featuring intricate patterns of sandy-buff, gold, and brown to match desert floor. Unlike most birds, their legs (and sometimes toes) are feathered. Distinctive feet, tridactyl in one genus, toes wide, creating almost mammal-like "paws", for walking on hot sand
 - **Feeding ecology:** Primarily granivorous. Forage on the ground for small seeds, though they occasionally consume insects or green shoots. Because their diet is dry, they visit watering holes daily
 - **Breeding behavior:** Ground nesters, eggs layed in shallow scrape. Famous for their communal drinking flights, where thousands of birds may congregate at a water source at dawn or dusk
+- **Feet:** Tridactyl
+- **Chick development:** Precocial
 
 > [!Tip] Fun Facts
 > Male sandgrouse have specialized belly feathers that can absorb and hold water like a sponge. They soak themselves at watering holes and fly long distances back to the nest so their chicks can drink from their plumage
@@ -317,6 +341,8 @@
 - **Recognition:** Medium to large, long-legged, and long-necked birds. Horizontal carriage and a sturdy build. Their plumage is usually cryptic (sandy and brown) on the back to hide from predators, but many species have bold black-and-white patterns on their necks or wings used in displays. They have tridactyl feet (lacking the hind toe) adapted for walking and running
 - **Feeding ecology:** Omnivorous and opportunistic. They walk slowly, pecking at the ground for seeds, fruit, and leaves, but they also hunt insects, lizards, and small rodents
 - **Breeding behavior:** Most species polygynous and practice lekking. Males gather in a specific area to perform elaborate lekking displays to attract females: puffing out feathers, inflating neck sacs, and "turning inside out" to transform into a white cloud of feathers. No nest, build; eggs are laid directly on the bare ground
+- **Feet:** Tridactyl
+- **Chick development:** Precocial
 
 > [!Tip] Fun Facts
 > - The Kori Bustard and the Great Bustard are tied for the title of the heaviest flying bird in the world, with large males weighing up to 18 kg. Despite their size, they are strong flyers, though they prefer to run or hide if threatened.
@@ -340,6 +366,8 @@
 - **Recognition:** Medium-sized with long tails and prominent crests. Bills short, thick, often brightly colored. Most species are colorful (exception: go-away birds), featuring brilliant greens, blues, and deep reds. Feet "semi-zygodactylous," the fourth toe can flip forward or backward to help them grip branches more effectively. Because of their unique toe structure and strong legs, they are often described as "running" through the treetops rather than flying, leaping from branch to branch with incredible agility
 - **Feeding ecology:** Primarily frugivorous. Consume a variety of fruits and berries, can supplement their diet with leaves, buds, and occasionally insects or snails
 - **Breeding behavior:** Generally monogamous and territorial. Build flimsy, pigeon-like platform nests made of sticks high in the trees. Both parents share the duties of incubating the eggs and feeding the chicks, which are semiprecocial and can climb through branches well before they can fly
+- **Feet:** Semizygodactyl
+- **Chick development:** Semiprecocial
 
 > [!Tip] Fun Facts
 > - Turacos are some of the only birds with true green and red pigments (Turacoverdin and Turacin). In most birds, green is created by feather structure, but turacos have copper-based chemicals in their feathers.
@@ -362,6 +390,8 @@
 - **Recognition:** Most are medium-sized, slender birds with long tails and slightly curved bills. Zygodactyl feet (two toes pointing forward, two pointing backward), which help them grip branches or run effectively. Plumage is often grey, brown, or rufous, sometimes with barred patterns on the underparts, and a few species are brightly colored. Arboreal and terrestrial morphotypes
 - **Feeding ecology:** Primarily insectivorous, selecting larger-bodied prey than most birds. Many species eat hairy or toxic caterpillars that other birds avoid. Larger, terrestrial species are opportunistic predators that eat lizards, snakes, and small rodents
 - **Breeding behavior:** Famous for obligate brood parasitism in about 40% of species, which is thought to have evolved multiple times. Here, eggs are laid in the nests of other species, leaving the host parents to hatch and feed the cuckoo chick. However, other cuckoo species, including North American species and terrestrial species, build their own nests and raise their own young
+- **Feet:** Zygodactyl
+- **Chick development:** Altricial
 
 > [!Tip] Fun Facts
 > - A newly hatched parasitic cuckoo chick will often use its back to push the host's original eggs or chicks out of the nest, ensuring it gets all the food.
@@ -392,6 +422,8 @@
 - **Recognition:** A pheasant-sized bird with a long neck, a small head, and an unkempt, spiky crest. They have bright blue bare skin on their faces and red eyes. Plumage a messy mix of buff, brown, and black. Notoriously clumsy, heavy-bodied flyers
 - **Feeding ecology:** Folivorous. Unique among birds for having a ruminant digestive system similar. Massive, multi-chambered crop where bacteria ferment the cellulose in the leaves. Because of the bacterial fermentation happening in their gut, Hoatzins give off a strong, manure-like odor, which generally protects them from being hunted by humans. Crop so large and heavy with fermenting leaves that it displaces their sternum and flight muscles
 - **Breeding behavior:** Communal/colonial breeders. Breeding pair assisted by "helpers", usually older offspring, who help defend nest and feed the new chicks. Stick nests built on branches overhanging the water for a very specific survival reason. Hoatzin chicks are born with two functional claws on each wing. If a predator approaches the nest, the chick drops into the water below to swim away, then uses its wing-claws to climb back up the tree once the danger has passed. The claws disappear as the bird matures
+- **Feet:** Anisodactyl
+- **Chick development:** Altricial
 
 > [!Tip] Fun Facts
 > Hoatzin are the most difficult bird order to place in the tree of life with phylogenetic methods. They have been considered Galliformes and Gruiformes in the past
@@ -415,6 +447,8 @@
 - **Recognition:** Extremely diverse in size. Most have long necks, long legs, and a "crail-like" or "rail-like" body shape, with a "crane-like" or "chicken-like" bill. Aquatic species may have lobate feet (never webbed) or elongate toes. Many are shy, ground-dwelling birds that are more often heard than seen
 - **Feeding ecology:** Mostly omnivorous. They eat insects, small aquatic animals, seeds, and aquatic plants
 - **Breeding behavior:** Many (like Cranes) are famous for elaborate, "dancing" courtship displays. They typically nest on the ground or in floating vegetation
+- **Feet:** Anisodactyl, Lobate
+- **Chick development:** Precocial
 
 > [!Tip] Depressing Fact
 > The avian order most prone to flight loss, it is estimated that hundreds of rails species have gone extinct on islands because of human colonization
@@ -441,6 +475,8 @@
 - **Recognition:** Usually characterized by relatively long legs and pointed wings. Bills vary wildly — from the short, stout beak of a puffin to the long, curved probe of a curlew. Many have webbed feet, and have a reduced or vestigial hallux
 - **Feeding ecology:** Extremely varied, an "adaptive radiation" with many specialized feeding strategies. Primarily carnivorous or insectivorous. They hunt invertebrates in mudflats, fish in the open ocean, or scavenge along beaches. Buttonquail and seedsnipes are granivorous. Skuas kleptoparasitic
 - **Breeding behavior:** Nest a simple scrape on the ground or no nest. Many groups nest in large, noisy colonies (gulls/terns/auks) or simple scrapes on the ground (plovers, sandpipers, other non-colonial species). Semiprecocial, many leave nest area soon after hatching
+- **Feet:** Semipalmate, Palmate
+- **Chick development:** Semiprecocial
 
 > [!Tip] Fun Facts
 > Alcidae are convergent with penguins, using wings as paddles to swim underwater
@@ -481,6 +517,8 @@
 - **Recognition:** Characterized by cryptic, mottled plumage that mimics leaf litter or bark. They have short legs, very small bills, but an incredibly wide gape (mouth opening) often fringed with "rictal bristles" (whisker-like feathers). Long wings, a characteristic shape of Strisores. Usual perch horizontally on ground or fallen logs
 - **Feeding ecology:** Aerial insectivores. They hunt at crepuscular or nocturnal hours, "hawking" for moths and beetles in mid-air
 - **Breeding behavior:** They do not build nests; 1-2 eggs are laid directly on the ground. Both parents usually participate in incubation, relying on near-perfect camouflage to avoid detection. Chicks are altricial, relying on crypsis to avoid predation. Usually highly vocal
+- **Feet:** Anisodactyl
+- **Chick development:** Altricial
 
 > [!Tip] Fun Facts
 > Despite being nocturnal, some species have evolved ornaments (wing/tail) used in visual aerial displays
@@ -502,6 +540,8 @@
 - **Recognition:** Large-headed birds with "upright" perching posture. They have unique "tooth" notches in their upper mandible. Bill extremely short
 - **Feeding ecology:** Nocturnal sit-and-wait predators. They perch on a snag and sally out to grab large flying insects
 - **Breeding behavior:** Lay a single egg on top of a broken tree stump or branch — no nest material is used. Chicks altricial
+- **Feet:** Anisodactyl
+- **Chick development:** Altricial
 
 > [!Tip] Fun Facts
 > When threatened, potoos freezes in an erect position, mimicking a dead wooden branch so that they are nearly impossible to spot
@@ -523,6 +563,8 @@
 - **Recognition:** A large, reddish-brown bird with white spots. It has a powerful, hooked hawk-like beak and long rictal bristles
 - **Feeding ecology:** The only nocturnal, fruit-eating specialist in the bird world. They feed primarily on the oily fruits of palm trees and laurels
 - **Breeding behavior:** Nest in total darkness inside caves. They build nests out of a paste of regurgitated fruit pulp and droppings. Chicks altricial
+- **Feet:** Anisodactyl
+- **Chick development:** Altricial
 
 > [!Tip] Fun Facts
 > - Oilbirds use echolocation (clicks) to navigate deep, pitch-black cave systems, a trait they share with bats and some swifts.
@@ -546,6 +588,8 @@
 - **Recognition:** They look like "bulky" nightjars with much heavier, broader bills. Unlike nightjars, they lack long rictal bristles
 - **Feeding ecology:** Unlike the aerial-hunting nightjars, frogmouths often drop from a perch to the ground to catch large insects, spiders, or even small vertebrates like frogs or mice
 - **Breeding behavior:** They build a flimsy nest of sticks and moss in the fork of a tree
+- **Feet:** Anisodactyl
+- **Chick development:** Altricial
 
 > [!Tip] Fun Facts
 > Like potoos, they freeze in an erect position, mimicking a dead wooden branch so perfectly that they are nearly impossible to spot
@@ -567,6 +611,8 @@
 - **Recognition:** While they look like a cross between a tiny owl and a nightjar. Small, nocturnal birds with upright perching postures. They have large, forward-facing eyes (like owls), small bills surrounded by very long, prominent rictal bristles and phyloplumes, and soft, patterned plumage. Unlike true nightjars, their feet are stronger and better suited for perching
 - **Feeding ecology:** Primarily insectivorous. Unlike many of their relatives that hunt "on the wing," owlet-nightjars often pounce on insects from a perch or glean them from foliage and the ground
 - **Breeding behavior:** They are obligate cavity nesters, meaning they nest almost exclusively in hollow trees or holes in banks. They line their nests with green leaves or fur, which is unique among the "Strisores" clade. Chicks altricial
+- **Feet:** Anisodactyl
+- **Chick development:** Altricial
 
 > [!Tip] Fun Facts
 > If disturbed, can makes a strange "hissing" sound like a snake to deter predators
@@ -588,6 +634,8 @@
 - **Recognition:** "Apodiform" means "foot-less" — they have tiny, weak feet and extremely long, narrow wings with a modified humerus that allows for high-speed flapping or hovering. Unique "pampridactyl" foot with all 4 toes forward
 - **Feeding ecology:** Swifts are "aerial plankton" feeders, catching insects on the wing. Hummingbirds are specialized nectarivores with long tongues
 - **Breeding behavior:** Swifts use saliva to glue nests to vertical surfaces; Hummingbirds build delicate cups of spider silk and lichen. Many hummingbirds have spectacular aerial breeding displays
+- **Feet:** Pamprodactyl
+- **Chick development:** Altricial
 
 > [!Tip] Fun Facts
 > - Swifts can remain in the air for 10 consecutive months without ever landing, even sleeping while flying.
@@ -615,6 +663,8 @@
 - **Recognition:** Some of the most elegant and striking seabirds. Medium-sized white birds with black markings around the eyes. Pair of extremely long, streamer-like central tail feathers, as long as the rest of the bird's body. Stout, slightly curved, brightly colored bills (red or yellow) and very small, weak anisodactyl feet with totipalmate webbing
 - **Feeding ecology:** Specialized plunge-divers. They hover high above the water before diving to catch squid and surface-dwelling fish. Unlike gannets, they do not dive from great heights but are highly agile in the air
 - **Breeding behavior:** They are solitary nesters or in loose colonies on cliffs or under vegetation. Spectacular aerial courtship displays, flying in vertical circles while waving their long tail streamers. They lay a single egg and have a long chick-rearing period. Chicks altricial
+- **Feet:** Totipalmate
+- **Chick development:** Altricial
 
 > [!Tip] Fun Facts
 > Because their feet are positioned so far back on their bodies and are so small, Tropicbirds cannot walk or stand upright on land. When they are at their nest sites, they must push themselves along the ground on their bellies using their wings and feet in a "shuffling" motion
@@ -636,6 +686,8 @@
 - **Recognition:** Sunbittern: A slender bird with a long neck and bill, featuring intricately patterned gray, brown, and black plumage. Its most striking feature is the large, colorful "eyespots" on its wings, visible only when spread. Kagu: a nearly flightless, ghost-white/gray bird with bright orange-red legs and bill. It possesses a long, shaggy crest that it can raise during displays
 - **Feeding ecology:** Primarily insectivorous and carnivorous. They hunt along the forest floor or stream edges for insects, spiders, earthworms, small lizards, and crustaceans. The Kagu is particularly fond of snails and earthworms
 - **Breeding behavior:** Both species are territorial and monogamous. They build nests out of sticks, mud, and decaying vegetation. The Sunbittern nests in trees near water, while the Kagu nests on the ground. Chicks altricial
+- **Feet:** Anisodactyl
+- **Chick development:** Altricial
 
 > [!Tip] Fun Facts
 > Only discovered to be relatives with DNA sequence data, but both species have a distinctive and strikingly similar wing pattern
@@ -659,6 +711,8 @@
 - **Recognition:** Large, heavy-bodied birds with sharp, dagger-like bills, feet webbed. Bones solid, which act as ballast for diving. Their legs are placed extremely far back on the body, making them powerful swimmers but unable to walk on land — they must "slide" on their bellies to reach their nests
 - **Feeding ecology:** Primarily piscivorous (fish-eaters). They are pursuit-divers, using their webbed feet to propel themselves at high speeds underwater. They can stay submerged for several minutes and reach depths of over 60 meters
 - **Breeding behavior:** Monogamous and highly territorial. They build nests very close to the water's edge, often on small islands, to minimize the distance they must travel on land. They are famous for carrying their semiprecocial chicks on their backs to protect them from large fish and cold water
+- **Feet:** Palmate
+- **Chick development:** Semiprecocial
 
 > [!Tip] Fun Facts
 > - Loons are known for their haunting, "yodeling" calls that are a staple sound of the northern wilderness.
@@ -682,6 +736,8 @@
 - **Recognition:** Flightless, upright-walking birds with wings modified into stiff, flat flippers. Their bodies are "torpedo-shaped" (fusiform) for hydrodynamics. They possess incredibly dense, waterproof feathers (up to 100 per square inch) and a thick layer of fat for insulation
 - **Feeding ecology:** Carnivorous marine hunters. They eat fish, squid, and krill. They are "wing-propelled" divers, reaching speeds of up to 35 km/h underwater
 - **Breeding behavior:** Colonial nesters, sometimes hundreds of thousands of birds. Many species (like the Emperor and King) do not build nests but carry a single egg on top of their feet. Chicks altricial
+- **Feet:** Palmate
+- **Chick development:** Semiprecocial
 
 > [!Tip] Fun Facts
 > To survive the extreme cold, Emperor Penguins huddle in massive groups, constantly rotating individuals from the cold outside of the circle to the warm interior
@@ -705,6 +761,8 @@
 - **Recognition:** Defining feature is the parallel tubular nostrils on top of the bill, which give them their nickname "tubenoses." These tubes are used for both smelling food across vast distances and for excreting excess salt. They have webbed feet and wings built for sustained, energy-efficient gliding
 - **Feeding ecology:** Primarily piscivorous (fish-eaters) and teuthivorous (squid-eaters), though many also consume krill and zooplankton. They use a technique called dynamic soaring, harnessing the wind gradients just above the waves to fly thousands of miles with little no wing flapping
 - **Breeding behavior:** Known for being "K-strategists": they have very slow reproductive rates. Most species lay a single egg per year (or every two years or more) and have long incubation and chick-rearing periods. They are often monogamous and mate for life. Chicks altricial
+- **Feet:** Palmate
+- **Chick development:** Altricial
 
 > [!Tip] Fun Facts
 > - The 'Wandering' Albatrosses have the largest wingspan of any living bird, reaching 3.5 meters.
@@ -731,6 +789,8 @@
 - **Recognition:** Large, long-legged, and long-necked birds with heavy, straight, or slightly curved bills. Unlike herons, storks fly with their necks fully extended. They lack a syrinx (vocal organ) and are therefore largely silent, except for mechanical sounds
 - **Feeding ecology:** Generalist carnivores. They eat fish, frogs, insects, reptiles, and small mammals. Some species, like the Marabou Stork, are specialized scavengers that compete with vultures for carrion
 - **Breeding behavior:** Most species are colonial nesters, building massive stick nests in tall trees or on cliffs. They are generally monogamous and often return to the same nest site for many years, adding more material each time. Chicks altricial
+- **Feet:** Semipalmate
+- **Chick development:** Altricial
 
 > [!Tip] Fun Facts
 > - Since they cannot sing, storks communicate through "bill-clattering," rapidly snapping their mandibles together to produce a loud rattling sound.
@@ -753,6 +813,8 @@
 - **Recognition:** Characterized by totipalmate feet and a large gular pouch (throat sac) used for display or to help with heat dissipation
 - **Feeding ecology:** Highly specialized piscivores (fish-eaters). Gannets and boobies are famous for spectacular high-altitude plunge-diving. Cormorants and anhingas are pursuit-divers that swim underwater. Frigatebirds are "kleptoparasites," stealing food from other birds in mid-air
 - **Breeding behavior:** Most species are colonial nesters. They often perform ritualized greeting ceremonies at the nest, such as the "sky-pointing" of boobies or the throat-sac inflation of frigatebirds. Chicks altricial
+- **Feet:** Totipalmate
+- **Chick development:** Altricial
 
 > [!Tip] Fun Facts
 > - Gannets and boobies lack of external nostrils in many species (to prevent water from entering the lungs during high-speed dives).
@@ -779,6 +841,8 @@
 - **Recognition:** Diverse in form but generally characterized by long bills and a distensible gular pouch (in pelicans) or long, slender necks and legs (in herons and ibises). Most species fly with their necks tucked back in an "S" shape (unlike storks)
 - **Feeding ecology:** Primarily piscivorous or carnivorous. Pelicans use their massive pouches as scoop nets. Herons are "sit-and-wait" predators, using lightning-fast neck strikes. Ibises and Spoonbills are "tactile" feeders, probing mud or sweeping their bills through water to find prey by touch
 - **Breeding behavior:** Most are highly colonial, nesting in large groups called "heronries." They typically build platform nests of sticks in trees or reedbeds. Many develop spectacular "nuptial plumes" (long, delicate feathers) or other ornaments during the breeding season. Chicks altricial
+- **Feet:** Anisodactyl, Totipalmate
+- **Chick development:** Altricial
 
 > [!Tip] Fun Facts
 > - The Shoebill has a massive, clog-shaped bill and a prehistoric appearance; it is known for standing motionless for hours waiting for lungfish to surface.
@@ -810,6 +874,8 @@
 - **Recognition:** Bill strongly hooked at the tip for tearing flesh. Anisodactyl feet (raptorial) with powerful curved talons. Large forward-facing eyes protected by a supraorbital ridge that look and protects the eyes from glare and brush. Wings long, strong, but variable in shape depending on habitat and ecology
 - **Feeding ecology:** Carnivorous, eating mammals, birds, reptiles, fish, some species specialized on carrion. Some smaller species eat large insects. Primarily locate prey and dive from a perch or while soaring, bird specialists actively chase. Rip and tear prey to consume
 - **Breeding behavior:** Most species nest in pairs. Build large, bulky stick nests (eyries), often placed high in trees or on cliff ledges. Chicks altricial, older chick will often kill younger if food scarce
+- **Feet:** Anisodactyl
+- **Chick development:** Altricial
 
 > [!Tip] Fun Facts
 > - Their eyes have two "foveae" (focus points), allowing them to see forward and to the side simultaneously.
@@ -839,6 +905,8 @@
 - **Recognition:** Plumage cryptic. Facial disk an iconic feature. A concave "dish" of stiff feathers acts like a satellite dish, funneling sound into ear openings. Eyes are elongated tubes held in place by well-developed called sclerotic rings. Can rotate their entire heads up to 270°. In many species (e.g. Barn Owls) the ear openings are at different heights on the skull allowing them to triangulate vertical and horizontal position of sounds. Feet semi-zygodactyl with reversible 1st toe. Flight feather fimbriate allowing nearly silent flight
 - **Feeding ecology:** Carnivorous, small mammals, birds, some species specialize in large insects or fish. Prey usually swallowed whole, fur and bones regurgitated as pellets
 - **Breeding behavior:** Do not build nests; use tree cavities, old platform nests from other birds, cliff ledges. Hatching often asynchronous, giving older chicks size advantage. Chicks altricial. Highly vocal
+- **Feet:** Semizygodactyl
+- **Chick development:** Altricial
 
 > [!Tip] Fun Facts
 > Many species have "ear tufts" or "horns" to aid in camouflage
@@ -863,6 +931,8 @@
 - **Recognition:** Plumage "mouse-like", lacking aptera and vane structure. Tail long and stiff, distinctive crest on head. Bill short, thick, slightly decurved. Feet unique with reversible 1st and 4th toes, can alternate between anisodactyl, zygodactyl, and pamprodactyl arrangements
 - **Feeding ecology:** Frugivorous, also consume buds, leaves, flowers, nectar. Large crop and digestive tract
 - **Breeding behavior:** Highly social, cooperative breeders. Helpers, usually offspring from previous years, stay on to feed future broods. Simple cup nest, chicks altricial
+- **Feet:** Anisodactyl, Zygodactyl, Pamprodactyl
+- **Chick development:** Altricial
 
 > [!Tip] Fun Facts
 > - Feet allow unusual movements "running" though vegetation and acrobatic postures.
@@ -886,6 +956,8 @@
 - **Recognition:** Zygodactyl feet (cuckoo), roller-shaped body. Huge head. Unlike rollers, sexually dimorphic. Has powder down. Head enormous. Male patterned in black, gray, and iridescent blue/green, female brown and spotted
 - **Feeding ecology:** Sit and wait predators, hunting large insects and arboreal lizards including chameleons
 - **Breeding behavior:** Cavity nesters, monogamous with biparental care, chicks altricial. Males perform rolling flight displays with loud, whistling song
+- **Feet:** Zygodactyl
+- **Chick development:** Altricial
 
 > [!Tip] Fun Facts
 > Give alarm calls alerting other birds to presence of predators
@@ -907,6 +979,8 @@
 - **Recognition:** Conserved morphology with large wide head, short bill, large eyes, short wings, long tail. Colorful, with iridescent blue or green upperparts and red or yellow underparts. Feet small, weak, and heterodactyl, with toes 1-2 facing backwards
 - **Feeding ecology:** Omnivorous, mainly large insects and fruits. Forage by hover-gleaning
 - **Breeding behavior:** Cavity nest in tree or termite mound. Biparental care, chicks altricial
+- **Feet:** Heterodactyl
+- **Chick development:** Altricial
 
 > [!Tip] Fun Facts
 > - Trogons have thin skin "wet toilet paper" and considered by some to be the most difficult birds to prepare as skins.
@@ -930,6 +1004,8 @@
 - **Recognition:** Feet syndactyl. Three distinctive families. Hornbills are medium to large with toucan-like bills and often casks. Hoopoes have unique spectacular crest and zebra-striped back and wings. Wood hoopoes with dark iridescent plumage and long graduated tails
 - **Feeding ecology:** Hornbills omnivorous, many eat predominately fruit but also take small vertebrates and large insects. Hoopoes and wood-hoopoes insectivorous
 - **Breeding behavior:** Obligate cavity nesters. Hornbills famous for "sealing" the nest. The female enters a tree cavity and, with the male's help, walls herself in with mud, droppings, and fruit pulp. She remains in this "prison" for weeks while the male feeds her through a tiny slit until the chicks are ready. Chicks altricial. Monogamous with biparental care
+- **Feet:** Syndactyl
+- **Chick development:** Altricial
 
 > [!Tip] Fun Facts
 > - Hornbills have 1st and second vertebrae fused. Cask is usually hollow and resonates when they vocalize.
@@ -955,6 +1031,8 @@
 - **Recognition:** Feet zygodactyl. Small to medium size, with most families having a distinctive bill: chisel shaped in woodpeckers, long and thin in jacamars, large and decurved in toucans
 - **Feeding ecology:** Highly specialized. Woodpeckers are insectivorous, using their long, barbed tongues to extract larvae from wood. Toucans and Barbets are primarily frugivorous using their long bills to reach fruit on thin outer branches. Honeyguides are unique for eating beeswax. Jacamars and puffbirds aerial insectivores focused on large insect
 - **Breeding behavior:** Obligate cavity nesters. Generally monogamous with biparental care, chicks altricial
+- **Feet:** Zygodactyl
+- **Chick development:** Altricial
 
 > [!Tip] Fun Facts
 > - Woodpeckers have spongy bone at the front to the skull that functions as a shock absorber.
@@ -984,6 +1062,8 @@
 - **Recognition:** Feet syndactyl. Bill is generally large/prominent. Many species are brightly colored and often include a turquoise-blue color
 - **Feeding ecology:** Mostly sit-and-wait predators, although bee-eaters hunt insects on the wing. Many kingfishers are primarily insectivores
 - **Breeding behavior:** Obligate cavity nesters, most excavate in earthen banks. Chicks altricial, generally monogamous with biparental care
+- **Feet:** Syndactyl
+- **Chick development:** Altricial
 
 > [!Tip] Fun Facts
 > - Bee-eaters specialize in catching stinging insects in mid-air (rubbing the stinger off against a branch before swallowing).
@@ -1010,6 +1090,8 @@
 - **Recognition:** Upright walking, frontal crest of still feathers, bill and feet semi-raptor like
 - **Feeding ecology:** Predatory, small vertebrates, including many snakes. Will beat prey to death on rocks
 - **Breeding behavior:** Build stick nests in trees. Monogamous with bi-parental care. Chicks altricial
+- **Feet:** Anisodactyl
+- **Chick development:** Altricial
 
 > [!Tip] Fun Facts
 > - Their name "Seriema" comes from the Tupi word for "crested." Known for their loud, barking calls that can be heard for over a mile, often described as sounding like a "maniacal laugh" or a yelping dog.
@@ -1033,6 +1115,8 @@
 - **Recognition:** Feet anisodactyl and raptorial. Raptorial beak has tomial tooth (absent in caracaras). Wings long and pointed (falcons) or broad and rounded (caracaras)
 - **Feeding ecology:** Predators and scavengers (caracaras). Highly specialized aerial hunters. They often "stoop" (dive) at incredible speeds to strike prey in mid-air. Caracaras are the exception, being more terrestrial and opportunistic scavengers
 - **Breeding behavior:** They generally do not build nests. Use cliff ledges, tree cavities, or old nests of other birds
+- **Feet:** Anisodactyl
+- **Chick development:** Altricial
 
 > [!Tip] Fun Facts
 > - Many falcons have dark "mustache" stripes (malar stripes) under their eyes, which are thought to reduce glare from the sun, similar to "eye black" worn by athletes.
@@ -1059,6 +1143,8 @@
 - **Recognition:** Bill: Short, deep, and strongly hooked with fleshy cere. Upper mandible highly kinetic (moves independently of the skull) and fits over a broad, shovel-like lower mandible. Feet Zygodactyl, exceptionally strong and used like hands for manipulating food. Plumage often colorful, containing unique pigments called psittacofulvins
 - **Feeding ecology:** Primarily granivorous and frugivorous. Their powerful bills act as "nutcrackers" to access protected seeds. Lories are specialized nectar-feeders with brush-tipped tongues
 - **Breeding behavior:** Obligate cavity nesters. Most form long-term, monogamous pair bonds. Chicks are altricial, requiring intensive parental care
+- **Feet:** Zygodactyl
+- **Chick development:** Altricial
 
 > [!Tip] Fun Facts
 > Parrots are the only birds that use their bill as a tripod when climbing, providing a "three-point" contact system that is functionally similar to a primate's grip. They possess high brain-to-body mass ratios and have demonstrated the ability to use tools, solve complex puzzles, and even communicate with human-like syntax
@@ -1083,6 +1169,8 @@
 - **Recognition:** Generally small, Anisodactyl feet with unique tendon attachments forming an "auto grasping" mechanism, oscine syrinx (oscine clade)
 - **Feeding ecology:** Varied; includes insectivores, granivores, frugivores, and nectarivores; even predators and scavengers
 - **Breeding behavior:** Varied. Practically all breeding systems occur. Young altricial. Nest varied, the simple cup is most common, but some groups build complex stick and woven nests
+- **Feet:** Anisodactyl
+- **Chick development:** Altricial
 
 > [!Tip] Fun Facts
 > Contains more than half of all bird species. Despite their small size, many passerines (especially Corvids like crows and jays) have neuron densities that rival or exceed those of primates
