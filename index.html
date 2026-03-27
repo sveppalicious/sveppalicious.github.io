@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Orders of Birds</title>
+  <title>Bird Orders</title>
   <style>
     :root {
       --bg-primary: #ffffff;
@@ -167,6 +167,35 @@
     .field-icon {
       font-size: 1.2em;
       margin-right: 0.3em;
+    }
+
+    .callout-icons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6em;
+      margin-top: 0.8em;
+      padding-top: 0.6em;
+      border-top: 1px solid rgba(0,0,0,0.08);
+    }
+
+    .icon-badge {
+      display: inline-flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.2em;
+    }
+
+    .icon-badge img {
+      height: 40px;
+      width: 40px;
+      border-radius: 0;
+      margin: 0;
+    }
+
+    .icon-badge span {
+      font-size: 0.75em;
+      color: var(--text-muted);
+      text-align: center;
     }
 
     img {
@@ -426,6 +455,73 @@
       });
     }
 
+    function addImageIcons(container) {
+      const fields = {
+        'Feet:': { basePath: 'icons/feet_pics/icons_transparent/' },
+        'Chick development:': { basePath: 'icons/chick_development/icons_transparent/' },
+      };
+
+      container.querySelectorAll('ul').forEach(ul => {
+        const iconData = [];
+        const lisToRemove = [];
+
+        ul.querySelectorAll('li').forEach(li => {
+          const strong = li.querySelector('strong');
+          if (!strong) return;
+          const config = fields[strong.textContent];
+          if (!config) return;
+
+          const rawValue = li.textContent.substring(li.textContent.indexOf(':') + 1).trim();
+          rawValue.split(',').map(v => v.trim()).filter(Boolean).forEach(value => {
+            iconData.push({ config, value });
+          });
+          lisToRemove.push(li);
+        });
+
+        if (iconData.length === 0) return;
+
+        // Find the nearest preceding .callout-info sibling
+        let callout = ul.previousElementSibling;
+        while (callout && !callout.classList.contains('callout-info')) {
+          callout = callout.previousElementSibling;
+        }
+        if (!callout) return;
+
+        // Build and inject icon row into the callout
+        const iconRow = document.createElement('div');
+        iconRow.className = 'callout-icons';
+
+        iconData.forEach(({ config, value }) => {
+          const isSemiprecocial = value.toLowerCase() === 'semiprecocial';
+          const filename = isSemiprecocial ? 'precocial.png' : value.toLowerCase() + '.png';
+
+          const badge = document.createElement('span');
+          badge.className = 'icon-badge';
+
+          const img = document.createElement('img');
+          img.src = config.basePath + filename;
+          img.alt = value;
+          badge.appendChild(img);
+
+          const text = document.createElement('span');
+          if (isSemiprecocial) {
+            text.innerHTML = '<strong>Semi</strong>precocial';
+          } else {
+            text.textContent = value;
+          }
+          badge.appendChild(text);
+          iconRow.appendChild(badge);
+        });
+
+        const calloutContent = callout.querySelector('.callout-content') || callout;
+        calloutContent.appendChild(iconRow);
+
+        // Remove the source li elements
+        lisToRemove.forEach(li => li.remove());
+        if (ul.children.length === 0) ul.remove();
+      });
+    }
+
     async function render() {
       try {
         const response = await fetch('Orders.md');
@@ -444,6 +540,7 @@
 
         document.getElementById('content').innerHTML = html;
         addListIcons(document.getElementById('content'));
+        addImageIcons(document.getElementById('content'));
         buildTOC();
         setupScrollSpy();
       } catch (err) {
