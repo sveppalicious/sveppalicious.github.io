@@ -315,7 +315,7 @@
 - **Recognition:** They have small, pigeon-like heads and necks but compact, sturdy bodies. Their wings and tails are long and pointed, adapted for fast direct flight. Plumage is exceptionally cryptic, featuring intricate patterns of sandy-buff, gold, and brown to match desert floor. Unlike most birds, their legs (and sometimes toes) are feathered. Distinctive feet, tridactyl in one genus, toes wide, creating almost mammal-like "paws", for walking on hot sand
 - **Feeding ecology:** Primarily granivorous. Forage on the ground for small seeds, though they occasionally consume insects or green shoots. Because their diet is dry, they visit watering holes daily
 - **Breeding behavior:** Ground nesters, eggs layed in shallow scrape. Famous for their communal drinking flights, where thousands of birds may congregate at a water source at dawn or dusk
-- **Feet:** Tridactyl
+- **Feet:** Anisodactyl
 - **Chick development:** Precocial
 
 > [!Tip] Fun Facts
