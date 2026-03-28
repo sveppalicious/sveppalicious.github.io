@@ -20,6 +20,9 @@
       --callout-tip-bg: rgba(8, 185, 78, 0.08);
       --callout-tip-border: #08b94e;
       --callout-tip-icon: #08b94e;
+      --callout-etymology-bg: rgba(200, 150, 50, 0.08);
+      --callout-etymology-border: #c89632;
+      --callout-etymology-icon: #c89632;
       --bold-color: #1a1a1a;
       --code-bg: #f3f3f3;
       --blockquote-border: #ddd;
@@ -253,6 +256,57 @@
       color: var(--callout-tip-icon);
     }
 
+    .callout-etymology {
+      background-color: var(--callout-etymology-bg);
+      border-color: var(--callout-etymology-border);
+    }
+
+    .callout-etymology .callout-title {
+      color: var(--callout-etymology-icon);
+    }
+
+    .callout-etymology .callout-content {
+      font-size: 0.95em;
+    }
+
+    .etymology-interpretation {
+      font-weight: 600;
+      margin-top: 0.3em;
+    }
+
+    .etymology-confidence {
+      font-size: 0.8em;
+      color: var(--text-muted);
+      margin-top: 0.3em;
+    }
+
+    .etymology-sources {
+      font-size: 0.8em;
+      color: var(--text-muted);
+      margin-top: 0.4em;
+    }
+
+    .etymology-sources a {
+      color: var(--link-color);
+      text-decoration: none;
+      margin-right: 0.8em;
+    }
+
+    .etymology-sources a:hover {
+      text-decoration: underline;
+    }
+
+    .species-badge .species-number {
+      font-size: 2em;
+      font-weight: 700;
+      color: var(--text-accent);
+      line-height: 1;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
     #content {
       animation: fadeIn 0.3s ease-in;
     }
@@ -346,6 +400,8 @@
           Miller, E. T., McTavish, E. J., Gerbracht, J. A., Schloss, M., Iliff, M. J., Lepage, D., Rasmussen, P. &amp; Sullivan, B. L. (2025). <em>The Phylogeny of the Birds of the World Tree v1.6 / Taxonomy v2025</em>. Cornell Lab of Ornithology, Ithaca, NY, USA.</li>
         <li>Foot type icons adapted from Fig. 1 of: Carril, J., De Mendoza, R.S., Degrange, F.J. et al. Evolution of avian foot morphology through anatomical network analysis. <em>Nat Commun</em> 15, 9888 (2024). <a href="https://doi.org/10.1038/s41467-024-54297-9" target="_blank">https://doi.org/10.1038/s41467-024-54297-9</a></li>
         <li>Altricial/precocial icons adapted from an <a href="altricialvsprecocial.jpeg" target="_blank">image</a> of unknown original source.</li>
+        <li>Species counts from the <a href="https://birdsoftheworld.org/bow/phylogeny" target="_blank">Birds of the World Phylogeny Explorer</a>, using the eBird/Clements Taxonomy: Clements, J. F., P. C. Rasmussen, T. S. Schulenberg, M. J. Iliff, J. A. Gerbracht, D. Lepage, A. Spencer, S. M. Billerman, B. L. Sullivan, M. Smith, and C. L. Wood (2025). <em>The eBird/Clements checklist of Birds of the World: v2025</em>.</li>
+        <li>Order name etymologies researched with AI assistance. Confidence levels indicated where applicable.</li>
       </ol>
     </footer>
   </div>
@@ -554,11 +610,163 @@
       });
     }
 
+    async function fetchSpeciesData() {
+      const response = await fetch('SpeciesNumbers.md');
+      if (!response.ok) return new Map();
+      const text = await response.text();
+      const map = new Map();
+      text.split('\n').forEach(line => {
+        const match = line.match(/^\|\s*\d+\s*\|\s*(\S+)\s*\|\s*(\d+)\s*\|/);
+        if (match) map.set(match[1].trim(), parseInt(match[2], 10));
+      });
+      return map;
+    }
+
+    async function fetchEtymologyData() {
+      const response = await fetch('Etymology.md');
+      if (!response.ok) return new Map();
+      const text = await response.text();
+      const map = new Map();
+      text.split('\n').forEach(line => {
+        // Match table rows: | # | Order | Etymology | Interpretation | Confidence | Source URL(s) |
+        const match = line.match(/^\|\s*\d+\s*\|\s*(\S+)\s*\|\s*(.*?)\s*\|\s*(.*?)\s*\|\s*(High|Medium|Low)\s*\|\s*(.*?)\s*\|/);
+        if (match) {
+          const urls = match[5].trim().split(/\s*;\s*/).filter(u => u.startsWith('http'));
+          map.set(match[1].trim(), {
+            etymology: match[2].trim(),
+            interpretation: match[3].trim(),
+            confidence: match[4].trim(),
+            sourceUrls: urls,
+          });
+        }
+      });
+      return map;
+    }
+
+    function addSpeciesCount(container, speciesData) {
+      if (!speciesData || speciesData.size === 0) return;
+      container.querySelectorAll('.callout-info').forEach(callout => {
+        // Walk backwards from callout to find the H3 heading
+        let heading = callout.previousElementSibling;
+        while (heading && heading.tagName !== 'H3') {
+          heading = heading.previousElementSibling;
+        }
+        if (!heading) return;
+        const orderName = heading.textContent.split(':')[0].trim();
+        const count = speciesData.get(orderName);
+        if (count === undefined) return;
+
+        // Find or create the icon row
+        const calloutContent = callout.querySelector('.callout-content') || callout;
+        let iconRow = calloutContent.querySelector('.callout-icons');
+        if (!iconRow) {
+          iconRow = document.createElement('div');
+          iconRow.className = 'callout-icons';
+          calloutContent.appendChild(iconRow);
+        }
+
+        // Create species badge and prepend
+        const badge = document.createElement('span');
+        badge.className = 'icon-badge species-badge';
+        const num = document.createElement('span');
+        num.className = 'species-number';
+        num.textContent = count.toLocaleString();
+        badge.appendChild(num);
+        const label = document.createElement('span');
+        label.textContent = 'species';
+        badge.appendChild(label);
+        iconRow.insertBefore(badge, iconRow.firstChild);
+      });
+    }
+
+    function addEtymology(container, etymologyData) {
+      if (!etymologyData || etymologyData.size === 0) return;
+
+      const bookIcon = '<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>';
+
+      container.querySelectorAll('h3').forEach(h3 => {
+        const orderName = h3.textContent.split(':')[0].trim();
+        if (!orderName.includes('formes')) return;
+        const data = etymologyData.get(orderName);
+        if (!data) return;
+
+        // Find insertion point: after the last callout following this heading
+        let lastCallout = null;
+        let el = h3.nextElementSibling;
+        while (el) {
+          if (el.tagName === 'H1' || el.tagName === 'H2' || el.tagName === 'H3' || el.tagName === 'HR') break;
+          if (el.classList.contains('callout')) lastCallout = el;
+          el = el.nextElementSibling;
+        }
+        if (!lastCallout) return;
+
+        // Build the etymology callout
+        const callout = document.createElement('div');
+        callout.className = 'callout callout-etymology';
+
+        const title = document.createElement('div');
+        title.className = 'callout-title';
+        title.innerHTML = bookIcon + ' Etymology';
+        callout.appendChild(title);
+
+        const content = document.createElement('div');
+        content.className = 'callout-content';
+
+        // Etymology text — convert *word* to <em>word</em>
+        const etymP = document.createElement('p');
+        etymP.innerHTML = data.etymology.replace(/\*([^*]+)\*/g, '<em>$1</em>');
+        content.appendChild(etymP);
+
+        // Interpretation
+        const interpP = document.createElement('p');
+        interpP.className = 'etymology-interpretation';
+        interpP.textContent = data.interpretation;
+        content.appendChild(interpP);
+
+        // Confidence (only show for Medium/Low)
+        if (data.confidence !== 'High') {
+          const confP = document.createElement('p');
+          confP.className = 'etymology-confidence';
+          confP.textContent = '\u26A0\uFE0F ' + data.confidence + ' confidence';
+          content.appendChild(confP);
+        }
+
+        // Source links
+        if (data.sourceUrls.length > 0) {
+          const srcP = document.createElement('p');
+          srcP.className = 'etymology-sources';
+          data.sourceUrls.forEach((url, i) => {
+            if (i > 0) srcP.appendChild(document.createTextNode(' '));
+            const a = document.createElement('a');
+            a.href = url;
+            a.target = '_blank';
+            a.rel = 'noopener';
+            // Extract domain for display text
+            try {
+              const domain = new URL(url).hostname.replace(/^www\./, '');
+              a.textContent = domain;
+            } catch {
+              a.textContent = url;
+            }
+            srcP.appendChild(a);
+          });
+          content.appendChild(srcP);
+        }
+
+        callout.appendChild(content);
+        lastCallout.insertAdjacentElement('afterend', callout);
+      });
+    }
+
     async function render() {
       try {
-        const response = await fetch('Orders.md');
-        if (!response.ok) throw new Error('Failed to load Orders.md');
-        let md = await response.text();
+        const [ordersResponse, speciesData, etymologyData] = await Promise.all([
+          fetch('Orders.md'),
+          fetchSpeciesData(),
+          fetchEtymologyData(),
+        ]);
+        if (!ordersResponse.ok) throw new Error('Failed to load Orders.md');
+        let md = await ordersResponse.text();
 
         md = preprocessObsidian(md);
 
@@ -570,9 +778,12 @@
         let html = marked.parse(md);
         html = pairConsecutiveImages(html);
 
-        document.getElementById('content').innerHTML = html;
-        addListIcons(document.getElementById('content'));
-        addImageIcons(document.getElementById('content'));
+        const content = document.getElementById('content');
+        content.innerHTML = html;
+        addListIcons(content);
+        addImageIcons(content);
+        addSpeciesCount(content, speciesData);
+        addEtymology(content, etymologyData);
         buildTOC();
         setupScrollSpy();
       } catch (err) {
