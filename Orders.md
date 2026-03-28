@@ -475,7 +475,7 @@
 - **Recognition:** Usually characterized by relatively long legs and pointed wings. Bills vary wildly — from the short, stout beak of a puffin to the long, curved probe of a curlew. Many have webbed feet, and have a reduced or vestigial hallux
 - **Feeding ecology:** Extremely varied, an "adaptive radiation" with many specialized feeding strategies. Primarily carnivorous or insectivorous. They hunt invertebrates in mudflats, fish in the open ocean, or scavenge along beaches. Buttonquail and seedsnipes are granivorous. Skuas kleptoparasitic
 - **Breeding behavior:** Nest a simple scrape on the ground or no nest. Many groups nest in large, noisy colonies (gulls/terns/auks) or simple scrapes on the ground (plovers, sandpipers, other non-colonial species). Semiprecocial, many leave nest area soon after hatching
-- **Feet:** Variable
+- **Feet:** Semipalmate, Palmate
 - **Chick development:** Variable
 
 > [!Tip] Fun Facts

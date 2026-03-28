@@ -533,9 +533,9 @@
 
           const text = document.createElement('span');
           if (isSemiprecocial) {
-            text.innerHTML = '<strong>Semi</strong>precocial';
+            text.textContent = 'Semi-precocial';
           } else if (isSemialtricial) {
-            text.innerHTML = '<strong>Semi</strong>-altricial';
+            text.textContent = 'Semi-altricial';
           } else {
             text.textContent = value;
           }
