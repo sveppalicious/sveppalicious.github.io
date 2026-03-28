@@ -191,6 +191,15 @@
     h1 { font-size: 2.4em; border-bottom: 2px solid var(--hr-color); padding-bottom: 0.3em; }
     h2 { font-size: 1.9em; border-bottom: 1px solid var(--hr-color); padding-bottom: 0.3em; }
     h3 { font-size: 1.6em; }
+
+    #content h3 {
+      height: 1px;
+      margin: 0;
+      padding: 0;
+      border: 0;
+      overflow: hidden;
+      opacity: 0;
+    }
     h4 { font-size: 1.35em; }
     h5 { font-size: 1.2em; }
 
@@ -313,6 +322,11 @@
     }
 
     .callout-info .callout-title {
+      color: var(--text-primary);
+      font-size: 1.15em;
+    }
+
+    .callout-info .callout-title svg {
       color: var(--callout-info-icon);
     }
 
@@ -662,6 +676,26 @@
       );
     }
 
+    function promoteInfoNames(container) {
+      container.querySelectorAll('.callout-info').forEach(callout => {
+        const title = callout.querySelector('.callout-title');
+        if (!title) return;
+        // Find preceding H3 for order name
+        let heading = callout.previousElementSibling;
+        while (heading && heading.tagName !== 'H3') {
+          heading = heading.previousElementSibling;
+        }
+        if (!heading) return;
+        const orderName = heading.textContent.trim();
+        // Replace title with order name, keep SVG icon
+        const svg = title.querySelector('svg');
+        title.textContent = '';
+        if (svg) title.appendChild(svg);
+        title.appendChild(document.createTextNode(' ' + orderName));
+        // Common names stay as first <p> in callout-content
+      });
+    }
+
     function addListIcons(container) {
       const iconMap = {
         'Distribution:': '🌍',
@@ -1005,6 +1039,7 @@
 
         const content = document.getElementById('content');
         content.innerHTML = html;
+        promoteInfoNames(content);
         addListIcons(content);
         addImageIcons(content);
         addSpeciesCount(content, speciesData);
