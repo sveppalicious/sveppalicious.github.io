@@ -86,14 +86,15 @@
       background: rgba(112, 93, 207, 0.06);
     }
 
-    #sidebar a.toc-h1 { padding-left: 1rem; font-weight: 700; margin-top: 0.6rem; font-size: 0.95rem; }
-    #sidebar a.toc-h2 { padding-left: 1.5rem; font-weight: 600; margin-top: 0.2rem; font-size: 0.85rem; color: var(--text-muted); }
-    #sidebar a.toc-h3 { padding-left: 2.2rem; }
+    #sidebar a.toc-h1 { padding-left: 1rem; font-weight: 700; margin-top: 0.8rem; font-size: 1rem; color: var(--text-primary); text-transform: uppercase; letter-spacing: 0.03em; }
+    #sidebar a.toc-h2 { padding-left: 1.8rem; font-weight: 500; margin-top: 0.15rem; font-size: 0.8rem; color: var(--text-muted); opacity: 0.75; }
+    #sidebar a.toc-h3 { padding-left: 2.8rem; font-size: 0.85rem; }
 
     #sidebar a.active-ancestor {
       color: var(--text-primary);
       border-left-color: rgba(112, 93, 207, 0.3);
       font-weight: 700;
+      opacity: 1;
     }
 
     #sidebar-toggle {
@@ -406,9 +407,10 @@
       }
 
       .order-layout .order-images {
-        flex: 0 0 450px;
+        flex: 1 1 300px;
         position: sticky;
         top: 1rem;
+        max-width: 600px;
       }
 
       .order-layout .order-images img {
@@ -448,6 +450,9 @@
 
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script>
+    // Stores original heading depths (in order) for TOC ancestry tracking
+    const headingOriginalDepths = [];
+
     function preprocessObsidian(md) {
       // Convert Obsidian image embeds: ![[filename]] -> ![](photos/filename)
       // Handles both with and without file extensions
@@ -469,7 +474,10 @@
       // - ## (infraclasses: Palaeognathae, Neognathae) -> # (H1)
       // - All -formes orders -> ### (H3) regardless of depth
       // - All other groupings (clades, superorders) -> ## (H2)
+      headingOriginalDepths.length = 0;
       md = md.replace(/^(#{2,6})\s+(.+)$/gm, (match, hashes, title) => {
+        const origDepth = hashes.length;
+        headingOriginalDepths.push(origDepth);
         if (/formes[:\s]/i.test(title)) {
           return '### ' + title;  // All orders at H3
         } else if (hashes === '##') {
@@ -898,6 +906,9 @@
         a.href = '#' + id;
         a.textContent = h.textContent;
         a.className = 'toc-' + h.tagName.toLowerCase();
+        if (headingOriginalDepths[i] !== undefined) {
+          a.dataset.depth = headingOriginalDepths[i];
+        }
         a.addEventListener('click', (e) => {
           e.preventDefault();
           h.scrollIntoView({ behavior: 'smooth' });
@@ -925,20 +936,17 @@
             const active = document.querySelector(`#toc a[href="#${entry.target.id}"]`);
             if (active) {
               active.classList.add('active');
-              // Highlight ancestor headings
+              // Highlight true ancestor headings using original depth
               const idx = linksArray.indexOf(active);
-              const activeLevel = active.classList.contains('toc-h3') ? 3
-                : active.classList.contains('toc-h2') ? 2 : 1;
-              let needH2 = activeLevel > 2;
-              let needH1 = activeLevel > 1;
-              for (let i = idx - 1; i >= 0 && (needH2 || needH1); i--) {
+              const activeDepth = parseInt(active.dataset.depth) || 99;
+              let lookingForDepth = activeDepth; // need depth < this
+              for (let i = idx - 1; i >= 0; i--) {
                 const link = linksArray[i];
-                if (needH2 && link.classList.contains('toc-h2')) {
+                const linkDepth = parseInt(link.dataset.depth) || 99;
+                if (linkDepth < lookingForDepth) {
                   link.classList.add('active-ancestor');
-                  needH2 = false;
-                } else if (needH1 && link.classList.contains('toc-h1')) {
-                  link.classList.add('active-ancestor');
-                  needH1 = false;
+                  lookingForDepth = linkDepth;
+                  if (linkDepth <= 2) break; // H1 level, stop
                 }
               }
             }
