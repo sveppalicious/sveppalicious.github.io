@@ -112,9 +112,71 @@
       color: var(--text-primary);
     }
 
+    #breadcrumb-bar {
+      position: fixed;
+      top: 0;
+      left: 260px;
+      right: 0;
+      height: 2.2rem;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--hr-color);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 1.5rem;
+      z-index: 15;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    #breadcrumb {
+      display: flex;
+      align-items: center;
+      gap: 0.3em;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      min-width: 0;
+    }
+
+    #breadcrumb .crumb {
+      color: var(--text-muted);
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    #breadcrumb .crumb:hover {
+      color: var(--text-primary);
+    }
+
+    #breadcrumb .crumb:last-child {
+      color: var(--text-primary);
+      font-weight: 600;
+    }
+
+    #breadcrumb .sep {
+      color: var(--hr-color);
+      font-size: 0.7em;
+    }
+
+    #breadcrumb-bar .github-link {
+      color: var(--text-muted);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 0.3em;
+      flex-shrink: 0;
+      margin-left: 1rem;
+    }
+
+    #breadcrumb-bar .github-link:hover {
+      color: var(--text-primary);
+    }
+
     .main-content {
       margin-left: 260px;
       padding: 2rem;
+      padding-top: calc(2.2rem + 1.5rem);
       max-width: 900px;
       width: calc(100% - 260px);
     }
@@ -417,11 +479,16 @@
         display: block;
       }
 
+      #breadcrumb-bar {
+        left: 0;
+        padding-left: 3.5rem;
+      }
+
       .main-content {
         margin-left: 0;
         width: 100%;
         padding: 1rem;
-        padding-top: 3rem;
+        padding-top: calc(2.2rem + 1.5rem);
       }
 
       .img-pair {
@@ -450,7 +517,7 @@
       .order-layout .order-images {
         flex: 1 1 300px;
         position: sticky;
-        top: 1rem;
+        top: 3.5rem;
         max-width: 600px;
       }
 
@@ -467,6 +534,13 @@
 </head>
 <body>
   <button id="sidebar-toggle" aria-label="Toggle navigation">&#9776;</button>
+  <div id="breadcrumb-bar">
+    <div id="breadcrumb"></div>
+    <a class="github-link" href="https://github.com/sveppalicious/sveppalicious.github.io" target="_blank" rel="noopener">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+      GitHub
+    </a>
+  </div>
   <nav id="sidebar">
     <div class="toc-title">Table of Contents</div>
     <div id="toc"></div>
@@ -972,6 +1046,29 @@
       toc.appendChild(fragment);
     }
 
+    function updateBreadcrumb(ancestors, active) {
+      const bc = document.getElementById('breadcrumb');
+      bc.innerHTML = '';
+      const crumbs = [...ancestors, active];
+      crumbs.forEach((link, i) => {
+        if (i > 0) {
+          const sep = document.createElement('span');
+          sep.className = 'sep';
+          sep.textContent = '›';
+          bc.appendChild(sep);
+        }
+        const crumb = document.createElement('a');
+        crumb.className = 'crumb';
+        crumb.textContent = link.textContent;
+        crumb.href = link.href;
+        crumb.addEventListener('click', (e) => {
+          e.preventDefault();
+          document.querySelector(link.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+        });
+        bc.appendChild(crumb);
+      });
+    }
+
     function setupScrollSpy() {
       const links = document.querySelectorAll('#toc a');
       const linksArray = Array.from(links);
@@ -990,16 +1087,20 @@
               // Highlight true ancestor headings using original depth
               const idx = linksArray.indexOf(active);
               const activeDepth = parseInt(active.dataset.depth) || 99;
+              const ancestors = [];
               let lookingForDepth = activeDepth; // need depth < this
               for (let i = idx - 1; i >= 0; i--) {
                 const link = linksArray[i];
                 const linkDepth = parseInt(link.dataset.depth) || 99;
                 if (linkDepth < lookingForDepth) {
                   link.classList.add('active-ancestor');
+                  ancestors.push(link);
                   lookingForDepth = linkDepth;
                   if (linkDepth <= 2) break; // H1 level, stop
                 }
               }
+              // Update breadcrumb bar
+              updateBreadcrumb(ancestors.reverse(), active);
             }
           }
         });
