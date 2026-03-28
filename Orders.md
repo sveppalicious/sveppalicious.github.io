@@ -16,10 +16,6 @@
 > [!Info]
 > Ostriches
 
-> [!Source]- Handbook of Bird Biology
-> The Ostrich (Struthio camelus), the largest living bird, is found today only in Sub-Saharan Africa. The flightless Ostrich is an extremely fast runner. Males care for the eggs and chicks of many females simultaneously
-
-
 - **Distribution:** Sub-Saharan Africa, until recently Arabia and India
 - **Habitats:** Terrestrial, open arid and semi-arid areas
 - **Recognition:** Huge size, hoof-like didactyl feet, two vestigial wing claws (synapomorphy), huge, flightless, sternum lacks keel, well-developed wings, loose soft feathers, lack uropygial gland
@@ -30,6 +26,9 @@
 
 > [!Tip] Fun Facts
 > Largest bird, can run 70 mph, sometimes broods will join and become as large as 300 chicks
+
+> [!Source]- Handbook of Bird Biology
+> The Ostrich (Struthio camelus), the largest living bird, is found today only in Sub-Saharan Africa. The flightless Ostrich is an extremely fast runner. Males care for the eggs and chicks of many females simultaneously
 
 **Specimens:**
 - *Struthio camelus* (3) — [Common Ostrich](https://ebird.org/species/ostric2)
@@ -43,10 +42,6 @@
 > [!Info]
 > Nandues and Rheas
 
-> [!Source]- Handbook of Bird Biology
-> The rheas include a pair of species found in the grasslands of South America. Although large and flightless, the rheas are more closely related to the smaller and flighted tinamous than to the other ratites.
-
-
 - **Distribution:** Southern South America
 - **Habitats:** Terrestrial, open arid and semi-arid areas
 - **Recognition:** Large size, feet tridactyl, flightless, sternum lacks keel, well-developed wings — relatively largest in flightless Paleognathae, loose soft feathers, lack uropygial gland
@@ -57,6 +52,9 @@
 
 > [!Tip] Fun Facts
 > There is a small feral population of Greater Rheas in Germany
+
+> [!Source]- Handbook of Bird Biology
+> The rheas include a pair of species found in the grasslands of South America. Although large and flightless, the rheas are more closely related to the smaller and flighted tinamous than to the other ratites.
 
 **Specimens:**
 - *Rhea americana* (4) — [Greater Rhea](https://ebird.org/species/grerhe1)
@@ -69,10 +67,6 @@
 
 > [!Info]
 > Tinamous
-
-> [!Source]- Handbook of Bird Biology
-> Tinamous are a diverse family of flying but ground-dwelling birds from South America with relatively plump bodies and small heads. Generally secretive, many tinamous are more often heard than seen.
-
 
 - **Distribution:** Neotropics
 - **Habitats:** Terrestrial, generalist, forest and open areas
@@ -87,6 +81,9 @@
 > - Tinamou vocalizations are a distinctive part of the neotropic dawn chorus.
 > - Smallest heart and lungs in birds
 
+> [!Source]- Handbook of Bird Biology
+> Tinamous are a diverse family of flying but ground-dwelling birds from South America with relatively plump bodies and small heads. Generally secretive, many tinamous are more often heard than seen.
+
 **Specimens:**
 - *Tinamus solitarius* (1) — [Solitary Tinamou](https://ebird.org/species/soltin1)
 - *Eudromia elegans* (2) — [Elegant Crested-Tinamou](https://ebird.org/species/elctin1)
@@ -99,10 +96,6 @@
 
 > [!Info]
 > Kiwis
-
-> [!Source]- Handbook of Bird Biology
-> The kiwis are a small group of small- to medium-sized, flightless birds found only in New Zealand. Covered in fine, brown, hair-like feathers, kiwis are mainly nocturnal and forage primarily on earthworms. They lay the largest egg proportional to their body size of any living bird.
-
 
 - **Distribution:** New Zealand
 - **Habitats:** Terrestrial, forest, occasionally grassland and shrubland
@@ -117,6 +110,9 @@
 > - If you try to find the vestigial wing nub on a live kiwi, it will bite you.
 > - Although often considered nocturnal, predator-free populations are active during the day
 
+> [!Source]- Handbook of Bird Biology
+> The kiwis are a small group of small- to medium-sized, flightless birds found only in New Zealand. Covered in fine, brown, hair-like feathers, kiwis are mainly nocturnal and forage primarily on earthworms. They lay the largest egg proportional to their body size of any living bird.
+
 **Specimens:**
 - *Apteryx mantelli* (5) — [North Island Brown Kiwi](https://ebird.org/species/nibkiw1)
 
@@ -128,10 +124,6 @@
 
 > [!Info]
 > Cassowaries, and Emus
-
-> [!Source]- Handbook of Bird Biology
-> The cassowaries and the Emu (*Dromaius novaebollandiae*) are a small family of large, flightless birds from Australia and New Guinea. The cassowaries, covered with stiff, black, hair-like feathers, inhabit dense rainforests. The Emu is found in drier parts of Australia.
-
 
 - **Distribution:** New Guinea and Australia
 - **Habitats:** Forest (Cassowary), open habitats (emu)
@@ -145,6 +137,9 @@
 > - In 1932 Australia mustered a military operation to reduce Emu numbers, because they were accused of destroying crops. The emus suffered minimal losses and successfully repelled their antagonists after a six-day assault.
 > - Emus can pant like mammals.
 > - Cassowaries can use infrasound communication, i.e., sounds below the range of human hearing
+
+> [!Source]- Handbook of Bird Biology
+> The cassowaries and the Emu (*Dromaius novaebollandiae*) are a small family of large, flightless birds from Australia and New Guinea. The cassowaries, covered with stiff, black, hair-like feathers, inhabit dense rainforests. The Emu is found in drier parts of Australia.
 
 **Specimens:**
 - *Casuarius bennetti* (6) — [Dwarf Cassowary](https://ebird.org/species/dwacas1)
@@ -161,10 +156,6 @@
 > [!Info]
 > Screamers, Magpie Goose, Geese, and Ducks and Swans
 
-> [!Source]- Handbook of Bird Biology
-> A large, diverse, and very familiar group with three families, Anseriformes are found worldwide, primarily in wetland habitats from the arctic tundra to the tropics. They inhabit bodies of water ranging in size from small inland ponds to the open ocean.
-
-
 - **Distribution:** Worldwide, many species migratory
 - **Habitats:** Most wetland, aquatic, and marine habitats
 - **Recognition:** Aquatic adaptations; feet palmate, bill wide and flattened with lamellae, specialized for filter-feeding, grazing or aquatic predation; plumage thick and waterproof, pronounced sexual dimorphism in some groups
@@ -175,6 +166,9 @@
 
 > [!Tip] Fun Facts
 > Become flightless for ~two weeks while simultaneously molting all flight feathers. During this period, species with elaborate male plumage undergo an "ecplise" molt where they have a "hen" (female-like) plumage
+
+> [!Source]- Handbook of Bird Biology
+> A large, diverse, and very familiar group with three families, Anseriformes are found worldwide, primarily in wetland habitats from the arctic tundra to the tropics. They inhabit bodies of water ranging in size from small inland ponds to the open ocean.
 
 **Specimens:**
 - *Chauna torquata* (7) — [Southern Screamer](https://ebird.org/species/souscr1)
@@ -193,10 +187,6 @@
 > [!Info]
 > Megapodes, Curassows, Guans, Guineafowl, Grouse, and Pheasants
 
-> [!Source]- Handbook of Bird Biology
-> Members of this large and diverse order of fowl-like birds are found worldwide from the arctic tundra to the tropical rainforest. Galliformes range in size from the tiny quail to the robust turkey. The most familiar species are domesticated, including chickens, turkeys, guineafowl, and quail. Males of many galliform species use elaborate displays or exaggerated plumages to attract females.
-
-
 - **Distribution:** Worldwide, although absent from oceanic islands other than megapodes/old world quail
 - **Habitats:** Nearly all terrestrial habitats. Cursorial, except arboreal guans
 - **Recognition:** Chicken-like birds, stocky bodies, short-rounded wings. Strong legs, some species adorned with tarsal spurs. Many species have strong sexual dimorphism
@@ -208,6 +198,9 @@
 > [!Tip] Fun Facts
 > - Megapodes use environmental incubation for their eggs, and will either bury them in a mound of rotting vegetation or beach sand.
 > - The wild-type ancestor of the domestic chicken, the red junglefowl, is extinct in the wild. Wild populations are descended from feral chickens
+
+> [!Source]- Handbook of Bird Biology
+> Members of this large and diverse order of fowl-like birds are found worldwide from the arctic tundra to the tropical rainforest. Galliformes range in size from the tiny quail to the robust turkey. The most familiar species are domesticated, including chickens, turkeys, guineafowl, and quail. Males of many galliform species use elaborate displays or exaggerated plumages to attract females.
 
 **Specimens:**
 - *Macrocephalon maleo* (13) — [Maleo](https://ebird.org/species/maleo1)
@@ -232,10 +225,6 @@
 > [!Info]
 > Flamingos
 
-> [!Source]- Handbook of Bird Biology
-> Flamingos are found in a range of shallow wetlands, mostly in the tropics. Famous for their pink coloration and oddly shaped bill that is specially adapted for filtering tiny food, flamingos are most closely related to grebes.
-
-
 - **Distribution:** Widespread but local in Eurasia, Africa, the Americas
 - **Habitats:** Alkaline, hypersaline lakes and estuaries
 - **Recognition:** It's a flamingo. Long legs and neck, unique downturned "baleen" bill, pink plumage from carotenoid pigments in diet
@@ -249,6 +238,9 @@
 > - Captive flamingos live up to 60 years.
 > - Although considered "tropical," three species live in the high Andes in Saline lakes up to 4500 m in elevation
 
+> [!Source]- Handbook of Bird Biology
+> Flamingos are found in a range of shallow wetlands, mostly in the tropics. Famous for their pink coloration and oddly shaped bill that is specially adapted for filtering tiny food, flamingos are most closely related to grebes.
+
 **Specimens:**
 - *Phoenicopterus ruber* (21) — [American Flamingo](https://ebird.org/species/grefla2)
 
@@ -260,10 +252,6 @@
 
 > [!Info]
 > Grebes
-
-> [!Source]- Handbook of Bird Biology
-> A diverse family of fish-eating waterbirds, grebes are found worldwide. They are well adapted for their life in the water, with lobed toes and feet set far back on their bodies to enable foot-propelled diving.
-
 
 - **Distribution:** Worldwide, except polar regions and remote islands
 - **Habitats:** Wide variety of aquatic habitats, may winter in marine areas
@@ -277,6 +265,9 @@
 > - Flightlessness has evolved 4 times in grebes.
 > - Grebes eat their own feathers, and no one knows why.
 > - Grebes can barely walk on land
+
+> [!Source]- Handbook of Bird Biology
+> A diverse family of fish-eating waterbirds, grebes are found worldwide. They are well adapted for their life in the water, with lobed toes and feet set far back on their bodies to enable foot-propelled diving.
 
 **Specimens:**
 - *Tachybaptus ruficollis* (22) — [Little Grebe](https://ebird.org/species/litgre1)
@@ -295,10 +286,6 @@
 > [!Info]
 > Doves and Pigeons
 
-> [!Source]- Handbook of Bird Biology
-> Doves and pigeons are found worldwide in a wide variety of habitats, ranging from dry deserts to urban cities. Feeding mostly on seeds, doves and pigeons feed their chicks "crop milk," a substance comprised of water, proteins, and fats.
-
-
 - **Distribution:** Worldwide, except polar regions and including some of the world's most remote islands — although not Hawaii. Most diverse in tropical forests, SE Asia, Oceania, and South America
 - **Habitats:** A wide variety, forests, grasslands and savannahs, islands
 - **Recognition:** Small to medium-sized birds with strong, direct flight; small bill with a fleshy cere. Arboreal and cursorial ecotypes
@@ -310,6 +297,9 @@
 > [!Tip] Fun Facts
 > - Unlike other birds, they have the musculature to drink water without tilting their heads back.
 > - Carrier pigeons can navigate back to their home cage by olfaction
+
+> [!Source]- Handbook of Bird Biology
+> Doves and pigeons are found worldwide in a wide variety of habitats, ranging from dry deserts to urban cities. Feeding mostly on seeds, doves and pigeons feed their chicks "crop milk," a substance comprised of water, proteins, and fats.
 
 **Specimens:**
 - *Columba palumbus* (25) — [Common Wood-Pigeon](https://ebird.org/species/cowpig1)
@@ -325,10 +315,6 @@
 > [!Info]
 > Mesites
 
-> [!Source]- Handbook of Bird Biology
-> The mesites are a small family of largely terrestrial birds endemic to Madagascar. Relatively little is known about their natural history, and their relationships with other birds are similarly unclear.
-
-
 - **Distribution:** Endemic to Madagascar
 - **Habitats:** Forest and scrubland; floor of humid rainforest or dry deciduous forest
 - **Recognition:** Small to medium-sized ground birds with horizontal carriage look a bit like rails or small pigeons. Short, rounded wings and sturdy legs for walking, and long tails with elongated undertail coverts. Plumage is cryptic — browns, greys, and rufous tones that blend into the leaf litter
@@ -342,6 +328,9 @@
 > - Nearly flightless despite having the physical ability to fly; run or freeze when threatened.
 > - Possess powder down (special feathers that crumble into a fine dust for feather care), an unusual trait more associated with non-relatives like herons and parrots
 
+> [!Source]- Handbook of Bird Biology
+> The mesites are a small family of largely terrestrial birds endemic to Madagascar. Relatively little is known about their natural history, and their relationships with other birds are similarly unclear.
+
 **Specimens:**
 - *Monias benschii* (28) — [Subdesert Mesite](https://ebird.org/species/submes1)
 
@@ -354,10 +343,6 @@
 > [!Info]
 > Sandgrouse
 
-> [!Source]- Handbook of Bird Biology
-> The sandgrouse are found in some of the most arid environments in the world, throughout sub-Saharan Africa and central Asia. Sometimes forming huge flocks, sandgrouse can fly long distances to find water. Adults carry water to chicks by saturating their feathers.
-
-
 - **Distribution:** Southern Europe, Africa, Asia
 - **Habitats:** Arid and semi-arid environments; deserts, steppes, savannas, and dry grasslands
 - **Recognition:** They have small, pigeon-like heads and necks but compact, sturdy bodies. Their wings and tails are long and pointed, adapted for fast direct flight. Plumage is exceptionally cryptic, featuring intricate patterns of sandy-buff, gold, and brown to match desert floor. Unlike most birds, their legs (and sometimes toes) are feathered. Distinctive feet, tridactyl in one genus, toes wide, creating almost mammal-like "paws", for walking on hot sand
@@ -368,6 +353,9 @@
 
 > [!Tip] Fun Facts
 > Male sandgrouse have specialized belly feathers that can absorb and hold water like a sponge. They soak themselves at watering holes and fly long distances back to the nest so their chicks can drink from their plumage
+
+> [!Source]- Handbook of Bird Biology
+> The sandgrouse are found in some of the most arid environments in the world, throughout sub-Saharan Africa and central Asia. Sometimes forming huge flocks, sandgrouse can fly long distances to find water. Adults carry water to chicks by saturating their feathers.
 
 **Specimens:**
 - *Syrrhaptes paradoxus* (29) — [Pallas's Sandgrouse](https://ebird.org/species/palsan1)
@@ -384,10 +372,6 @@
 > [!Info]
 > Bustards
 
-> [!Source]- Handbook of Bird Biology
-> Bustards are medium-sized to very large terrestrial birds found across open grasslands and savannas of the Old World. The bustards include the world's two heaviest flying bird species: the Great Bustard (*Otis tarda*) of Europe and western Asia, and the Kori Bustard (*Ardeotis kori*) of sub-Saharan Africa.
-
-
 - **Distribution:** Arid and semi-arid regions of Old World
 - **Habitats:** Primarily open and arid flat landscapes such as **grasslands, steppes, and semi-deserts**
 - **Recognition:** Medium to large, long-legged, and long-necked birds. Horizontal carriage and a sturdy build. Their plumage is usually cryptic (sandy and brown) on the back to hide from predators, but many species have bold black-and-white patterns on their necks or wings used in displays. They have tridactyl feet (lacking the hind toe) adapted for walking and running
@@ -401,6 +385,9 @@
 > - Large size disparity between sexes; in some species, the male can be up to four times the weight of the female.
 > - Many species threatened by overhunting and habitat loss, most species require large areas to maintain populations
 
+> [!Source]- Handbook of Bird Biology
+> Bustards are medium-sized to very large terrestrial birds found across open grasslands and savannas of the Old World. The bustards include the world's two heaviest flying bird species: the Great Bustard (*Otis tarda*) of Europe and western Asia, and the Kori Bustard (*Ardeotis kori*) of sub-Saharan Africa.
+
 **Specimens:**
 - *Tetrax tetrax* (52) — [Little Bustard](https://ebird.org/species/litbus1)
 
@@ -412,10 +399,6 @@
 
 > [!Info]
 > Turacos
-
-> [!Source]- Handbook of Bird Biology
-> Turacos and go-away-birds are found in sub-Saharan Africa in a variety of forested habitats, from acacia savanna to tropical rainforest. They are large birds with long tails, and feed on both fruits and leaves. The feathers of many species are extraordinarily colorful, with some species sporting pigments found only in this family.
-
 
 - **Distribution:** Confined to Sub-Saharan Africa, but fossils from North America
 - **Habitats:** Forests, woodlands, and savannas. Arboreal birds that spend most of their time in the canopy
@@ -429,6 +412,9 @@
 > - Turacos are some of the only birds with true green and red pigments (Turacoverdin and Turacin). In most birds, green is created by feather structure, but turacos have copper-based chemicals in their feathers.
 > - Some species, like the Grey Go-away-bird, are named after their loud, nasal alarm call that sounds exactly like they are shouting *"Go away!"* to intruders or predators
 
+> [!Source]- Handbook of Bird Biology
+> Turacos and go-away-birds are found in sub-Saharan Africa in a variety of forested habitats, from acacia savanna to tropical rainforest. They are large birds with long tails, and feed on both fruits and leaves. The feathers of many species are extraordinarily colorful, with some species sporting pigments found only in this family.
+
 **Specimens:**
 - *Tauraco livingstonii* (53) — [Livingstone's Turaco](https://ebird.org/species/livtur1)
 
@@ -440,10 +426,6 @@
 
 > [!Info]
 > Cuckoos
-
-> [!Source]- Handbook of Bird Biology
-> Cuckoos are a diverse group of birds with a global distribution. They are found in a wide variety of habitats, from deserts to tropical savannas. Some cuckoos are nest parasites and notoriously lay their eggs in the nests of other bird species, but many cuckoo species build nests and care for their own young.
-
 
 - **Distribution:** Cosmopolitan; found on every continent except Antarctica, with the highest diversity in the tropics of Africa, Asia, and Australasia
 - **Habitats:** Extremely varied, including forests, open woodlands, scrublands, and even arid deserts (roadrunners)
@@ -459,6 +441,9 @@
 > - Cuckoo eggs often evolve to perfectly mimic the color and pattern of the host bird's eggs to avoid being detected and thrown out.
 > - Hawk-cuckoos mimic *Accipiter/Astur* forest hawks to avoid recognition by hosts.
 > - Ground-cuckoos follow large mammals or army ants, feeding on large insects or small vertebrates disturbed by them
+
+> [!Source]- Handbook of Bird Biology
+> Cuckoos are a diverse group of birds with a global distribution. They are found in a wide variety of habitats, from deserts to tropical savannas. Some cuckoos are nest parasites and notoriously lay their eggs in the nests of other bird species, but many cuckoo species build nests and care for their own young.
 
 **Specimens:**
 - *Geococcyx californianus* (42) — [Greater Roadrunner](https://ebird.org/species/greroa)
@@ -477,10 +462,6 @@
 > [!Info]
 > Hoatzin
 
-> [!Source]- Handbook of Bird Biology
-> The Hoatzin of tropical South America is an enigmatic bird in many ways, and its relationship to other birds is still debated. The Hoatzin is the only bird that eats only leaves, which it digests using unique foregut fermentation akin to that found in ruminant mammals.
-
-
 - **Distribution:** Amazon and Orinoco basins, South America
 - **Habitats:** Riparian zones, including mangroves, swamps, and riverine forests. They are almost always found near slow-moving water or lakes
 - **Recognition:** A pheasant-sized bird with a long neck, a small head, and an unkempt, spiky crest. They have bright blue bare skin on their faces and red eyes. Plumage a messy mix of buff, brown, and black. Notoriously clumsy, heavy-bodied flyers
@@ -491,6 +472,9 @@
 
 > [!Tip] Fun Facts
 > Hoatzin are the most difficult bird order to place in the tree of life with phylogenetic methods. They have been considered Galliformes and Gruiformes in the past
+
+> [!Source]- Handbook of Bird Biology
+> The Hoatzin of tropical South America is an enigmatic bird in many ways, and its relationship to other birds is still debated. The Hoatzin is the only bird that eats only leaves, which it digests using unique foregut fermentation akin to that found in ruminant mammals.
 
 **Specimens:**
 - *Opisthocomus cristatus* (41) — [Hoatzin](https://ebird.org/species/hoatzi1)
@@ -506,10 +490,6 @@
 > [!Info]
 > Rails, Flufftails, Finfoots, Limpkin, Trumpeters, and Cranes
 
-> [!Source]- Handbook of Bird Biology
-> The gruiform order includes the cranes, the rails, the trumpeters of South America, the finfoots, and the Limpkin (*Aramus guarauna*). Although much reduced by recent extinction, rails once were the most diverse family in the world, with more than 500 species. Found worldwide, many species in this order have loud and recognizable vocal displays.
-
-
 - **Distribution:** Worldwide except Antarctica; the most widely distributed terrestrial order on islands
 - **Habitats:** Primarily wetlands, marshes, and grasslands; some tropical species found in forests
 - **Recognition:** Extremely diverse in size. Most have long necks, long legs, and a "crail-like" or "rail-like" body shape, with a "crane-like" or "chicken-like" bill. Aquatic species may have lobate feet (never webbed) or elongate toes. Many are shy, ground-dwelling birds that are more often heard than seen
@@ -520,6 +500,9 @@
 
 > [!Tip] Depressing Fact
 > The avian order most prone to flight loss, it is estimated that hundreds of rails species have gone extinct on islands because of human colonization
+
+> [!Source]- Handbook of Bird Biology
+> The gruiform order includes the cranes, the rails, the trumpeters of South America, the finfoots, and the Limpkin (*Aramus guarauna*). Although much reduced by recent extinction, rails once were the most diverse family in the world, with more than 500 species. Found worldwide, many species in this order have loud and recognizable vocal displays.
 
 **Specimens:**
 - *Rallus aquaticus* (46) — [Water Rail](https://ebird.org/species/watrai1)
@@ -538,10 +521,6 @@
 > [!Info]
 > Stone-curlews, Sheathbills, Plovers, Oystercatchers, Stilts, Buttonquails, Coursers, Pratincoles, Skuas, Auks, Gulls, Terns, Skimmers, Seedsnipes, Jacanas, and Sandpipers
 
-> [!Source]- Handbook of Bird Biology
-> This extremely diverse order is second only to passerines in number of families and species. Although known by the collective name "shorebirds," members of this group are found in almost every terrestrial habitat in the world, and many also occur in pelagic habitats. With a truly global distribution, the shorebirds are notably varied in their breeding strategies and mating systems. This group includes some of the world's most extreme migrants: some species fly non-stop for thousands of kilometers.
-
-
 - **Distribution:** Global; many arctic and temperate species are famous for long-distance migrations between hemispheres
 - **Habitats:** Coastal shores, wetlands, open oceans, grasslands, and tundra
 - **Recognition:** Usually characterized by relatively long legs and pointed wings. Bills vary wildly — from the short, stout beak of a puffin to the long, curved probe of a curlew. Many have webbed feet, and have a reduced or vestigial hallux
@@ -552,6 +531,9 @@
 
 > [!Tip] Fun Facts
 > Alcidae are convergent with penguins, using wings as paddles to swim underwater
+
+> [!Source]- Handbook of Bird Biology
+> This extremely diverse order is second only to passerines in number of families and species. Although known by the collective name "shorebirds," members of this group are found in almost every terrestrial habitat in the world, and many also occur in pelagic habitats. With a truly global distribution, the shorebirds are notably varied in their breeding strategies and mating systems. This group includes some of the world's most extreme migrants: some species fly non-stop for thousands of kilometers.
 
 **Specimens:**
 - *Burhinus oedicnemus* (75) — [Eurasian Thick-knee](https://ebird.org/species/eutkne1)
@@ -584,10 +566,6 @@
 > [!Info]
 > Nightjars, and Nighthawks
 
-> [!Source]- Handbook of Bird Biology
-> The nightjars are a diverse and worldwide group of nocturnal, aerial insectivores. They have extremely wide mouths and fly around with their mouths open to capture insects. Cryptically patterned, they nest primarily on the ground. Although difficult to see, many species have vocalizations that can be heard at a great distance.
-
-
 - **Distribution:** Worldwide, except for the highest latitudes, elevations, and some oceanic islands
 - **Habitats:** Open woodlands, grasslands, scrublands, and deserts
 - **Recognition:** Characterized by cryptic, mottled plumage that mimics leaf litter or bark. They have short legs, very small bills, but an incredibly wide gape (mouth opening) often fringed with "rictal bristles" (whisker-like feathers). Long wings, a characteristic shape of Strisores. Usual perch horizontally on ground or fallen logs
@@ -598,6 +576,9 @@
 
 > [!Tip] Fun Facts
 > Despite being nocturnal, some species have evolved ornaments (wing/tail) used in visual aerial displays
+
+> [!Source]- Handbook of Bird Biology
+> The nightjars are a diverse and worldwide group of nocturnal, aerial insectivores. They have extremely wide mouths and fly around with their mouths open to capture insects. Cryptically patterned, they nest primarily on the ground. Although difficult to see, many species have vocalizations that can be heard at a great distance.
 
 **Specimens:**
 - *Caprimulgus europaeus* (35) — [European Nightjar](https://ebird.org/species/eurnig1)
@@ -611,10 +592,6 @@
 > [!Info]
 > Potoos
 
-> [!Source]- Handbook of Bird Biology
-> The potoos are found in the tropics of South and Central America. Large and cryptically patterned, they sit motionless on trees, resembling the broken ends of branches. Largely nocturnal, they feed mostly on insects.
-
-
 - **Distribution:** Neotropics, but fossils from North America
 - **Habitats:** Tropical forests and edge habitats
 - **Recognition:** Large-headed birds with "upright" perching posture. They have unique "tooth" notches in their upper mandible. Bill extremely short
@@ -625,6 +602,9 @@
 
 > [!Tip] Fun Facts
 > When threatened, potoos freezes in an erect position, mimicking a dead wooden branch so that they are nearly impossible to spot
+
+> [!Source]- Handbook of Bird Biology
+> The potoos are found in the tropics of South and Central America. Large and cryptically patterned, they sit motionless on trees, resembling the broken ends of branches. Largely nocturnal, they feed mostly on insects.
 
 **Specimens:**
 - *Nyctibius grandis* (34) — [Great Potoo](https://ebird.org/species/grepot1)
@@ -637,10 +617,6 @@
 
 > [!Info]
 > Oilbird
-
-> [!Source]- Handbook of Bird Biology
-> The Oilbird is found in the tropical forests of South America. Roosting primarily in caves, it uses its excellent vision and echolocation to navigate in almost complete darkness. Oilbirds are completely frugivorous and use their excellent sense of smell to locate fruiting trees.
-
 
 - **Distribution:** South America
 - **Habitats:** Caves for roosting/nesting; forages in tropical fruit-bearing forests
@@ -655,6 +631,9 @@
 > - Named oilbird because the chicks are so fatty from eating wax palm fruit, they can be used as a torch.
 > - One of the loudest birds
 
+> [!Source]- Handbook of Bird Biology
+> The Oilbird is found in the tropical forests of South America. Roosting primarily in caves, it uses its excellent vision and echolocation to navigate in almost complete darkness. Oilbirds are completely frugivorous and use their excellent sense of smell to locate fruiting trees.
+
 **Specimens:**
 - *Steatornis caripennis* (32) — [Oilbird](https://ebird.org/species/oilbir1)
 
@@ -667,10 +646,6 @@
 > [!Info]
 > Frogmouths
 
-> [!Source]- Handbook of Bird Biology
-> The frogmouths are found in the tropics of Southeast Asia and Australia. Large and cryptically patterned, they are difficult to find by day, when they sit motionless, resembling the ends of broken branches. At night, they are more active and feed on a wide variety of insects and small vertebrates.
-
-
 - **Distribution:** Asia, Australia, and Oceania
 - **Habitats:** Forests and woodlands
 - **Recognition:** They look like "bulky" nightjars with much heavier, broader bills. Unlike nightjars, they lack long rictal bristles
@@ -681,6 +656,9 @@
 
 > [!Tip] Fun Facts
 > Like potoos, they freeze in an erect position, mimicking a dead wooden branch so perfectly that they are nearly impossible to spot
+
+> [!Source]- Handbook of Bird Biology
+> The frogmouths are found in the tropics of Southeast Asia and Australia. Large and cryptically patterned, they are difficult to find by day, when they sit motionless, resembling the ends of broken branches. At night, they are more active and feed on a wide variety of insects and small vertebrates.
 
 **Specimens:**
 - *Podargus papuensis* (33) — [Papuan Frogmouth](https://ebird.org/species/papfro1)
@@ -694,10 +672,6 @@
 > [!Info]
 > Owlet-nightjars
 
-> [!Source]- Handbook of Bird Biology
-> Owlet-nightjars are found in a variety of forested habitats in Australasia. They usually roost in tree cavities during the day, and, at night, feed on insects by picking them from the air.
-
-
 - **Distribution:** Primarily Australasia, including Australia, New Guinea, and the Moluccas
 - **Habitats:** Dense rainforests, open woodlands, and mangrove swamps
 - **Recognition:** While they look like a cross between a tiny owl and a nightjar. Small, nocturnal birds with upright perching postures. They have large, forward-facing eyes (like owls), small bills surrounded by very long, prominent rictal bristles and phyloplumes, and soft, patterned plumage. Unlike true nightjars, their feet are stronger and better suited for perching
@@ -708,6 +682,9 @@
 
 > [!Tip] Fun Facts
 > If disturbed, can makes a strange "hissing" sound like a snake to deter predators
+
+> [!Source]- Handbook of Bird Biology
+> Owlet-nightjars are found in a variety of forested habitats in Australasia. They usually roost in tree cavities during the day, and, at night, feed on insects by picking them from the air.
 
 **Specimens:**
 - *Aegotheles cristatus* (36) — [Australian Owlet-nightjar](https://ebird.org/species/auonig1)
@@ -721,10 +698,6 @@
 > [!Info]
 > Treeswifts, Swifts, and Hummingbirds
 
-> [!Source]- Handbook of Bird Biology
-> The swifts are a large radiation of aerial insectivores with a global distribution. Swifts spend much of their life in the air, and have poorly developed feet and legs. Most species nest on vertical or nearly vertical surfaces, and use their saliva to glue nesting material and eggs to the nesting substrate.
-
-
 - **Distribution:** Worldwide, but hummingbirds restricted to New World
 - **Habitats:** Virtually everywhere, from high-altitude mountains to urban areas
 - **Recognition:** "Apodiform" means "foot-less" — they have tiny, weak feet and extremely long, narrow wings with a modified humerus that allows for high-speed flapping or hovering. Unique "pampridactyl" foot with all 4 toes forward
@@ -736,6 +709,9 @@
 > [!Tip] Fun Facts
 > - Swifts can remain in the air for 10 consecutive months without ever landing, even sleeping while flying.
 > - Hummingbirds are the only birds capable of truly flying backwards
+
+> [!Source]- Handbook of Bird Biology
+> The swifts are a large radiation of aerial insectivores with a global distribution. Swifts spend much of their life in the air, and have poorly developed feet and legs. Most species nest on vertical or nearly vertical surfaces, and use their saliva to glue nesting material and eggs to the nesting substrate.
 
 **Specimens:**
 - *Hemiprocne mystacea* (37) — [Moustached Treeswift](https://ebird.org/species/moutre1)
@@ -754,10 +730,6 @@
 > [!Info]
 > Tropicbirds
 
-> [!Source]- Handbook of Bird Biology
-> The tropicbirds are a small family of graceful tropical seabirds with white-and-black plumage and long tail streamers. The tropicbirds were long thought to be related to various other seabird families but instead seem to be relatives of the Eurypygiformes.
-
-
 - **Distribution:** Tropical and subtropical oceans worldwide (Atlantic, Pacific, and Indian Oceans)
 - **Habitats:** Almost exclusively pelagic (open ocean), coming to land only to breed on remote oceanic islands or coastal cliffs
 - **Recognition:** Some of the most elegant and striking seabirds. Medium-sized white birds with black markings around the eyes. Pair of extremely long, streamer-like central tail feathers, as long as the rest of the bird's body. Stout, slightly curved, brightly colored bills (red or yellow) and very small, weak anisodactyl feet with totipalmate webbing
@@ -768,6 +740,9 @@
 
 > [!Tip] Fun Facts
 > Because their feet are positioned so far back on their bodies and are so small, Tropicbirds cannot walk or stand upright on land. When they are at their nest sites, they must push themselves along the ground on their bellies using their wings and feet in a "shuffling" motion
+
+> [!Source]- Handbook of Bird Biology
+> The tropicbirds are a small family of graceful tropical seabirds with white-and-black plumage and long tail streamers. The tropicbirds were long thought to be related to various other seabird families but instead seem to be relatives of the Eurypygiformes.
 
 **Specimens:**
 - *Phaethon aethereus* (24) — [Red-billed Tropicbird](https://ebird.org/species/rebtro)
@@ -781,10 +756,6 @@
 > [!Info]
 > Sunbittern and Kagu
 
-> [!Source]- Handbook of Bird Biology
-> This order was formed when the former Gruiformes group was split. It contains only two families, each with a single species. Although both species have characteristically colorful wing patterns — the Sunbittern of the Neotropics and the Kagu of New Caledonia — they are otherwise quite different.
-
-
 - **Distribution:** Highly disjunct; the Sunbittern is Neotropical, while the Kagu is endemic to the island of New Caledonia in the South Pacific
 - **Habitats:** Sunbittern inhabits streams and rivers. The Kagu lives in the forests and shrublands
 - **Recognition:** Sunbittern: A slender bird with a long neck and bill, featuring intricately patterned gray, brown, and black plumage. Its most striking feature is the large, colorful "eyespots" on its wings, visible only when spread. Kagu: a nearly flightless, ghost-white/gray bird with bright orange-red legs and bill. It possesses a long, shaggy crest that it can raise during displays
@@ -795,6 +766,9 @@
 
 > [!Tip] Fun Facts
 > Only discovered to be relatives with DNA sequence data, but both species have a distinctive and strikingly similar wing pattern
+
+> [!Source]- Handbook of Bird Biology
+> This order was formed when the former Gruiformes group was split. It contains only two families, each with a single species. Although both species have characteristically colorful wing patterns — the Sunbittern of the Neotropics and the Kagu of New Caledonia — they are otherwise quite different.
 
 **Specimens:**
 - *Eurypyga helias* (31) — [Sunbittern](https://ebird.org/species/sunbit1)
@@ -810,10 +784,6 @@
 > [!Info]
 > Loons
 
-> [!Source]- Handbook of Bird Biology
-> The loons (also known as divers) are a small group of birds found only in the northern hemisphere. They breed on northern lakes and ponds, and winter primarily along the coasts of North America and Eurasia. Loons are specially adapted to an aquatic lifestyle: they feed on fish, and their feet are placed far back on their body for foot-propelled diving.
-
-
 - **Distribution:** Holarctic; they breed in the Northern Hemisphere (North America, Greenland, Iceland, and Northern Eurasia) and winter along coastal waters of the Atlantic and Pacific
 - **Habitats:** During the breeding season, they inhabit deep, clear freshwater lakes and ponds. In winter, they migrate to saltwater coastal bays and estuaries
 - **Recognition:** Large, heavy-bodied birds with sharp, dagger-like bills, feet webbed. Bones solid, which act as ballast for diving. Their legs are placed extremely far back on the body, making them powerful swimmers but unable to walk on land — they must "slide" on their bellies to reach their nests
@@ -825,6 +795,9 @@
 > [!Tip] Fun Facts
 > - Loons are known for their haunting, "yodeling" calls that are a staple sound of the northern wilderness.
 > - To take off from water, they require a "runway" of up to several hundred meters, flapping their wings and running across the surface to gain enough speed for lift-off
+
+> [!Source]- Handbook of Bird Biology
+> The loons (also known as divers) are a small group of birds found only in the northern hemisphere. They breed on northern lakes and ponds, and winter primarily along the coasts of North America and Eurasia. Loons are specially adapted to an aquatic lifestyle: they feed on fish, and their feet are placed far back on their body for foot-propelled diving.
 
 **Specimens:**
 - *Gavia stellata* (54) — [Red-throated Loon](https://ebird.org/species/retloo)
@@ -839,10 +812,6 @@
 > [!Info]
 > Penguins
 
-> [!Source]- Handbook of Bird Biology
-> The penguins are a group of flightless seabirds that are well adapted for swimming and diving. Penguins are most diverse in the southern oceans near Antarctica.
-
-
 - **Distribution:** Restricted to the Southern Hemisphere, from the icy coasts of Antarctica to the tropical Galápagos Islands on the equator
 - **Habitats:** Marine environments. They spend up to 75% of their lives at sea, coming ashore only to breed, molt, or rest on islands, ice floes, or coastal beaches
 - **Recognition:** Flightless, upright-walking birds with wings modified into stiff, flat flippers. Their bodies are "torpedo-shaped" (fusiform) for hydrodynamics. They possess incredibly dense, waterproof feathers (up to 100 per square inch) and a thick layer of fat for insulation
@@ -853,6 +822,9 @@
 
 > [!Tip] Fun Facts
 > To survive the extreme cold, Emperor Penguins huddle in massive groups, constantly rotating individuals from the cold outside of the circle to the warm interior
+
+> [!Source]- Handbook of Bird Biology
+> The penguins are a group of flightless seabirds that are well adapted for swimming and diving. Penguins are most diverse in the southern oceans near Antarctica.
 
 **Specimens:**
 - *Aptenodytes forsteri* (56) — [Emperor Penguin](https://ebird.org/species/emppen1)
@@ -868,10 +840,6 @@
 > [!Info]
 > Tubenoses: Albatrosses, Petrels, and Storm-petrels
 
-> [!Source]- Handbook of Bird Biology
-> The petrels, shearwaters, albatrosses, and storm-petrels are a diverse order of tubenose seabirds found across the world's oceans. They range in size from the small storm-petrels to albatrosses, which have the largest wingspan of any bird. They feed on a wide variety of prey, from small plankton to fish. Many tubenoses have an acute sense of smell that they use to find food and to locate their nests after being away at sea.
-
-
 - **Distribution:** Worldwide oceans, though they reach their highest diversity and density in the Southern Ocean around Antarctica
 - **Habitats:** Pelagic. They are rarely seen from shore except during storms or at their breeding colonies on remote, predator-free islands
 - **Recognition:** Defining feature is the parallel tubular nostrils on top of the bill, which give them their nickname "tubenoses." These tubes are used for both smelling food across vast distances and for excreting excess salt. They have webbed feet and wings built for sustained, energy-efficient gliding
@@ -883,6 +851,9 @@
 > [!Tip] Fun Facts
 > - The 'Wandering' Albatrosses have the largest wingspan of any living bird, reaching 3.5 meters.
 > - Many species in this order have a "musty" smell due to a specialized stomach oil they produce; they use this oil both as an energy-rich food source for chicks and as a projectile defense mechanism against predators
+
+> [!Source]- Handbook of Bird Biology
+> The petrels, shearwaters, albatrosses, and storm-petrels are a diverse order of tubenose seabirds found across the world's oceans. They range in size from the small storm-petrels to albatrosses, which have the largest wingspan of any bird. They feed on a wide variety of prey, from small plankton to fish. Many tubenoses have an acute sense of smell that they use to find food and to locate their nests after being away at sea.
 
 **Specimens:**
 - *Diomedea exulans* (59) — [Snowy Albatross](https://ebird.org/species/wanalb1)
@@ -900,10 +871,6 @@
 > [!Info]
 > Storks
 
-> [!Source]- Handbook of Bird Biology
-> Storks are wading birds that are most diverse in the Old World tropics. Primarily found in marshes, storks inhabit a variety of open habitats, from dry acacia savanna to urban landscapes. Many species have bare skin on their heads and necks. They feed on a variety of prey, from carrion and insects to fish and small mammals.
-
-
 - **Distribution:** Found on every continent except Antarctica, though they are most diverse in tropical regions of Africa and Asia
 - **Habitats:** Primarily wetlands, marshes, and floodplains, but some species inhabit dry savannas and open grasslands
 - **Recognition:** Large, long-legged, and long-necked birds with heavy, straight, or slightly curved bills. Unlike herons, storks fly with their necks fully extended. They lack a syrinx (vocal organ) and are therefore largely silent, except for mechanical sounds
@@ -915,6 +882,9 @@
 > [!Tip] Fun Facts
 > - Since they cannot sing, storks communicate through "bill-clattering," rapidly snapping their mandibles together to produce a loud rattling sound.
 > - To keep cool in hot climates, many storks practice defecating on their own legs so the evaporating liquid cools their blood vessels
+
+> [!Source]- Handbook of Bird Biology
+> Storks are wading birds that are most diverse in the Old World tropics. Primarily found in marshes, storks inhabit a variety of open habitats, from dry acacia savanna to urban landscapes. Many species have bare skin on their heads and necks. They feed on a variety of prey, from carrion and insects to fish and small mammals.
 
 **Specimens:**
 - *Ciconia ciconia* (64) — [White Stork](https://ebird.org/species/whisto1)
@@ -928,10 +898,6 @@
 > [!Info]
 > Frigatebirds, Gannets, Boobies, Cormorants, and Anhingas
 
-> [!Source]- Handbook of Bird Biology
-> Members of this order of seabirds are found throughout the world's oceans. Suliformes lack external nostrils, an adaptation to their aquatic lifestyle. Families in this order employ a variety of foraging techniques: frigatebirds pirate food from other species, gannets and boobies are plunge divers, and cormorants and darters swim underwater to take fish. Many species are colonial breeders, sometimes nesting in huge concentrations.
-
-
 - **Distribution:** Worldwide, primarily in marine and coastal environments, though some cormorants and anhingas are found in freshwater
 - **Habitats:** Open oceans, coastal cliffs, tropical islands, and inland lakes or rivers
 - **Recognition:** Characterized by totipalmate feet and a large gular pouch (throat sac) used for display or to help with heat dissipation
@@ -944,6 +910,9 @@
 > - Gannets and boobies lack of external nostrils in many species (to prevent water from entering the lungs during high-speed dives).
 > - Anhingas have less preen oil than other water birds, meaning their feathers get soaked rather than shedding water. This makes them less buoyant but forces them to stand with their wings spread out to dry after fishing.
 > - Frigatebirds have highly reduced legs and cannot walk on land or swim
+
+> [!Source]- Handbook of Bird Biology
+> Members of this order of seabirds are found throughout the world's oceans. Suliformes lack external nostrils, an adaptation to their aquatic lifestyle. Families in this order employ a variety of foraging techniques: frigatebirds pirate food from other species, gannets and boobies are plunge divers, and cormorants and darters swim underwater to take fish. Many species are colonial breeders, sometimes nesting in huge concentrations.
 
 **Specimens:**
 - *Fregata ariel* (71) — [Lesser Frigatebird](https://ebird.org/species/lesfri)
@@ -960,10 +929,6 @@
 > [!Info]
 > Pelicans, Hamerkop, Shoebill, Herons, and Ibises
 
-> [!Source]- Handbook of Bird Biology
-> This order of wading birds includes the herons, egrets, ibises, and spoonbills. It also includes the pelicans, recently found to be closely related to the Shoebill (*Balaeniceps rex*) and Hamerkop (*Scopus umbretta*). Most pelecaniform species are associated with aquatic habitats, ranging from wet meadows to marine environments, and feed on aquatic vertebrates, implementing a variety of foraging techniques.
-
-
 - **Distribution:** Worldwide, except for the high Arctic and Antarctic
 - **Habitats:** Primarily aquatic environments, including freshwater lakes, rivers, marshes, and coastal marine areas
 - **Recognition:** Diverse in form but generally characterized by long bills and a distensible gular pouch (in pelicans) or long, slender necks and legs (in herons and ibises). Most species fly with their necks tucked back in an "S" shape (unlike storks)
@@ -975,6 +940,9 @@
 > [!Tip] Fun Facts
 > - The Shoebill has a massive, clog-shaped bill and a prehistoric appearance; it is known for standing motionless for hours waiting for lungfish to surface.
 > - The hammerkop builds the largest nest of any bird
+
+> [!Source]- Handbook of Bird Biology
+> This order of wading birds includes the herons, egrets, ibises, and spoonbills. It also includes the pelicans, recently found to be closely related to the Shoebill (*Balaeniceps rex*) and Hamerkop (*Scopus umbretta*). Most pelecaniform species are associated with aquatic habitats, ranging from wet meadows to marine environments, and feed on aquatic vertebrates, implementing a variety of foraging techniques.
 
 **Specimens:**
 - *Pelecanus occidentalis* (65) — [Brown Pelican](https://ebird.org/species/brnpel)
@@ -997,10 +965,6 @@
 > [!Info]
 > New World Vultures, Secretarybird, Osprey, Hawks, and Eagles
 
-> [!Source]- Handbook of Bird Biology
-> These diurnal raptors include the hawks, eagles, kites, and the long-legged Secretary-bird (*Sagittarius serpentarius*). Members of this order are found worldwide in almost every terrestrial habitat from the arctic tundra to the tropical rainforest.
-
-
 - **Distribution:** Worldwide except Antarctica and remote islands
 - **Habitats:** Extremely diverse, found in nearly all habitats and elevations
 - **Recognition:** Bill strongly hooked at the tip for tearing flesh. Anisodactyl feet (raptorial) with powerful curved talons. Large forward-facing eyes protected by a supraorbital ridge that look and protects the eyes from glare and brush. Wings long, strong, but variable in shape depending on habitat and ecology
@@ -1014,6 +978,9 @@
 > - Fish specialists have modified scales to grip their prey.
 > - Secretarybird is the only "terrestrial" raptor, killing prey with feet.
 > - New and Old World vultures are not related, only one clade of new world vultures locate carrion by olfaction
+
+> [!Source]- Handbook of Bird Biology
+> These diurnal raptors include the hawks, eagles, kites, and the long-legged Secretary-bird (*Sagittarius serpentarius*). Members of this order are found worldwide in almost every terrestrial habitat from the arctic tundra to the tropical rainforest.
 
 **Specimens:**
 - *Sarcoramphus papa* (93) — [King Vulture](https://ebird.org/species/kinvul1)
@@ -1032,10 +999,6 @@
 > [!Info]
 > Owls
 
-> [!Source]- Handbook of Bird Biology
-> The owls and barn owls are typically nocturnal predators found across the world. Owls feed on a wide range of prey, from insects to fish. Unmistakable the world over, owls have superb nocturnal vision and acute hearing.
-
-
 - **Distribution:** Worldwide except Antarctica and remote islands
 - **Habitats:** Extremely diverse, found in nearly all habitats and elevations
 - **Recognition:** Plumage cryptic. Facial disk an iconic feature. A concave "dish" of stiff feathers acts like a satellite dish, funneling sound into ear openings. Eyes are elongated tubes held in place by well-developed called sclerotic rings. Can rotate their entire heads up to 270°. In many species (e.g. Barn Owls) the ear openings are at different heights on the skull allowing them to triangulate vertical and horizontal position of sounds. Feet semi-zygodactyl with reversible 1st toe. Flight feather fimbriate allowing nearly silent flight
@@ -1046,6 +1009,9 @@
 
 > [!Tip] Fun Facts
 > Many species have "ear tufts" or "horns" to aid in camouflage
+
+> [!Source]- Handbook of Bird Biology
+> The owls and barn owls are typically nocturnal predators found across the world. Owls feed on a wide range of prey, from insects to fish. Unmistakable the world over, owls have superb nocturnal vision and acute hearing.
 
 **Specimens:**
 - *Tyto alba* (99) — [Western Barn Owl](https://ebird.org/species/webowl1)
@@ -1062,10 +1028,6 @@
 > [!Info]
 > Mousebirds
 
-> [!Source]- Handbook of Bird Biology
-> Mousebirds are a small group of birds restricted to sub-Saharan Africa. They have soft, gray-brown plumage, fluffy crests, and long tails. Mousebirds are highly social and will huddle together in groups for warmth. When foraging, they may scramble through dense brush, often hanging from branches.
-
-
 - **Distribution:** Sub Saharan Africa, but fossils from Europe and North America
 - **Habitats:** Forest edge, scrub, savannas, gardens
 - **Recognition:** Plumage "mouse-like", lacking aptera and vane structure. Tail long and stiff, distinctive crest on head. Bill short, thick, slightly decurved. Feet unique with reversible 1st and 4th toes, can alternate between anisodactyl, zygodactyl, and pamprodactyl arrangements
@@ -1079,6 +1041,9 @@
 > - Highly social, roost and rest in "clumps" to conserve heat.
 > - Avoid water, dust bathe instead
 
+> [!Source]- Handbook of Bird Biology
+> Mousebirds are a small group of birds restricted to sub-Saharan Africa. They have soft, gray-brown plumage, fluffy crests, and long tails. Mousebirds are highly social and will huddle together in groups for warmth. When foraging, they may scramble through dense brush, often hanging from branches.
+
 **Specimens:**
 - *Colius macrourus* (103) — [Blue-naped Mousebird](https://ebird.org/species/blnmou1)
 
@@ -1091,10 +1056,6 @@
 > [!Info]
 > Cuckooroller
 
-> [!Source]- Handbook of Bird Biology
-> The Cuckoo-Roller (*Leptosomus discolor*) is endemic to tropical and subtropical forests in Madagascar. Relatively little is known about this large sit-and-wait predator, which feeds on animals ranging from insects to small vertebrates.
-
-
 - **Distribution:** Madagascar and the Comoros Islands, fossils from North America
 - **Habitats:** Forest and woodland
 - **Recognition:** Zygodactyl feet (cuckoo), roller-shaped body. Huge head. Unlike rollers, sexually dimorphic. Has powder down. Head enormous. Male patterned in black, gray, and iridescent blue/green, female brown and spotted
@@ -1105,6 +1066,9 @@
 
 > [!Tip] Fun Facts
 > Give alarm calls alerting other birds to presence of predators
+
+> [!Source]- Handbook of Bird Biology
+> The Cuckoo-Roller (*Leptosomus discolor*) is endemic to tropical and subtropical forests in Madagascar. Relatively little is known about this large sit-and-wait predator, which feeds on animals ranging from insects to small vertebrates.
 
 **Specimens:**
 - *Leptosomus discolor* (104) — [Cuckoo-Roller](https://ebird.org/species/cuckoo1)
@@ -1117,10 +1081,6 @@
 
 > [!Info]
 > Trogons
-
-> [!Source]- Handbook of Bird Biology
-> Trogons are a diverse family found in tropical and subtropical forests around the world. Fantastically colored in iridescent greens and blues above, and bright reds and yellows below, trogons often sit motionless for long periods.
-
 
 - **Distribution:** Neotropics, Africa, Asia
 - **Habitats:** Tropical forest (primarily lowland; also deciduous/montane)
@@ -1135,6 +1095,9 @@
 > - The long "tail" of a quetzal are elongated uppertail covert feathers.
 > - Cannot walk or hop
 
+> [!Source]- Handbook of Bird Biology
+> Trogons are a diverse family found in tropical and subtropical forests around the world. Fantastically colored in iridescent greens and blues above, and bright reds and yellows below, trogons often sit motionless for long periods.
+
 **Specimens:**
 - *Trogon collaris* (105) — [Collared Trogon](https://ebird.org/species/coltro1)
 
@@ -1146,10 +1109,6 @@
 
 > [!Info]
 > Hornbills, Hoopoes, and Wood-hoopoes
-
-> [!Source]- Handbook of Bird Biology
-> This small order of three families is found primarily in the Old World tropics; the Eurasian Hoopoe (*Upupa epops*) occurs in Europe and central Asia. These three families are found in a variety of habitats, from dense tropical forest to open savanna.
-
 
 - **Distribution:** Old World: Africa, Tropical Asia, New Guinea, and the Solomon Islands; one species in temperate Eurasia
 - **Habitats:** Variable, ranging from dense tropical rainforests to open savannas and semi-arid scrublands
@@ -1163,6 +1122,9 @@
 > - Hornbills have 1st and second vertebrae fused. Cask is usually hollow and resonates when they vocalize.
 > - Hornbills employ 'ballistic feeding' where they pick fruits with the tip of the beak, and then throw it backwards into the throat, bypassing the need for direct manipulation.
 > - Hoopoes can spray a smelly secretion from their uropygial gland to defend nest
+
+> [!Source]- Handbook of Bird Biology
+> This small order of three families is found primarily in the Old World tropics; the Eurasian Hoopoe (*Upupa epops*) occurs in Europe and central Asia. These three families are found in a variety of habitats, from dense tropical forest to open savanna.
 
 **Specimens:**
 - *Buceros rhinoceros* (108) — [Rhinoceros Hornbill](https://ebird.org/species/rhihor1)
@@ -1178,10 +1140,6 @@
 > [!Info]
 > Jacamars, Puff-birds, Honeyguides, Woodpeckers, Toucans, and Barbets
 
-> [!Source]- Handbook of Bird Biology
-> The Piciformes use a variety of foraging techniques: woodpeckers drill and probe bark whereas puffbirds and jacamars use a sit-and-wait predation strategy. With a nearly global distribution, the Piciformes are found in a wide variety of habitats and nest exclusively in cavities or burrows. The honeyguides are obligate brood parasites; all other families raise their own young.
-
-
 - **Distribution:** Worldwide except Australasia and remote islands
 - **Habitats:** Primarily forested regions, ranging from tropical rainforests to high-altitude coniferous forests. Also savannah
 - **Recognition:** Feet zygodactyl. Small to medium size, with most families having a distinctive bill: chisel shaped in woodpeckers, long and thin in jacamars, large and decurved in toucans
@@ -1195,6 +1153,9 @@
 > - Honeyguides are famous for leading humans and honey badgers to beehives; they wait for the "partner" to break the hive open so they can eat the wax and larvae.
 > - Toucans employ "ballistic feeding" where they pick fruits with the tip of the beak, and then throw it backwards into the throat, bypassing the need for direct manipulation.
 > - Jacamars have tremendous memory capability, can discern toxic butterflies from their non-toxic mimics
+
+> [!Source]- Handbook of Bird Biology
+> The Piciformes use a variety of foraging techniques: woodpeckers drill and probe bark whereas puffbirds and jacamars use a sit-and-wait predation strategy. With a nearly global distribution, the Piciformes are found in a wide variety of habitats and nest exclusively in cavities or burrows. The honeyguides are obligate brood parasites; all other families raise their own young.
 
 **Specimens:**
 - *Galbula ruficauda* (109) — [Rufous-tailed Jacamar](https://ebird.org/species/rutjac1)
@@ -1213,10 +1174,6 @@
 > [!Info]
 > Bee-eaters, Rollers, Kingfishers, Motmots, and Todies
 
-> [!Source]- Handbook of Bird Biology
-> The Coraciiformes are a diverse order of birds, most of which are brightly colored. Found worldwide, the order includes the rollers, bee-eaters, motmots, todies, and the diverse kingfishers. They are mostly sit-and-wait predators of vertebrates and insects, and all nest in cavities or burrows.
-
-
 - **Distribution:** Worldwide, but most diversity in the Old World tropics
 - **Habitats:** Diverse, ranging from riverbanks and lakes to open savannas and deep tropical rainforests
 - **Recognition:** Feet syndactyl. Bill is generally large/prominent. Many species are brightly colored and often include a turquoise-blue color
@@ -1228,6 +1185,9 @@
 > [!Tip] Fun Facts
 > - Bee-eaters specialize in catching stinging insects in mid-air (rubbing the stinger off against a branch before swallowing).
 > - Kingfishers have specialized "double foveae" in their eyes, allowing them to focus accurately both in the air and underwater despite the refraction of light
+
+> [!Source]- Handbook of Bird Biology
+> The Coraciiformes are a diverse order of birds, most of which are brightly colored. Found worldwide, the order includes the rollers, bee-eaters, motmots, todies, and the diverse kingfishers. They are mostly sit-and-wait predators of vertebrates and insects, and all nest in cavities or burrows.
 
 **Specimens:**
 - *Merops nubicus* (110) — [Northern Carmine Bee-eater](https://ebird.org/species/ncbeat1)
@@ -1245,10 +1205,6 @@
 > [!Info]
 > Seriemas
 
-> [!Source]- Handbook of Bird Biology
-> There are only two species of seriemas, both in central South America. With long legs, curved bills, and short crests, seriemas walk the savannas in search of food, feeding primarily on insects but also taking seeds, fruit, and small vertebrates.
-
-
 - **Distribution:** South America
 - **Habitats:** Open grasslands, savannas, and dry woodlands
 - **Recognition:** Upright walking, frontal crest of still feathers, bill and feet semi-raptor like
@@ -1260,6 +1216,9 @@
 > [!Tip] Fun Facts
 > - Their name "Seriema" comes from the Tupi word for "crested." Known for their loud, barking calls that can be heard for over a mile, often described as sounding like a "maniacal laugh" or a yelping dog.
 > - Second toe claw semi-extensile, reminiscent of recently extinct relatives the terrorbirds
+
+> [!Source]- Handbook of Bird Biology
+> There are only two species of seriemas, both in central South America. With long legs, curved bills, and short crests, seriemas walk the savannas in search of food, feeding primarily on insects but also taking seeds, fruit, and small vertebrates.
 
 **Specimens:**
 - *Cariama burmeisteri* (118) — [Black-legged Seriema](https://ebird.org/species/bllser1)
@@ -1274,10 +1233,6 @@
 > [!Info]
 > Caracaras and Falcons
 
-> [!Source]- Handbook of Bird Biology
-> Falcons and caracaras are a diverse family of diurnal raptors. Recently found to be closely related to parrots and songbirds, falcons are found worldwide. Most falcons are swift aerial predators that catch their prey in their talons, often in mid-air. Caracaras are restricted to the New World and are largely scavengers.
-
-
 - **Distribution:** Worldwide except Antarctica
 - **Habitats:** Extremely diverse — from open tundra and deserts to dense tropical rainforests and urban skyscrapers
 - **Recognition:** Feet anisodactyl and raptorial. Raptorial beak has tomial tooth (absent in caracaras). Wings long and pointed (falcons) or broad and rounded (caracaras)
@@ -1289,6 +1244,9 @@
 > [!Tip] Fun Facts
 > - Many falcons have dark "mustache" stripes (malar stripes) under their eyes, which are thought to reduce glare from the sun, similar to "eye black" worn by athletes.
 > - The **Peregrine Falcon** is the fastest animal on the planet, reaching speeds over 380 km/h during its hunting stoop
+
+> [!Source]- Handbook of Bird Biology
+> Falcons and caracaras are a diverse family of diurnal raptors. Recently found to be closely related to parrots and songbirds, falcons are found worldwide. Most falcons are swift aerial predators that catch their prey in their talons, often in mid-air. Caracaras are restricted to the New World and are largely scavengers.
 
 **Specimens:**
 - *Falcobaenus albogularis* (120) — [White-throated Caracara](https://ebird.org/species/whtcar1)
@@ -1306,10 +1264,6 @@
 > [!Info]
 > Parrots and Cockatoos
 
-> [!Source]- Handbook of Bird Biology
-> The parrots and cockatoos are largely restricted to tropical and subtropical regions, but are popular the world over as pets. Many species are brightly colored.
-
-
 - **Distribution:** Primarily pantropical (Neotropics, Africa, Southeast Asia, and Australasia), with some species extending into temperate zones
 - **Habitats:** Varied, rainforests, savannas, and scrublands; some species are found in high-altitude alpine regions
 - **Recognition:** Bill: Short, deep, and strongly hooked with fleshy cere. Upper mandible highly kinetic (moves independently of the skull) and fits over a broad, shovel-like lower mandible. Feet Zygodactyl, exceptionally strong and used like hands for manipulating food. Plumage often colorful, containing unique pigments called psittacofulvins
@@ -1320,6 +1274,9 @@
 
 > [!Tip] Fun Facts
 > Parrots are the only birds that use their bill as a tripod when climbing, providing a "three-point" contact system that is functionally similar to a primate's grip. They possess high brain-to-body mass ratios and have demonstrated the ability to use tools, solve complex puzzles, and even communicate with human-like syntax
+
+> [!Source]- Handbook of Bird Biology
+> The parrots and cockatoos are largely restricted to tropical and subtropical regions, but are popular the world over as pets. Many species are brightly colored.
 
 **Specimens:**
 - *Micropsitta keiensis* (125) — [Yellow-capped Pygmy-Parrot](https://ebird.org/species/ycppar1)
@@ -1336,10 +1293,6 @@
 > [!Info]
 > Perching Birds, or Songbirds
 
-> [!Source]- Handbook of Bird Biology
-> This huge order of 137 families contains more than half the bird species in the world. The passerines are found around the world in almost every terrestrial habitat. They are also called the perching birds or, more often, songbirds because many species use complex vocalizations and songs. The passerines are hard to generalize: they range in size from large ravens to small kinglets.
-
-
 - **Distribution:** Worldwide
 - **Habitats:** All except open water/ocean
 - **Recognition:** Generally small, Anisodactyl feet with unique tendon attachments forming an "auto grasping" mechanism, oscine syrinx (oscine clade)
@@ -1350,6 +1303,9 @@
 
 > [!Tip] Fun Facts
 > Contains more than half of all bird species. Despite their small size, many passerines (especially Corvids like crows and jays) have neuron densities that rival or exceed those of primates
+
+> [!Source]- Handbook of Bird Biology
+> This huge order of 137 families contains more than half the bird species in the world. The passerines are found around the world in almost every terrestrial habitat. They are also called the perching birds or, more often, songbirds because many species use complex vocalizations and songs. The passerines are hard to generalize: they range in size from large ravens to small kinglets.
 
 **Specimens:**
 - *Xiphocolaptes major* (129) — [Great Rufous Woodcreeper](https://ebird.org/species/grrwoo1)

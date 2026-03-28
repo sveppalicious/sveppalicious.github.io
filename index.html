@@ -897,12 +897,16 @@
         const data = etymologyData.get(orderName);
         if (!data) return;
 
-        // Find insertion point: after the last callout following this heading
+        // Find insertion point: before the source callout, or after last callout
         let lastCallout = null;
+        let sourceCallout = null;
         let el = h3.nextElementSibling;
         while (el) {
           if (el.tagName === 'H1' || el.tagName === 'H2' || el.tagName === 'H3' || el.tagName === 'HR') break;
-          if (el.classList.contains('callout')) lastCallout = el;
+          if (el.classList.contains('callout')) {
+            lastCallout = el;
+            if (el.classList.contains('callout-source')) sourceCallout = el;
+          }
           el = el.nextElementSibling;
         }
         if (!lastCallout) return;
@@ -961,7 +965,11 @@
         }
 
         callout.appendChild(content);
-        lastCallout.insertAdjacentElement('afterend', callout);
+        if (sourceCallout) {
+          sourceCallout.insertAdjacentElement('beforebegin', callout);
+        } else {
+          lastCallout.insertAdjacentElement('afterend', callout);
+        }
       });
     }
 
