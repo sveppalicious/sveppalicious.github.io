@@ -263,6 +263,47 @@
       color: var(--callout-tip-icon);
     }
 
+    .callout-source {
+      background-color: rgba(0, 0, 0, 0.03);
+      border-color: var(--text-muted);
+    }
+
+    .callout-source .callout-title {
+      color: var(--text-muted);
+    }
+
+    details.callout {
+      cursor: default;
+    }
+
+    details.callout > summary.callout-title {
+      cursor: pointer;
+      list-style: none;
+    }
+
+    details.callout > summary.callout-title::before {
+      content: '▶';
+      font-size: 0.6em;
+      margin-right: 0.4em;
+      transition: transform 0.2s;
+      display: inline-block;
+    }
+
+    details[open].callout > summary.callout-title::before {
+      transform: rotate(90deg);
+    }
+
+    details.callout > summary.callout-title::-webkit-details-marker {
+      display: none;
+    }
+
+    .callout-info .callout-content > p:first-child {
+      color: var(--callout-info-border);
+      font-size: 1.05em;
+      font-weight: 600;
+      margin-bottom: 0.4em;
+    }
+
     .callout-etymology {
       background-color: var(--callout-etymology-bg);
       border-color: var(--callout-etymology-border);
@@ -478,7 +519,7 @@
       md = md.replace(/^(#{2,6})\s+(.+)$/gm, (match, hashes, title) => {
         const origDepth = hashes.length;
         headingOriginalDepths.push(origDepth);
-        if (/formes[:\s]/i.test(title)) {
+        if (/formes([:\s]|$)/i.test(title)) {
           return '### ' + title;  // All orders at H3
         } else if (hashes === '##') {
           return '# ' + title;    // Infraclasses at H1
@@ -494,10 +535,11 @@
       let i = 0;
 
       while (i < lines.length) {
-        const calloutMatch = lines[i].match(/^>\s*\[!(\w+)\]\s*(.*)?$/);
+        const calloutMatch = lines[i].match(/^>\s*\[!(\w+)\](-?)\s*(.*)?$/);
         if (calloutMatch) {
           const type = calloutMatch[1].toLowerCase();
-          const customTitle = calloutMatch[2] || '';
+          const collapsed = calloutMatch[2] === '-';
+          const customTitle = calloutMatch[3] || '';
           const title = customTitle || type.charAt(0).toUpperCase() + type.slice(1);
 
           // Collect callout content
@@ -509,16 +551,25 @@
             i++;
           }
 
-          const icon = type === 'info'
-            ? '<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>'
-            : '<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>';
+          const icons = {
+            info: '<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>',
+            source: '<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>',
+          };
+          const icon = icons[type] || '<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>';
 
           const content = contentLines.join('\n');
 
-          result.push(`<div class="callout callout-${type}">`);
-          result.push(`<div class="callout-title">${icon} ${title}</div>`);
-          result.push(`<div class="callout-content">\n\n${content}\n\n</div>`);
-          result.push(`</div>`);
+          if (collapsed) {
+            result.push(`<details class="callout callout-${type}">`);
+            result.push(`<summary class="callout-title">${icon} ${title}</summary>`);
+            result.push(`<div class="callout-content">\n\n${content}\n\n</div>`);
+            result.push(`</details>`);
+          } else {
+            result.push(`<div class="callout callout-${type}">`);
+            result.push(`<div class="callout-title">${icon} ${title}</div>`);
+            result.push(`<div class="callout-content">\n\n${content}\n\n</div>`);
+            result.push(`</div>`);
+          }
           result.push('');
         } else {
           result.push(lines[i]);

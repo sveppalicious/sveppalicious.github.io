@@ -11,10 +11,14 @@
 ![[Pasted image 20260323144428.png]]
 ![[Screenshot 2026-03-25 at 01-21-49 Phylogeny Explorer - Birds of the World.png]]
 
-### Struthioniformes: ostriches
+### Struthioniformes
 
 > [!Info]
+> Ostriches
+
+> [!Source]- Handbook of Bird Biology
 > The Ostrich (Struthio camelus), the largest living bird, is found today only in Sub-Saharan Africa. The flightless Ostrich is an extremely fast runner. Males care for the eggs and chicks of many females simultaneously
+
 
 - **Distribution:** Sub-Saharan Africa, until recently Arabia and India
 - **Habitats:** Terrestrial, open arid and semi-arid areas
@@ -34,10 +38,14 @@
 
 ![[Pasted image 20260323144519.png]]
 ![[Screenshot 2026-03-25 at 01-31-48 Phylogeny Explorer - Birds of the World.png]]
-### Rheiformes: nandues/rheas
+### Rheiformes
 
 > [!Info]
+> Nandues and Rheas
+
+> [!Source]- Handbook of Bird Biology
 > The rheas include a pair of species found in the grasslands of South America. Although large and flightless, the rheas are more closely related to the smaller and flighted tinamous than to the other ratites.
+
 
 - **Distribution:** Southern South America
 - **Habitats:** Terrestrial, open arid and semi-arid areas
@@ -57,10 +65,14 @@
 
 ![[Pasted image 20260323144537.png]]
 ![[Screenshot 2026-03-25 at 01-38-16 Phylogeny Explorer - Birds of the World.png]]
-### Tinamiformes: tinamous
+### Tinamiformes
 
 > [!Info]
+> Tinamous
+
+> [!Source]- Handbook of Bird Biology
 > Tinamous are a diverse family of flying but ground-dwelling birds from South America with relatively plump bodies and small heads. Generally secretive, many tinamous are more often heard than seen.
+
 
 - **Distribution:** Neotropics
 - **Habitats:** Terrestrial, generalist, forest and open areas
@@ -83,10 +95,14 @@
 
 ![[Pasted image 20260323144551.png]]
 ![[Screenshot 2026-03-25 at 01-39-53 Phylogeny Explorer - Birds of the World.png]]
-### Apterygiformes: kiwis
+### Apterygiformes
 
 > [!Info]
+> Kiwis
+
+> [!Source]- Handbook of Bird Biology
 > The kiwis are a small group of small- to medium-sized, flightless birds found only in New Zealand. Covered in fine, brown, hair-like feathers, kiwis are mainly nocturnal and forage primarily on earthworms. They lay the largest egg proportional to their body size of any living bird.
+
 
 - **Distribution:** New Zealand
 - **Habitats:** Terrestrial, forest, occasionally grassland and shrubland
@@ -108,10 +124,14 @@
 
 ![[Pasted image 20260323144725.png]]
 ![[Screenshot 2026-03-25 at 01-41-14 Phylogeny Explorer - Birds of the World.png]]
-### Casuariiformes: cassowaries, emus
+### Casuariiformes
 
 > [!Info]
+> Cassowaries, and Emus
+
+> [!Source]- Handbook of Bird Biology
 > The cassowaries and the Emu (*Dromaius novaebollandiae*) are a small family of large, flightless birds from Australia and New Guinea. The cassowaries, covered with stiff, black, hair-like feathers, inhabit dense rainforests. The Emu is found in drier parts of Australia.
+
 
 - **Distribution:** New Guinea and Australia
 - **Habitats:** Forest (Cassowary), open habitats (emu)
@@ -136,10 +156,14 @@
 
 ![[Pasted image 20260323144802.png]]
 ![[Screenshot 2026-03-25 at 18-25-28 Phylogeny Explorer - Birds of the World.png]]
-#### Anseriformes: screamers, magpie goose, geese, ducks and swans
+#### Anseriformes
 
 > [!Info]
+> Screamers, Magpie Goose, Geese, and Ducks and Swans
+
+> [!Source]- Handbook of Bird Biology
 > A large, diverse, and very familiar group with three families, Anseriformes are found worldwide, primarily in wetland habitats from the arctic tundra to the tropics. They inhabit bodies of water ranging in size from small inland ponds to the open ocean.
+
 
 - **Distribution:** Worldwide, many species migratory
 - **Habitats:** Most wetland, aquatic, and marine habitats
@@ -164,10 +188,14 @@
 
 ![[Pasted image 20260323144827.png]]
 ![[Screenshot 2026-03-25 at 18-26-32 Phylogeny Explorer - Birds of the World.png]]
-#### Galliformes: megapodes, curassows, guans, guineafowl, grouse, pheasants
+#### Galliformes
 
 > [!Info]
+> Megapodes, Curassows, Guans, Guineafowl, Grouse, and Pheasants
+
+> [!Source]- Handbook of Bird Biology
 > Members of this large and diverse order of fowl-like birds are found worldwide from the arctic tundra to the tropical rainforest. Galliformes range in size from the tiny quail to the robust turkey. The most familiar species are domesticated, including chickens, turkeys, guineafowl, and quail. Males of many galliform species use elaborate displays or exaggerated plumages to attract females.
+
 
 - **Distribution:** Worldwide, although absent from oceanic islands other than megapodes/old world quail
 - **Habitats:** Nearly all terrestrial habitats. Cursorial, except arboreal guans
@@ -199,10 +227,14 @@
 
 ![[Pasted image 20260323150025.png]]
 ![[Screenshot 2026-03-25 at 01-47-02 Phylogeny Explorer - Birds of the World.png]]
-##### Phoenicopteriformes: flamingos
+##### Phoenicopteriformes
 
 > [!Info]
+> Flamingos
+
+> [!Source]- Handbook of Bird Biology
 > Flamingos are found in a range of shallow wetlands, mostly in the tropics. Famous for their pink coloration and oddly shaped bill that is specially adapted for filtering tiny food, flamingos are most closely related to grebes.
+
 
 - **Distribution:** Widespread but local in Eurasia, Africa, the Americas
 - **Habitats:** Alkaline, hypersaline lakes and estuaries
@@ -224,10 +256,14 @@
 
 ![[Pasted image 20260323150035.png]]
 ![[Screenshot 2026-03-25 at 18-28-16 Phylogeny Explorer - Birds of the World.png]]
-##### Podicipediformes: grebes
+##### Podicipediformes
 
 > [!Info]
+> Grebes
+
+> [!Source]- Handbook of Bird Biology
 > A diverse family of fish-eating waterbirds, grebes are found worldwide. They are well adapted for their life in the water, with lobed toes and feet set far back on their bodies to enable foot-propelled diving.
+
 
 - **Distribution:** Worldwide, except polar regions and remote islands
 - **Habitats:** Wide variety of aquatic habitats, may winter in marine areas
@@ -254,10 +290,14 @@
 
 ![[Pasted image 20260323150056.png]]
 
-###### Columbiformes: doves and pigeons
+###### Columbiformes
 
 > [!Info]
+> Doves and Pigeons
+
+> [!Source]- Handbook of Bird Biology
 > Doves and pigeons are found worldwide in a wide variety of habitats, ranging from dry deserts to urban cities. Feeding mostly on seeds, doves and pigeons feed their chicks "crop milk," a substance comprised of water, proteins, and fats.
+
 
 - **Distribution:** Worldwide, except polar regions and including some of the world's most remote islands — although not Hawaii. Most diverse in tropical forests, SE Asia, Oceania, and South America
 - **Habitats:** A wide variety, forests, grasslands and savannahs, islands
@@ -280,10 +320,14 @@
 
 ![[Pasted image 20260323150112.png]]
 ![[Pasted image 20260323154424.png]]
-###### Mesitornithiformes: mesites
+###### Mesitornithiformes
 
 > [!Info]
+> Mesites
+
+> [!Source]- Handbook of Bird Biology
 > The mesites are a small family of largely terrestrial birds endemic to Madagascar. Relatively little is known about their natural history, and their relationships with other birds are similarly unclear.
+
 
 - **Distribution:** Endemic to Madagascar
 - **Habitats:** Forest and scrubland; floor of humid rainforest or dry deciduous forest
@@ -305,10 +349,14 @@
 
 ![[Pasted image 20260323150248.png]]
 
-###### Pterocliformes: sandgrouse
+###### Pterocliformes
 
 > [!Info]
+> Sandgrouse
+
+> [!Source]- Handbook of Bird Biology
 > The sandgrouse are found in some of the most arid environments in the world, throughout sub-Saharan Africa and central Asia. Sometimes forming huge flocks, sandgrouse can fly long distances to find water. Adults carry water to chicks by saturating their feathers.
+
 
 - **Distribution:** Southern Europe, Africa, Asia
 - **Habitats:** Arid and semi-arid environments; deserts, steppes, savannas, and dry grasslands
@@ -331,10 +379,14 @@
 
 ![[Pasted image 20260323150323.png]]
 
-###### Otidiformes: bustards
+###### Otidiformes
 
 > [!Info]
+> Bustards
+
+> [!Source]- Handbook of Bird Biology
 > Bustards are medium-sized to very large terrestrial birds found across open grasslands and savannas of the Old World. The bustards include the world's two heaviest flying bird species: the Great Bustard (*Otis tarda*) of Europe and western Asia, and the Kori Bustard (*Ardeotis kori*) of sub-Saharan Africa.
+
 
 - **Distribution:** Arid and semi-arid regions of Old World
 - **Habitats:** Primarily open and arid flat landscapes such as **grasslands, steppes, and semi-deserts**
@@ -356,10 +408,14 @@
 
 ![[Pasted image 20260323150342.png]]
 ![[Pasted image 20260323154635.png]]
-###### Musophagiformes: turacos
+###### Musophagiformes
 
 > [!Info]
+> Turacos
+
+> [!Source]- Handbook of Bird Biology
 > Turacos and go-away-birds are found in sub-Saharan Africa in a variety of forested habitats, from acacia savanna to tropical rainforest. They are large birds with long tails, and feed on both fruits and leaves. The feathers of many species are extraordinarily colorful, with some species sporting pigments found only in this family.
+
 
 - **Distribution:** Confined to Sub-Saharan Africa, but fossils from North America
 - **Habitats:** Forests, woodlands, and savannas. Arboreal birds that spend most of their time in the canopy
@@ -380,10 +436,14 @@
 
 ![[Pasted image 20260323151302.png]]
 
-###### Cuculiformes: cuckoos
+###### Cuculiformes
 
 > [!Info]
+> Cuckoos
+
+> [!Source]- Handbook of Bird Biology
 > Cuckoos are a diverse group of birds with a global distribution. They are found in a wide variety of habitats, from deserts to tropical savannas. Some cuckoos are nest parasites and notoriously lay their eggs in the nests of other bird species, but many cuckoo species build nests and care for their own young.
+
 
 - **Distribution:** Cosmopolitan; found on every continent except Antarctica, with the highest diversity in the tropics of Africa, Asia, and Australasia
 - **Habitats:** Extremely varied, including forests, open woodlands, scrublands, and even arid deserts (roadrunners)
@@ -412,10 +472,14 @@
 
 ![[Pasted image 20260323151331.png]]
 ![[Pasted image 20260323154742.png]]
-##### Opisthocomiformes: hoatzin
+##### Opisthocomiformes
 
 > [!Info]
+> Hoatzin
+
+> [!Source]- Handbook of Bird Biology
 > The Hoatzin of tropical South America is an enigmatic bird in many ways, and its relationship to other birds is still debated. The Hoatzin is the only bird that eats only leaves, which it digests using unique foregut fermentation akin to that found in ruminant mammals.
+
 
 - **Distribution:** Amazon and Orinoco basins, South America
 - **Habitats:** Riparian zones, including mangroves, swamps, and riverine forests. They are almost always found near slow-moving water or lakes
@@ -437,10 +501,14 @@
 
 ![[Pasted image 20260323151353.png]]
 ![[Pasted image 20260323154810.png]]
-###### Gruiformes: rails, flufftails, finfoots, limpkin, trumpeters, and cranes
+###### Gruiformes
 
 > [!Info]
+> Rails, Flufftails, Finfoots, Limpkin, Trumpeters, and Cranes
+
+> [!Source]- Handbook of Bird Biology
 > The gruiform order includes the cranes, the rails, the trumpeters of South America, the finfoots, and the Limpkin (*Aramus guarauna*). Although much reduced by recent extinction, rails once were the most diverse family in the world, with more than 500 species. Found worldwide, many species in this order have loud and recognizable vocal displays.
+
 
 - **Distribution:** Worldwide except Antarctica; the most widely distributed terrestrial order on islands
 - **Habitats:** Primarily wetlands, marshes, and grasslands; some tropical species found in forests
@@ -465,10 +533,14 @@
 
 ![[Pasted image 20260323151412.png]]
 ![[Pasted image 20260323154921.png]]
-###### Charadriiformes: stone-curlews, sheathbills, plovers, oystercatchers, stilts, buttonquails, coursers, pratincoles, skuas, auks, gulls, terns, skimmers, seedsnipes, jacanas, sandpipers
+###### Charadriiformes
 
 > [!Info]
+> Stone-curlews, Sheathbills, Plovers, Oystercatchers, Stilts, Buttonquails, Coursers, Pratincoles, Skuas, Auks, Gulls, Terns, Skimmers, Seedsnipes, Jacanas, and Sandpipers
+
+> [!Source]- Handbook of Bird Biology
 > This extremely diverse order is second only to passerines in number of families and species. Although known by the collective name "shorebirds," members of this group are found in almost every terrestrial habitat in the world, and many also occur in pelagic habitats. With a truly global distribution, the shorebirds are notably varied in their breeding strategies and mating systems. This group includes some of the world's most extreme migrants: some species fly non-stop for thousands of kilometers.
+
 
 - **Distribution:** Global; many arctic and temperate species are famous for long-distance migrations between hemispheres
 - **Habitats:** Coastal shores, wetlands, open oceans, grasslands, and tundra
@@ -507,10 +579,14 @@
 
 ![[Pasted image 20260323151426.png]]
 
-##### Caprimulgiformes: nightjars, nighthawks
+##### Caprimulgiformes
 
 > [!Info]
+> Nightjars, and Nighthawks
+
+> [!Source]- Handbook of Bird Biology
 > The nightjars are a diverse and worldwide group of nocturnal, aerial insectivores. They have extremely wide mouths and fly around with their mouths open to capture insects. Cryptically patterned, they nest primarily on the ground. Although difficult to see, many species have vocalizations that can be heard at a great distance.
+
 
 - **Distribution:** Worldwide, except for the highest latitudes, elevations, and some oceanic islands
 - **Habitats:** Open woodlands, grasslands, scrublands, and deserts
@@ -530,10 +606,14 @@
 
 ![[Pasted image 20260323151437.png]]
 ![[Pasted image 20260323155019.png]]
-##### Nyctibiiformes: potoos
+##### Nyctibiiformes
 
 > [!Info]
+> Potoos
+
+> [!Source]- Handbook of Bird Biology
 > The potoos are found in the tropics of South and Central America. Large and cryptically patterned, they sit motionless on trees, resembling the broken ends of branches. Largely nocturnal, they feed mostly on insects.
+
 
 - **Distribution:** Neotropics, but fossils from North America
 - **Habitats:** Tropical forests and edge habitats
@@ -553,10 +633,14 @@
 
 ![[Pasted image 20260323151459.png]]
 ![[Pasted image 20260323155037.png]]
-##### Steatornithiformes: oilbird
+##### Steatornithiformes
 
 > [!Info]
+> Oilbird
+
+> [!Source]- Handbook of Bird Biology
 > The Oilbird is found in the tropical forests of South America. Roosting primarily in caves, it uses its excellent vision and echolocation to navigate in almost complete darkness. Oilbirds are completely frugivorous and use their excellent sense of smell to locate fruiting trees.
+
 
 - **Distribution:** South America
 - **Habitats:** Caves for roosting/nesting; forages in tropical fruit-bearing forests
@@ -578,10 +662,14 @@
 
 ![[Pasted image 20260323151552.png]]
 
-##### Podargiformes: frogmouths
+##### Podargiformes
 
 > [!Info]
+> Frogmouths
+
+> [!Source]- Handbook of Bird Biology
 > The frogmouths are found in the tropics of Southeast Asia and Australia. Large and cryptically patterned, they are difficult to find by day, when they sit motionless, resembling the ends of broken branches. At night, they are more active and feed on a wide variety of insects and small vertebrates.
+
 
 - **Distribution:** Asia, Australia, and Oceania
 - **Habitats:** Forests and woodlands
@@ -601,10 +689,14 @@
 
 ![[Pasted image 20260323151611.png]]
 ![[Pasted image 20260323155145.png]]
-##### Aegotheliformes: owlet-nightjars
+##### Aegotheliformes
 
 > [!Info]
+> Owlet-nightjars
+
+> [!Source]- Handbook of Bird Biology
 > Owlet-nightjars are found in a variety of forested habitats in Australasia. They usually roost in tree cavities during the day, and, at night, feed on insects by picking them from the air.
+
 
 - **Distribution:** Primarily Australasia, including Australia, New Guinea, and the Moluccas
 - **Habitats:** Dense rainforests, open woodlands, and mangrove swamps
@@ -624,10 +716,14 @@
 
 ![[Pasted image 20260323151626.png]]
 ![[Pasted image 20260323155231.png]]
-##### Apodiformes: treeswifts, swifts, and hummingbirds
+##### Apodiformes
 
 > [!Info]
+> Treeswifts, Swifts, and Hummingbirds
+
+> [!Source]- Handbook of Bird Biology
 > The swifts are a large radiation of aerial insectivores with a global distribution. Swifts spend much of their life in the air, and have poorly developed feet and legs. Most species nest on vertical or nearly vertical surfaces, and use their saliva to glue nesting material and eggs to the nesting substrate.
+
 
 - **Distribution:** Worldwide, but hummingbirds restricted to New World
 - **Habitats:** Virtually everywhere, from high-altitude mountains to urban areas
@@ -653,10 +749,14 @@
 
 ![[Pasted image 20260323151641.png]]
 ![[Pasted image 20260323155256.png]]
-##### Phaethontiformes: tropicbirds
+##### Phaethontiformes
 
 > [!Info]
+> Tropicbirds
+
+> [!Source]- Handbook of Bird Biology
 > The tropicbirds are a small family of graceful tropical seabirds with white-and-black plumage and long tail streamers. The tropicbirds were long thought to be related to various other seabird families but instead seem to be relatives of the Eurypygiformes.
+
 
 - **Distribution:** Tropical and subtropical oceans worldwide (Atlantic, Pacific, and Indian Oceans)
 - **Habitats:** Almost exclusively pelagic (open ocean), coming to land only to breed on remote oceanic islands or coastal cliffs
@@ -676,10 +776,14 @@
 
 ![[Pasted image 20260323151653.png]]
 ![[Pasted image 20260323155312.png]]
-##### Eurypygiformes: sunbittern and kagu
+##### Eurypygiformes
 
 > [!Info]
+> Sunbittern and Kagu
+
+> [!Source]- Handbook of Bird Biology
 > This order was formed when the former Gruiformes group was split. It contains only two families, each with a single species. Although both species have characteristically colorful wing patterns — the Sunbittern of the Neotropics and the Kagu of New Caledonia — they are otherwise quite different.
+
 
 - **Distribution:** Highly disjunct; the Sunbittern is Neotropical, while the Kagu is endemic to the island of New Caledonia in the South Pacific
 - **Habitats:** Sunbittern inhabits streams and rivers. The Kagu lives in the forests and shrublands
@@ -701,10 +805,14 @@
 
 ![[Pasted image 20260323151741.png]]
 ![[Pasted image 20260323155357.png]]
-##### Gaviiformes: loons
+##### Gaviiformes
 
 > [!Info]
+> Loons
+
+> [!Source]- Handbook of Bird Biology
 > The loons (also known as divers) are a small group of birds found only in the northern hemisphere. They breed on northern lakes and ponds, and winter primarily along the coasts of North America and Eurasia. Loons are specially adapted to an aquatic lifestyle: they feed on fish, and their feet are placed far back on their body for foot-propelled diving.
+
 
 - **Distribution:** Holarctic; they breed in the Northern Hemisphere (North America, Greenland, Iceland, and Northern Eurasia) and winter along coastal waters of the Atlantic and Pacific
 - **Habitats:** During the breeding season, they inhabit deep, clear freshwater lakes and ponds. In winter, they migrate to saltwater coastal bays and estuaries
@@ -726,10 +834,14 @@
 
 ![[Pasted image 20260323151754.png]]
 ![[Pasted image 20260323155457.png]]
-##### Sphenisciformes: penguins
+##### Sphenisciformes
 
 > [!Info]
+> Penguins
+
+> [!Source]- Handbook of Bird Biology
 > The penguins are a group of flightless seabirds that are well adapted for swimming and diving. Penguins are most diverse in the southern oceans near Antarctica.
+
 
 - **Distribution:** Restricted to the Southern Hemisphere, from the icy coasts of Antarctica to the tropical Galápagos Islands on the equator
 - **Habitats:** Marine environments. They spend up to 75% of their lives at sea, coming ashore only to breed, molt, or rest on islands, ice floes, or coastal beaches
@@ -751,10 +863,14 @@
 
 ![[Pasted image 20260323151806.png]]
 ![[Pasted image 20260323155549.png]]
-##### Procellariiformes: tubenoses: albatrosses, petrels, and storm-petrels
+##### Procellariiformes
 
 > [!Info]
+> Tubenoses: Albatrosses, Petrels, and Storm-petrels
+
+> [!Source]- Handbook of Bird Biology
 > The petrels, shearwaters, albatrosses, and storm-petrels are a diverse order of tubenose seabirds found across the world's oceans. They range in size from the small storm-petrels to albatrosses, which have the largest wingspan of any bird. They feed on a wide variety of prey, from small plankton to fish. Many tubenoses have an acute sense of smell that they use to find food and to locate their nests after being away at sea.
+
 
 - **Distribution:** Worldwide oceans, though they reach their highest diversity and density in the Southern Ocean around Antarctica
 - **Habitats:** Pelagic. They are rarely seen from shore except during storms or at their breeding colonies on remote, predator-free islands
@@ -779,10 +895,14 @@
 
 ![[Pasted image 20260323151822.png]]
 ![[Pasted image 20260324120216.png]]
-##### Ciconiiformes: storks
+##### Ciconiiformes
 
 > [!Info]
+> Storks
+
+> [!Source]- Handbook of Bird Biology
 > Storks are wading birds that are most diverse in the Old World tropics. Primarily found in marshes, storks inhabit a variety of open habitats, from dry acacia savanna to urban landscapes. Many species have bare skin on their heads and necks. They feed on a variety of prey, from carrion and insects to fish and small mammals.
+
 
 - **Distribution:** Found on every continent except Antarctica, though they are most diverse in tropical regions of Africa and Asia
 - **Habitats:** Primarily wetlands, marshes, and floodplains, but some species inhabit dry savannas and open grasslands
@@ -803,10 +923,14 @@
 
 ![[Pasted image 20260323151837.png]]
 ![[Pasted image 20260323155754.png]]
-##### Suliformes: frigatebirds, gannets, boobies, cormorants, anhingas
+##### Suliformes
 
 > [!Info]
+> Frigatebirds, Gannets, Boobies, Cormorants, and Anhingas
+
+> [!Source]- Handbook of Bird Biology
 > Members of this order of seabirds are found throughout the world's oceans. Suliformes lack external nostrils, an adaptation to their aquatic lifestyle. Families in this order employ a variety of foraging techniques: frigatebirds pirate food from other species, gannets and boobies are plunge divers, and cormorants and darters swim underwater to take fish. Many species are colonial breeders, sometimes nesting in huge concentrations.
+
 
 - **Distribution:** Worldwide, primarily in marine and coastal environments, though some cormorants and anhingas are found in freshwater
 - **Habitats:** Open oceans, coastal cliffs, tropical islands, and inland lakes or rivers
@@ -831,10 +955,14 @@
 
 ![[Pasted image 20260323151851.png]]
 ![[Pasted image 20260323155840.png]]
-##### Pelecaniformes: pelicans, hamerkop, shoebill, herons, ibises
+##### Pelecaniformes
 
 > [!Info]
+> Pelicans, Hamerkop, Shoebill, Herons, and Ibises
+
+> [!Source]- Handbook of Bird Biology
 > This order of wading birds includes the herons, egrets, ibises, and spoonbills. It also includes the pelicans, recently found to be closely related to the Shoebill (*Balaeniceps rex*) and Hamerkop (*Scopus umbretta*). Most pelecaniform species are associated with aquatic habitats, ranging from wet meadows to marine environments, and feed on aquatic vertebrates, implementing a variety of foraging techniques.
+
 
 - **Distribution:** Worldwide, except for the high Arctic and Antarctic
 - **Habitats:** Primarily aquatic environments, including freshwater lakes, rivers, marshes, and coastal marine areas
@@ -864,10 +992,14 @@
 
 ![[Pasted image 20260323151926.png]]
 ![[Pasted image 20260323155917.png]]
-###### Accipitriformes: New World vultures, secretarybird, osprey, hawks, eagles
+###### Accipitriformes
 
 > [!Info]
+> New World Vultures, Secretarybird, Osprey, Hawks, and Eagles
+
+> [!Source]- Handbook of Bird Biology
 > These diurnal raptors include the hawks, eagles, kites, and the long-legged Secretary-bird (*Sagittarius serpentarius*). Members of this order are found worldwide in almost every terrestrial habitat from the arctic tundra to the tropical rainforest.
+
 
 - **Distribution:** Worldwide except Antarctica and remote islands
 - **Habitats:** Extremely diverse, found in nearly all habitats and elevations
@@ -895,10 +1027,14 @@
 
 ![[Pasted image 20260323151940.png]]
 ![[Pasted image 20260323160016.png]]
-###### Strigiformes: owls
+###### Strigiformes
 
 > [!Info]
+> Owls
+
+> [!Source]- Handbook of Bird Biology
 > The owls and barn owls are typically nocturnal predators found across the world. Owls feed on a wide range of prey, from insects to fish. Unmistakable the world over, owls have superb nocturnal vision and acute hearing.
+
 
 - **Distribution:** Worldwide except Antarctica and remote islands
 - **Habitats:** Extremely diverse, found in nearly all habitats and elevations
@@ -921,10 +1057,14 @@
 
 ![[Pasted image 20260323151953.png]]
 ![[Pasted image 20260323160041.png]]
-###### Coliiformes: mousebirds
+###### Coliiformes
 
 > [!Info]
+> Mousebirds
+
+> [!Source]- Handbook of Bird Biology
 > Mousebirds are a small group of birds restricted to sub-Saharan Africa. They have soft, gray-brown plumage, fluffy crests, and long tails. Mousebirds are highly social and will huddle together in groups for warmth. When foraging, they may scramble through dense brush, often hanging from branches.
+
 
 - **Distribution:** Sub Saharan Africa, but fossils from Europe and North America
 - **Habitats:** Forest edge, scrub, savannas, gardens
@@ -946,10 +1086,14 @@
 
 ![[Pasted image 20260323152011.png]]
 ![[Pasted image 20260323160059.png]]
-###### Leptosomiformes: cuckooroller
+###### Leptosomiformes
 
 > [!Info]
+> Cuckooroller
+
+> [!Source]- Handbook of Bird Biology
 > The Cuckoo-Roller (*Leptosomus discolor*) is endemic to tropical and subtropical forests in Madagascar. Relatively little is known about this large sit-and-wait predator, which feeds on animals ranging from insects to small vertebrates.
+
 
 - **Distribution:** Madagascar and the Comoros Islands, fossils from North America
 - **Habitats:** Forest and woodland
@@ -969,10 +1113,14 @@
 
 ![[Pasted image 20260323152024.png]]
 ![[Pasted image 20260323160155.png]]
-###### Trogoniformes: trogons
+###### Trogoniformes
 
 > [!Info]
+> Trogons
+
+> [!Source]- Handbook of Bird Biology
 > Trogons are a diverse family found in tropical and subtropical forests around the world. Fantastically colored in iridescent greens and blues above, and bright reds and yellows below, trogons often sit motionless for long periods.
+
 
 - **Distribution:** Neotropics, Africa, Asia
 - **Habitats:** Tropical forest (primarily lowland; also deciduous/montane)
@@ -994,10 +1142,14 @@
 
 ![[Pasted image 20260323152039.png]]
 ![[Pasted image 20260323160234.png]]
-###### Bucerotiformes: hornbills, hoopoes, wood-hoopoes
+###### Bucerotiformes
 
 > [!Info]
+> Hornbills, Hoopoes, and Wood-hoopoes
+
+> [!Source]- Handbook of Bird Biology
 > This small order of three families is found primarily in the Old World tropics; the Eurasian Hoopoe (*Upupa epops*) occurs in Europe and central Asia. These three families are found in a variety of habitats, from dense tropical forest to open savanna.
+
 
 - **Distribution:** Old World: Africa, Tropical Asia, New Guinea, and the Solomon Islands; one species in temperate Eurasia
 - **Habitats:** Variable, ranging from dense tropical rainforests to open savannas and semi-arid scrublands
@@ -1021,10 +1173,14 @@
 
 ![[Pasted image 20260323152055.png]]
 ![[Pasted image 20260323160323.png]]
-###### Piciformes: jacamars, puff-birds, honeyguides, woodpeckers, toucans, barbets
+###### Piciformes
 
 > [!Info]
+> Jacamars, Puff-birds, Honeyguides, Woodpeckers, Toucans, and Barbets
+
+> [!Source]- Handbook of Bird Biology
 > The Piciformes use a variety of foraging techniques: woodpeckers drill and probe bark whereas puffbirds and jacamars use a sit-and-wait predation strategy. With a nearly global distribution, the Piciformes are found in a wide variety of habitats and nest exclusively in cavities or burrows. The honeyguides are obligate brood parasites; all other families raise their own young.
+
 
 - **Distribution:** Worldwide except Australasia and remote islands
 - **Habitats:** Primarily forested regions, ranging from tropical rainforests to high-altitude coniferous forests. Also savannah
@@ -1052,10 +1208,14 @@
 
 ![[Pasted image 20260323152124.png]]
 ![[Pasted image 20260323160410.png]]
-###### Coraciiformes: bee-eaters, rollers, kingfishers, motmots, todies
+###### Coraciiformes
 
 > [!Info]
+> Bee-eaters, Rollers, Kingfishers, Motmots, and Todies
+
+> [!Source]- Handbook of Bird Biology
 > The Coraciiformes are a diverse order of birds, most of which are brightly colored. Found worldwide, the order includes the rollers, bee-eaters, motmots, todies, and the diverse kingfishers. They are mostly sit-and-wait predators of vertebrates and insects, and all nest in cavities or burrows.
+
 
 - **Distribution:** Worldwide, but most diversity in the Old World tropics
 - **Habitats:** Diverse, ranging from riverbanks and lakes to open savannas and deep tropical rainforests
@@ -1080,10 +1240,14 @@
 
 ![[Pasted image 20260323152137.png]]
 ![[Pasted image 20260323160509.png]]
-###### Cariamiformes: seriemas
+###### Cariamiformes
 
 > [!Info]
+> Seriemas
+
+> [!Source]- Handbook of Bird Biology
 > There are only two species of seriemas, both in central South America. With long legs, curved bills, and short crests, seriemas walk the savannas in search of food, feeding primarily on insects but also taking seeds, fruit, and small vertebrates.
+
 
 - **Distribution:** South America
 - **Habitats:** Open grasslands, savannas, and dry woodlands
@@ -1105,10 +1269,14 @@
 
 ![[Pasted image 20260323152149.png]]
 ![[Pasted image 20260323160606.png]]
-###### Falconiformes: caracaras and falcons
+###### Falconiformes
 
 > [!Info]
+> Caracaras and Falcons
+
+> [!Source]- Handbook of Bird Biology
 > Falcons and caracaras are a diverse family of diurnal raptors. Recently found to be closely related to parrots and songbirds, falcons are found worldwide. Most falcons are swift aerial predators that catch their prey in their talons, often in mid-air. Caracaras are restricted to the New World and are largely scavengers.
+
 
 - **Distribution:** Worldwide except Antarctica
 - **Habitats:** Extremely diverse — from open tundra and deserts to dense tropical rainforests and urban skyscrapers
@@ -1133,10 +1301,14 @@
 
 ![[Pasted image 20260323152203.png]]
 ![[Pasted image 20260323160635.png]]
-###### Psittaciformes: parrots and cockatoos
+###### Psittaciformes
 
 > [!Info]
+> Parrots and Cockatoos
+
+> [!Source]- Handbook of Bird Biology
 > The parrots and cockatoos are largely restricted to tropical and subtropical regions, but are popular the world over as pets. Many species are brightly colored.
+
 
 - **Distribution:** Primarily pantropical (Neotropics, Africa, Southeast Asia, and Australasia), with some species extending into temperate zones
 - **Habitats:** Varied, rainforests, savannas, and scrublands; some species are found in high-altitude alpine regions
@@ -1159,10 +1331,14 @@
 
 ![[Pasted image 20260323152215.png]]
 
-###### Passeriformes: perching birds, or songbirds
+###### Passeriformes
 
 > [!Info]
+> Perching Birds, or Songbirds
+
+> [!Source]- Handbook of Bird Biology
 > This huge order of 137 families contains more than half the bird species in the world. The passerines are found around the world in almost every terrestrial habitat. They are also called the perching birds or, more often, songbirds because many species use complex vocalizations and songs. The passerines are hard to generalize: they range in size from large ravens to small kinglets.
+
 
 - **Distribution:** Worldwide
 - **Habitats:** All except open water/ocean
