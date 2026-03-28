@@ -90,6 +90,12 @@
     #sidebar a.toc-h2 { padding-left: 1.5rem; font-weight: 600; margin-top: 0.2rem; font-size: 0.85rem; color: var(--text-muted); }
     #sidebar a.toc-h3 { padding-left: 2.2rem; }
 
+    #sidebar a.active-ancestor {
+      color: var(--text-primary);
+      border-left-color: rgba(112, 93, 207, 0.3);
+      font-weight: 700;
+    }
+
     #sidebar-toggle {
       display: none;
       position: fixed;
@@ -377,6 +383,40 @@
       }
 
       .img-pair {
+        flex-direction: column;
+      }
+    }
+
+    @media (min-width: 1400px) {
+      .main-content {
+        max-width: none;
+        width: calc(100% - 260px);
+      }
+
+      .order-layout {
+        display: flex;
+        gap: 2rem;
+        align-items: flex-start;
+      }
+
+      .order-layout .order-content {
+        flex: 1;
+        min-width: 0;
+        max-width: 800px;
+      }
+
+      .order-layout .order-images {
+        flex: 0 0 450px;
+        position: sticky;
+        top: 1rem;
+      }
+
+      .order-layout .order-images img {
+        width: 100%;
+        margin: 0 0 0.5em 0;
+      }
+
+      .order-layout .order-images .img-pair {
         flex-direction: column;
       }
     }
@@ -758,6 +798,58 @@
       });
     }
 
+    function layoutOrderImages(container) {
+      if (window.innerWidth < 1400) return;
+      container.querySelectorAll('h3').forEach(h3 => {
+        // Collect all siblings belonging to this order section
+        const sectionEls = [];
+        const imageEls = [];
+        let el = h3.nextElementSibling;
+        while (el) {
+          if (el.tagName === 'H1' || el.tagName === 'H2' || el.tagName === 'H3' || el.tagName === 'HR') break;
+          sectionEls.push(el);
+          el = el.nextElementSibling;
+        }
+        if (sectionEls.length === 0) return;
+
+        // Pull out image containers (img-pair, p with only img children, or p>img:only-child)
+        sectionEls.forEach(node => {
+          if (node.classList && node.classList.contains('img-pair')) {
+            imageEls.push(node);
+          } else if (node.tagName === 'P') {
+            const childEls = Array.from(node.children);
+            const hasOnlyImgsAndBrs = childEls.length > 0 && childEls.every(c => c.tagName === 'IMG' || c.tagName === 'BR');
+            if (hasOnlyImgsAndBrs && childEls.some(c => c.tagName === 'IMG')) {
+              imageEls.push(node);
+            }
+          }
+        });
+        if (imageEls.length === 0) return;
+
+        // Build layout wrapper
+        const wrapper = document.createElement('div');
+        wrapper.className = 'order-layout';
+
+        const contentCol = document.createElement('div');
+        contentCol.className = 'order-content';
+
+        const imageCol = document.createElement('div');
+        imageCol.className = 'order-images';
+
+        // Insert wrapper after h3
+        h3.insertAdjacentElement('afterend', wrapper);
+
+        // Move all section elements into content column
+        sectionEls.forEach(node => contentCol.appendChild(node));
+
+        // Move image elements into image column
+        imageEls.forEach(node => imageCol.appendChild(node));
+
+        wrapper.appendChild(contentCol);
+        wrapper.appendChild(imageCol);
+      });
+    }
+
     async function render() {
       try {
         const [ordersResponse, speciesData, etymologyData] = await Promise.all([
@@ -784,6 +876,7 @@
         addImageIcons(content);
         addSpeciesCount(content, speciesData);
         addEtymology(content, etymologyData);
+        layoutOrderImages(content);
         buildTOC();
         setupScrollSpy();
       } catch (err) {
@@ -819,14 +912,36 @@
 
     function setupScrollSpy() {
       const links = document.querySelectorAll('#toc a');
+      const linksArray = Array.from(links);
       const headings = document.querySelectorAll('#content h1, #content h2, #content h3');
 
       const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
           if (entry.isIntersecting) {
-            links.forEach(l => l.classList.remove('active'));
+            links.forEach(l => {
+              l.classList.remove('active');
+              l.classList.remove('active-ancestor');
+            });
             const active = document.querySelector(`#toc a[href="#${entry.target.id}"]`);
-            if (active) active.classList.add('active');
+            if (active) {
+              active.classList.add('active');
+              // Highlight ancestor headings
+              const idx = linksArray.indexOf(active);
+              const activeLevel = active.classList.contains('toc-h3') ? 3
+                : active.classList.contains('toc-h2') ? 2 : 1;
+              let needH2 = activeLevel > 2;
+              let needH1 = activeLevel > 1;
+              for (let i = idx - 1; i >= 0 && (needH2 || needH1); i--) {
+                const link = linksArray[i];
+                if (needH2 && link.classList.contains('toc-h2')) {
+                  link.classList.add('active-ancestor');
+                  needH2 = false;
+                } else if (needH1 && link.classList.contains('toc-h1')) {
+                  link.classList.add('active-ancestor');
+                  needH1 = false;
+                }
+              }
+            }
           }
         });
       }, { rootMargin: '0px 0px -70% 0px' });
