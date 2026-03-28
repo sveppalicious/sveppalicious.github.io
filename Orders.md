@@ -367,7 +367,7 @@
 - **Feeding ecology:** Primarily frugivorous. Consume a variety of fruits and berries, can supplement their diet with leaves, buds, and occasionally insects or snails
 - **Breeding behavior:** Generally monogamous and territorial. Build flimsy, pigeon-like platform nests made of sticks high in the trees. Both parents share the duties of incubating the eggs and feeding the chicks, which are semiprecocial and can climb through branches well before they can fly
 - **Feet:** Semizygodactyl
-- **Chick development:** Semialtricial
+- **Chick development:** Semiprecocial
 
 > [!Tip] Fun Facts
 > - Turacos are some of the only birds with true green and red pigments (Turacoverdin and Turacin). In most birds, green is created by feather structure, but turacos have copper-based chemicals in their feathers.
