@@ -494,8 +494,34 @@
         iconRow.className = 'callout-icons';
 
         iconData.forEach(({ config, value }) => {
-          const isSemiprecocial = value.toLowerCase() === 'semiprecocial';
-          const filename = isSemiprecocial ? 'precocial.png' : value.toLowerCase() + '.png';
+          const lower = value.toLowerCase();
+
+          // "Variable" for chick development: show both altricial + precocial icons
+          if (lower === 'variable') {
+            if (config.basePath.includes('chick_development')) {
+              ['altricial', 'precocial'].forEach(kind => {
+                const badge = document.createElement('span');
+                badge.className = 'icon-badge';
+                const img = document.createElement('img');
+                img.src = config.basePath + kind + '.png';
+                img.alt = kind;
+                badge.appendChild(img);
+                const text = document.createElement('span');
+                text.textContent = kind.charAt(0).toUpperCase() + kind.slice(1);
+                badge.appendChild(text);
+                iconRow.appendChild(badge);
+              });
+            }
+            // Variable feet: no obvious pair to show, skip
+            return;
+          }
+
+          const isSemiprecocial = lower === 'semiprecocial';
+          const isSemialtricial = lower === 'semialtricial';
+          let filename;
+          if (isSemiprecocial) filename = 'precocial.png';
+          else if (isSemialtricial) filename = 'altricial.png';
+          else filename = lower + '.png';
 
           const badge = document.createElement('span');
           badge.className = 'icon-badge';
@@ -508,12 +534,16 @@
           const text = document.createElement('span');
           if (isSemiprecocial) {
             text.innerHTML = '<strong>Semi</strong>precocial';
+          } else if (isSemialtricial) {
+            text.innerHTML = '<strong>Semi</strong>-altricial';
           } else {
             text.textContent = value;
           }
           badge.appendChild(text);
           iconRow.appendChild(badge);
         });
+
+        if (iconRow.children.length === 0) return;
 
         const calloutContent = callout.querySelector('.callout-content') || callout;
         calloutContent.appendChild(iconRow);

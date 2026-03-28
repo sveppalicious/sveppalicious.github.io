@@ -367,7 +367,7 @@
 - **Feeding ecology:** Primarily frugivorous. Consume a variety of fruits and berries, can supplement their diet with leaves, buds, and occasionally insects or snails
 - **Breeding behavior:** Generally monogamous and territorial. Build flimsy, pigeon-like platform nests made of sticks high in the trees. Both parents share the duties of incubating the eggs and feeding the chicks, which are semiprecocial and can climb through branches well before they can fly
 - **Feet:** Semizygodactyl
-- **Chick development:** Semiprecocial
+- **Chick development:** Semialtricial
 
 > [!Tip] Fun Facts
 > - Turacos are some of the only birds with true green and red pigments (Turacoverdin and Turacin). In most birds, green is created by feather structure, but turacos have copper-based chemicals in their feathers.
@@ -423,7 +423,7 @@
 - **Feeding ecology:** Folivorous. Unique among birds for having a ruminant digestive system similar. Massive, multi-chambered crop where bacteria ferment the cellulose in the leaves. Because of the bacterial fermentation happening in their gut, Hoatzins give off a strong, manure-like odor, which generally protects them from being hunted by humans. Crop so large and heavy with fermenting leaves that it displaces their sternum and flight muscles
 - **Breeding behavior:** Communal/colonial breeders. Breeding pair assisted by "helpers", usually older offspring, who help defend nest and feed the new chicks. Stick nests built on branches overhanging the water for a very specific survival reason. Hoatzin chicks are born with two functional claws on each wing. If a predator approaches the nest, the chick drops into the water below to swim away, then uses its wing-claws to climb back up the tree once the danger has passed. The claws disappear as the bird matures
 - **Feet:** Anisodactyl
-- **Chick development:** Altricial
+- **Chick development:** Semialtricial
 
 > [!Tip] Fun Facts
 > Hoatzin are the most difficult bird order to place in the tree of life with phylogenetic methods. They have been considered Galliformes and Gruiformes in the past
@@ -475,8 +475,8 @@
 - **Recognition:** Usually characterized by relatively long legs and pointed wings. Bills vary wildly — from the short, stout beak of a puffin to the long, curved probe of a curlew. Many have webbed feet, and have a reduced or vestigial hallux
 - **Feeding ecology:** Extremely varied, an "adaptive radiation" with many specialized feeding strategies. Primarily carnivorous or insectivorous. They hunt invertebrates in mudflats, fish in the open ocean, or scavenge along beaches. Buttonquail and seedsnipes are granivorous. Skuas kleptoparasitic
 - **Breeding behavior:** Nest a simple scrape on the ground or no nest. Many groups nest in large, noisy colonies (gulls/terns/auks) or simple scrapes on the ground (plovers, sandpipers, other non-colonial species). Semiprecocial, many leave nest area soon after hatching
-- **Feet:** Semipalmate, Palmate
-- **Chick development:** Semiprecocial
+- **Feet:** Variable
+- **Chick development:** Variable
 
 > [!Tip] Fun Facts
 > Alcidae are convergent with penguins, using wings as paddles to swim underwater
@@ -634,7 +634,7 @@
 - **Recognition:** "Apodiform" means "foot-less" — they have tiny, weak feet and extremely long, narrow wings with a modified humerus that allows for high-speed flapping or hovering. Unique "pampridactyl" foot with all 4 toes forward
 - **Feeding ecology:** Swifts are "aerial plankton" feeders, catching insects on the wing. Hummingbirds are specialized nectarivores with long tongues
 - **Breeding behavior:** Swifts use saliva to glue nests to vertical surfaces; Hummingbirds build delicate cups of spider silk and lichen. Many hummingbirds have spectacular aerial breeding displays
-- **Feet:** Pamprodactyl
+- **Feet:** Variable
 - **Chick development:** Altricial
 
 > [!Tip] Fun Facts
@@ -664,7 +664,7 @@
 - **Feeding ecology:** Specialized plunge-divers. They hover high above the water before diving to catch squid and surface-dwelling fish. Unlike gannets, they do not dive from great heights but are highly agile in the air
 - **Breeding behavior:** They are solitary nesters or in loose colonies on cliffs or under vegetation. Spectacular aerial courtship displays, flying in vertical circles while waving their long tail streamers. They lay a single egg and have a long chick-rearing period. Chicks altricial
 - **Feet:** Totipalmate
-- **Chick development:** Altricial
+- **Chick development:** Semialtricial
 
 > [!Tip] Fun Facts
 > Because their feet are positioned so far back on their bodies and are so small, Tropicbirds cannot walk or stand upright on land. When they are at their nest sites, they must push themselves along the ground on their bellies using their wings and feet in a "shuffling" motion
@@ -737,7 +737,7 @@
 - **Feeding ecology:** Carnivorous marine hunters. They eat fish, squid, and krill. They are "wing-propelled" divers, reaching speeds of up to 35 km/h underwater
 - **Breeding behavior:** Colonial nesters, sometimes hundreds of thousands of birds. Many species (like the Emperor and King) do not build nests but carry a single egg on top of their feet. Chicks altricial
 - **Feet:** Palmate
-- **Chick development:** Semiprecocial
+- **Chick development:** Semialtricial
 
 > [!Tip] Fun Facts
 > To survive the extreme cold, Emperor Penguins huddle in massive groups, constantly rotating individuals from the cold outside of the circle to the warm interior
