@@ -700,7 +700,7 @@
 
 - **Distribution:** Worldwide, but hummingbirds restricted to New World
 - **Habitats:** Virtually everywhere, from high-altitude mountains to urban areas
-- **Recognition:** "Apodiform" means "foot-less" — they have tiny, weak feet and extremely long, narrow wings with a modified humerus that allows for high-speed flapping or hovering. Swifts and Treeswifts have a unique "pamprodactyl" foot with all 4 toes pointing forward; Hummingbirds have anisodactyl feet
+- **Recognition:** "Apodiform" means "foot-less" — they have tiny, weak feet and extremely long, narrow wings with a modified humerus that allows for high-speed flapping or hovering. Unique "pamprodactyl" foot with all 4 toes forward
 - **Feeding ecology:** Swifts are "aerial plankton" feeders, catching insects on the wing. Hummingbirds are specialized nectarivores with long tongues
 - **Breeding behavior:** Swifts use saliva to glue nests to vertical surfaces; Hummingbirds build delicate cups of spider silk and lichen. Many hummingbirds have spectacular aerial breeding displays
 - **Feet:** Pamprodactyl (Swifts & Treeswifts), Anisodactyl (Hummingbirds)
