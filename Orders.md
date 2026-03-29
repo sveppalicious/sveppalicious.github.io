@@ -736,7 +736,7 @@
 - **Feeding ecology:** Specialized plunge-divers. They hover high above the water before diving to catch squid and surface-dwelling fish. Unlike gannets, they do not dive from great heights but are highly agile in the air
 - **Breeding behavior:** They are solitary nesters or in loose colonies on cliffs or under vegetation. Spectacular aerial courtship displays, flying in vertical circles while waving their long tail streamers. They lay a single egg and have a long chick-rearing period. Chicks altricial
 - **Feet:** Totipalmate
-- **Chick development:** Semialtricial
+- **Chick development:** Altricial
 
 > [!Tip] Fun Facts
 > Because their feet are positioned so far back on their bodies and are so small, Tropicbirds cannot walk or stand upright on land. When they are at their nest sites, they must push themselves along the ground on their bellies using their wings and feet in a "shuffling" motion
