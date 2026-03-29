@@ -818,7 +818,7 @@
 - **Feeding ecology:** Carnivorous marine hunters. They eat fish, squid, and krill. They are "wing-propelled" divers, reaching speeds of up to 35 km/h underwater
 - **Breeding behavior:** Colonial nesters, sometimes hundreds of thousands of birds. Many species (like the Emperor and King) do not build nests but carry a single egg on top of their feet. Chicks altricial
 - **Feet:** Palmate
-- **Chick development:** Semialtricial
+- **Chick development:** Altricial
 
 > [!Tip] Fun Facts
 > To survive the extreme cold, Emperor Penguins huddle in massive groups, constantly rotating individuals from the cold outside of the circle to the warm interior
