@@ -527,7 +527,7 @@
 - **Feeding ecology:** Extremely varied, an "adaptive radiation" with many specialized feeding strategies. Primarily carnivorous or insectivorous. They hunt invertebrates in mudflats, fish in the open ocean, or scavenge along beaches. Buttonquail and seedsnipes are granivorous. Skuas kleptoparasitic
 - **Breeding behavior:** Nest a simple scrape on the ground or no nest. Many groups nest in large, noisy colonies (gulls/terns/auks) or simple scrapes on the ground (plovers, sandpipers, other non-colonial species). Semiprecocial, many leave nest area soon after hatching
 - **Feet:** Semipalmate, Palmate
-- **Chick development:** Variable
+- **Chick development:** Semiprecocial
 
 > [!Tip] Fun Facts
 > Alcidae are convergent with penguins, using wings as paddles to swim underwater
