@@ -192,7 +192,7 @@
 - **Recognition:** Chicken-like birds, stocky bodies, short-rounded wings. Strong legs, some species adorned with tarsal spurs. Many species have strong sexual dimorphism
 - **Feeding ecology:** Generalist, primarily seeds and grains but also insects; curassows and guans mainly frugivorous
 - **Breeding behavior:** Diverse, many polygynous where males have leks or harems. Others monogamous. Chicks precocial
-- **Feet:** Anisodactyl
+- **Feet:** Anisodactyl, Semipalmate
 - **Chick development:** Precocial
 
 > [!Tip] Fun Facts
