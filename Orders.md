@@ -161,7 +161,7 @@
 - **Recognition:** Aquatic adaptations; feet palmate, bill wide and flattened with lamellae, specialized for filter-feeding, grazing or aquatic predation; plumage thick and waterproof, pronounced sexual dimorphism in some groups
 - **Feeding ecology:** Diverse, filter-feeders sieve small invertebrates and plants, grazers feed on grasses and aquatic vegetation, predators consume fish, mollusks, aquatic invertebrates; generalists may engage in all to some degree
 - **Breeding behavior:** Monogamous or seasonal pair bonding. Chicks precocial
-- **Feet:** Palmate (most), Semipalmate (notably Screamers and Magpie Goose)
+- **Feet:** Palmate (most), Semipalmate (Screamers/Magpie Goose)
 - **Chick development:** Precocial
 
 > [!Tip] Fun Facts
