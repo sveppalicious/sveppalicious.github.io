@@ -8,6 +8,8 @@
 
 ## Palaeognathae
 
+Flightless ratites and tinamous share a distinctive primitive ("paleognathous") palate and other basal skull characters. The clade includes about 59 extant species in five orders. Most paleognaths are large, terrestrial birds and (except tinamous) lack a keeled sternum. Sources: [Wikipedia](https://en.wikipedia.org/wiki/Palaeognathae), [bird-phylogeny.de](https://www.bird-phylogeny.de/superorders/palaeognathae/).
+
 ![[Pasted image 20260323144428.png]]
 ![[Screenshot 2026-03-25 at 01-21-49 Phylogeny Explorer - Birds of the World.png]]
 
@@ -129,7 +131,7 @@
 - **Habitats:** Forest (Cassowary), open habitats (emu)
 - **Recognition:** Large, feet tridactyl, flightless, sternum lacks keel, wings highly reduced, primaries reduced to single quills (Cassowary), loose soft feathers, bright facial skin, casque (cassowary) lack uropygial gland
 - **Feeding ecology:** Omnivorous, fruits, seeds, insects
-- **Breeding behavior:** Polygynous, females lay eggs in male nest, 5–15 eggs
+- **Breeding behavior:** Polyandrous, females lay eggs in male nest, 5–15 eggs
 - **Feet:** Tridactyl
 - **Chick development:** Precocial
 
@@ -147,7 +149,11 @@
 ---
 ## Neognathae
 
+Neognaths are united by a "new" (neognathous) palate and other skeletal traits (e.g. fused hand bones). This infraclass contains ~11,100 living bird species — essentially all modern birds except the paleognaths. It splits into Galloanserae (fowl) and Neoaves. Sources: [GBIF](https://www.gbif.org/species/165842437), [Wikipedia](https://en.wikipedia.org/wiki/Neognathae).
+
 ### Galloanserae: waterfowl and wildfowl
+
+Galloanserae ("fowl") unite landfowl (Galliformes: chickens, pheasants, etc.) and waterfowl (Anseriformes: ducks, geese, swans). Together they number ~485 species. They share reproductive traits (large clutches of precocial young) and are considered the sister group to all other neognaths. Sources: [Wikipedia](https://en.wikipedia.org/wiki/Fowl), [bird-phylogeny.de](https://www.bird-phylogeny.de/superorders/galloanserae/).
 
 ![[Pasted image 20260323144802.png]]
 ![[Screenshot 2026-03-25 at 18-25-28 Phylogeny Explorer - Birds of the World.png]]
@@ -216,7 +222,11 @@
 
 ### Neoaves
 
+Neoaves comprises all modern birds outside Paleognathae and Galloanserae — roughly 95% of living species (~10,600). This huge clade underwent a rapid Cenozoic radiation and contains most bird orders. Because of its diversity, Neoaves has no single obvious anatomical synapomorphy; it is defined by genome-scale analyses. Sources: [Wikipedia](https://en.wikipedia.org/wiki/Neoaves), [Stiller et al. 2024](https://www.nature.com/articles/s41586-024-07323-1).
+
 #### Mirandornithes: flamingos and grebes
+
+Mirandornithes ("miracle birds") unites flamingos (Phoenicopteriformes, 6 species) and grebes (Podicipediformes, 22 species). These 28 species share unique skeletal synapomorphies (e.g. elongate neck vertebrae) despite differing ecologies (filter-feeding vs. diving). Sources: [Wikipedia](https://en.wikipedia.org/wiki/Mirandornithes), [Sangster 2005](https://doi.org/10.1111/j.1474-919X.2005.00432.x).
 
 ![[Pasted image 20260323150025.png]]
 ![[Screenshot 2026-03-25 at 01-47-02 Phylogeny Explorer - Birds of the World.png]]
@@ -277,7 +287,11 @@
 
 #### Columbaves: Peripheral landbirds
 
+Columbaves is a genomic clade uniting Columbimorphae (pigeons, sandgrouse, mesites) with Otidimorphae (bustards, cuckoos, turacos). It contains ~580 species. No obvious unifying morphology is known beyond genetic support, but these are primarily terrestrial landbirds. Sources: [Wikipedia](https://en.wikipedia.org/wiki/Columbaves), [Stiller et al. 2024](https://www.nature.com/articles/s41586-024-07323-1).
+
 ##### Columbimorphae: pigeons, mesites, sandgrouse
+
+Columbimorphae unites pigeons/doves (Columbiformes), sandgrouse (Pterocliformes), and mesites (Mesitornithiformes). These birds are mostly ground-dwelling or arboreal seed-eaters. The clade contains ~370 species and was defined by molecular phylogenetics. Sources: [Wikipedia](https://en.wikipedia.org/wiki/Columbimorphae), [bird-phylogeny.de](https://www.bird-phylogeny.de/superorders/).
 
 ![[Pasted image 20260323150056.png]]
 
@@ -364,6 +378,8 @@
 ---
 
 ##### Otidimorphae: bustards, turacos, cuckoos
+
+Otidimorphae groups bustards (Otidiformes), turacos (Musophagiformes), and cuckoos (Cuculiformes) into one clade. First supported by genome studies, it includes ~205 species. Members vary widely and lack a clear shared morphology beyond DNA evidence. Sources: [Wikipedia](https://en.wikipedia.org/wiki/Otidimorphae), [bird-phylogeny.de](https://www.bird-phylogeny.de/superorders/).
 
 ![[Pasted image 20260323150323.png]]
 
@@ -455,6 +471,8 @@
 
 #### Elementaves
 
+Elementaves is a newly defined clade comprising the hoatzin (Opisthocomiformes), cranes & rails (Gruiformes), and shorebirds (Charadriiformes). It is supported by recent genomic analyses and contains ~590 species (mostly rails and shorebirds). Sources: [Wikipedia](https://en.wikipedia.org/wiki/Elementaves), [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC12409627/).
+
 ![[Pasted image 20260323151331.png]]
 ![[Pasted image 20260323154742.png]]
 ###### Opisthocomiformes
@@ -482,6 +500,8 @@
 ---
 
 ##### Cursorimorphae: cranes, rails, waders
+
+Cursorimorphae refers to the clade of Gruiformes (cranes & rails) plus Charadriiformes (shorebirds). This sister-group relationship is repeatedly recovered in molecular studies and encompasses ~585 species. Sources: [bird-phylogeny.de](https://www.bird-phylogeny.de/superorders/cursorimorphae/), [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC12409627/).
 
 ![[Pasted image 20260323151353.png]]
 ![[Pasted image 20260323154810.png]]
@@ -558,6 +578,8 @@
 ---
 
 #### Strisores: nightbirds, swifts, hummingbirds
+
+Strisores (Caprimulgimorphae) includes all nightbirds (Caprimulgiformes, Steatornithiformes, etc.) together with Apodiformes (swifts and hummingbirds). This group (~608 species) is united by genetic evidence and subtle skeletal traits. Members often have wide gapes with rictal bristles (nightjars) or highly modified wings (swifts) reflecting their nocturnal or aerial specializations. Sources: [bird-phylogeny.de](https://www.bird-phylogeny.de/superorders/strisores/), [Wikipedia](https://en.wikipedia.org/wiki/Strisores).
 
 ![[Pasted image 20260323151426.png]]
 
@@ -723,6 +745,8 @@
 
 #### Phaethontimorphae: tropicbirds, kagu, sunbittern
 
+Phaethontimorphae (a.k.a. Eurypygimorphae) links the tropicbirds (Phaethontiformes, 3 species) with the Eurypygiformes (kagu and sunbittern, 2 species). This surprising clade of only 5 species was discovered by genomic analysis, with no obvious shared ecology or gross anatomy. Sources: [Wikipedia](https://en.wikipedia.org/wiki/Eurypygimorphae), [Stiller et al. 2024](https://www.nature.com/articles/s41586-024-07323-1).
+
 ![[Pasted image 20260323151641.png]]
 ![[Pasted image 20260323155256.png]]
 ###### Phaethontiformes
@@ -776,6 +800,8 @@
 ---
 
 #### Aequinornithia: core waterbirds
+
+Aequinornithia (core waterbirds) includes loons, penguins, petrels, storks, pelicans, cormorants, and allies. Members share aquatic adaptations (e.g. dense bones, webbed feet). This group has ~370 species and is strongly supported by molecular studies. Sources: [Wikipedia](https://en.wikipedia.org/wiki/Aequornithes), [Stiller et al. 2024](https://www.nature.com/articles/s41586-024-07323-1).
 
 ![[Pasted image 20260323151741.png]]
 ![[Pasted image 20260323155357.png]]
@@ -956,7 +982,11 @@
 
 #### Telluraves: core landbirds
 
+Telluraves (core landbirds) is the clade uniting Australaves and Afroaves. It includes all passerines, parrots, falcons (Australaves) plus raptors, owls, woodpeckers, etc. (Afroaves). This enormous clade contains ~8,400 species and is characterized by an arboreal lifestyle rather than any single morphological trait. Sources: [Wikipedia](https://en.wikipedia.org/wiki/Telluraves), [Stiller et al. 2024](https://www.nature.com/articles/s41586-024-07323-1).
+
 ##### Afroaves
+
+Afroaves includes predatory and insectivorous lineages: kingfishers, woodpeckers, hornbills, trogons, mousebirds, owls, and hawks/eagles. These ~1,250 species are united by DNA data. Notably, owls and hawks form a sister clade, suggesting the common ancestor of Afroaves may have been raptorial. Sources: [Wikipedia](https://en.wikipedia.org/wiki/Afroaves), [Stiller et al. 2024](https://www.nature.com/articles/s41586-024-07323-1).
 
 ![[Pasted image 20260323151926.png]]
 ![[Pasted image 20260323155917.png]]
@@ -1197,6 +1227,8 @@
 ---
 
 ##### Australaves
+
+Australaves is the clade of Cariamiformes (seriemas) plus Eufalconimorphae (passerines, parrots, falcons). It includes ~6,700 songbirds, ~410 parrots, ~65 falcons, and 2 seriemas (~7,200 species total). The name reflects a Southern Hemisphere origin. Genome studies consistently recover this grouping. Sources: [Wikipedia](https://en.wikipedia.org/wiki/Australaves), [Stiller et al. 2024](https://www.nature.com/articles/s41586-024-07323-1).
 
 ![[Pasted image 20260323152137.png]]
 ![[Pasted image 20260323160509.png]]
