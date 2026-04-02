@@ -153,7 +153,7 @@
 ## Neognathae
 
 > [!Clade]
-> Neognaths are united by a "new" (neognathous) palate and other skeletal traits (e.g. fused hand bones). This infraclass contains ~11,100 living bird species — essentially all modern birds except the paleognaths. It splits into Galloanserae (fowl) and Neoaves.
+> Neognaths are united by a "new" (neognathous) palate and other skeletal traits (e.g. fused hand bones). This infraclass contains ~11,100 bird species — essentially all modern birds except the paleognaths. It splits into Galloanserae (fowl) and Neoaves.
 >
 > Sources: [GBIF](https://www.gbif.org/species/165842437) · [Wikipedia](https://en.wikipedia.org/wiki/Neognathae)
 
@@ -1274,7 +1274,7 @@
 ##### Australaves
 
 > [!Clade]
-> Australaves is the clade of Cariamiformes (seriemas) plus Eufalconimorphae (passerines, parrots, falcons). It includes ~6,700 songbirds, ~410 parrots, ~65 falcons, and 2 seriemas (~7,200 species total). The name reflects a Southern Hemisphere origin. Genome studies consistently recover this grouping.
+> Australaves is the clade of Cariamiformes (seriemas) plus Eufalconimorphae (passerines, parrots, falcons). It includes approximately 6,700 songbirds, 410 parrots, 65 falcons, and 2 seriemas (~7,200 species total). The name reflects a Southern Hemisphere origin. Genome studies consistently recover this grouping.
 >
 > Sources: [Wikipedia](https://en.wikipedia.org/wiki/Australaves) · [Stiller et al. 2024](https://www.nature.com/articles/s41586-024-07323-1)
 
