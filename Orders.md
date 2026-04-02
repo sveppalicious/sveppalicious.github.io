@@ -11,7 +11,7 @@
 ![[Pasted image 20260323144428.png]]
 ![[Screenshot 2026-03-25 at 01-21-49 Phylogeny Explorer - Birds of the World.png]]
 
-### Struthioniformes
+###### Struthioniformes
 
 > [!Info]
 > Ostriches
@@ -37,7 +37,7 @@
 
 ![[Pasted image 20260323144519.png]]
 ![[Screenshot 2026-03-25 at 01-31-48 Phylogeny Explorer - Birds of the World.png]]
-### Rheiformes
+###### Rheiformes
 
 > [!Info]
 > Nandues and Rheas
@@ -63,7 +63,7 @@
 
 ![[Pasted image 20260323144537.png]]
 ![[Screenshot 2026-03-25 at 01-38-16 Phylogeny Explorer - Birds of the World.png]]
-### Tinamiformes
+###### Tinamiformes
 
 > [!Info]
 > Tinamous
@@ -92,7 +92,7 @@
 
 ![[Pasted image 20260323144551.png]]
 ![[Screenshot 2026-03-25 at 01-39-53 Phylogeny Explorer - Birds of the World.png]]
-### Apterygiformes
+###### Apterygiformes
 
 > [!Info]
 > Kiwis
@@ -120,7 +120,7 @@
 
 ![[Pasted image 20260323144725.png]]
 ![[Screenshot 2026-03-25 at 01-41-14 Phylogeny Explorer - Birds of the World.png]]
-### Casuariiformes
+###### Casuariiformes
 
 > [!Info]
 > Cassowaries, and Emus
@@ -151,7 +151,7 @@
 
 ![[Pasted image 20260323144802.png]]
 ![[Screenshot 2026-03-25 at 18-25-28 Phylogeny Explorer - Birds of the World.png]]
-#### Anseriformes
+###### Anseriformes
 
 > [!Info]
 > Screamers, Magpie Goose, Geese, and Ducks and Swans
@@ -182,7 +182,7 @@
 
 ![[Pasted image 20260323144827.png]]
 ![[Screenshot 2026-03-25 at 18-26-32 Phylogeny Explorer - Birds of the World.png]]
-#### Galliformes
+###### Galliformes
 
 > [!Info]
 > Megapodes, Curassows, Guans, Guineafowl, Grouse, and Pheasants
@@ -220,7 +220,7 @@
 
 ![[Pasted image 20260323150025.png]]
 ![[Screenshot 2026-03-25 at 01-47-02 Phylogeny Explorer - Birds of the World.png]]
-##### Phoenicopteriformes
+###### Phoenicopteriformes
 
 > [!Info]
 > Flamingos
@@ -248,7 +248,7 @@
 
 ![[Pasted image 20260323150035.png]]
 ![[Screenshot 2026-03-25 at 18-28-16 Phylogeny Explorer - Birds of the World.png]]
-##### Podicipediformes
+###### Podicipediformes
 
 > [!Info]
 > Grebes
@@ -457,7 +457,7 @@
 
 ![[Pasted image 20260323151331.png]]
 ![[Pasted image 20260323154742.png]]
-##### Opisthocomiformes
+###### Opisthocomiformes
 
 > [!Info]
 > Hoatzin
@@ -561,7 +561,7 @@
 
 ![[Pasted image 20260323151426.png]]
 
-##### Caprimulgiformes
+###### Caprimulgiformes
 
 > [!Info]
 > Nightjars, and Nighthawks
@@ -587,7 +587,7 @@
 
 ![[Pasted image 20260323151437.png]]
 ![[Pasted image 20260323155019.png]]
-##### Nyctibiiformes
+###### Nyctibiiformes
 
 > [!Info]
 > Potoos
@@ -613,7 +613,7 @@
 
 ![[Pasted image 20260323151459.png]]
 ![[Pasted image 20260323155037.png]]
-##### Steatornithiformes
+###### Steatornithiformes
 
 > [!Info]
 > Oilbird
@@ -641,7 +641,7 @@
 
 ![[Pasted image 20260323151552.png]]
 
-##### Podargiformes
+###### Podargiformes
 
 > [!Info]
 > Frogmouths
@@ -667,7 +667,7 @@
 
 ![[Pasted image 20260323151611.png]]
 ![[Pasted image 20260323155145.png]]
-##### Aegotheliformes
+###### Aegotheliformes
 
 > [!Info]
 > Owlet-nightjars
@@ -693,7 +693,7 @@
 
 ![[Pasted image 20260323151626.png]]
 ![[Pasted image 20260323155231.png]]
-##### Apodiformes
+###### Apodiformes
 
 > [!Info]
 > Treeswifts, Swifts, and Hummingbirds
@@ -725,7 +725,7 @@
 
 ![[Pasted image 20260323151641.png]]
 ![[Pasted image 20260323155256.png]]
-##### Phaethontiformes
+###### Phaethontiformes
 
 > [!Info]
 > Tropicbirds
@@ -751,7 +751,7 @@
 
 ![[Pasted image 20260323151653.png]]
 ![[Pasted image 20260323155312.png]]
-##### Eurypygiformes
+###### Eurypygiformes
 
 > [!Info]
 > Sunbittern and Kagu
@@ -779,7 +779,7 @@
 
 ![[Pasted image 20260323151741.png]]
 ![[Pasted image 20260323155357.png]]
-##### Gaviiformes
+###### Gaviiformes
 
 > [!Info]
 > Loons
@@ -807,7 +807,7 @@
 
 ![[Pasted image 20260323151754.png]]
 ![[Pasted image 20260323155457.png]]
-##### Sphenisciformes
+###### Sphenisciformes
 
 > [!Info]
 > Penguins
@@ -835,7 +835,7 @@
 
 ![[Pasted image 20260323151806.png]]
 ![[Pasted image 20260323155549.png]]
-##### Procellariiformes
+###### Procellariiformes
 
 > [!Info]
 > Tubenoses: Albatrosses, Petrels, and Storm-petrels
@@ -866,7 +866,7 @@
 
 ![[Pasted image 20260323151822.png]]
 ![[Pasted image 20260324120216.png]]
-##### Ciconiiformes
+###### Ciconiiformes
 
 > [!Info]
 > Storks
@@ -893,7 +893,7 @@
 
 ![[Pasted image 20260323151837.png]]
 ![[Pasted image 20260323155754.png]]
-##### Suliformes
+###### Suliformes
 
 > [!Info]
 > Frigatebirds, Gannets, Boobies, Cormorants, and Anhingas
@@ -924,7 +924,7 @@
 
 ![[Pasted image 20260323151851.png]]
 ![[Pasted image 20260323155840.png]]
-##### Pelecaniformes
+###### Pelecaniformes
 
 > [!Info]
 > Pelicans, Hamerkop, Shoebill, Herons, and Ibises
