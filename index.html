@@ -29,6 +29,8 @@
       --bold-color: #1a1a1a;
       --code-bg: #f3f3f3;
       --blockquote-border: #ddd;
+      --quiz-correct: #2ea043;
+      --quiz-incorrect: #d73a49;
     }
 
     * {
@@ -604,16 +606,261 @@
         flex-direction: column;
       }
     }
+
+    /* ── Quiz ── */
+    #quiz-btn {
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      display: flex;
+      align-items: center;
+      gap: 0.3em;
+      flex-shrink: 0;
+      padding: 0;
+      margin-right: 0.75rem;
+      transition: color 0.15s;
+      font-family: inherit;
+    }
+    #quiz-btn:hover { color: var(--text-primary); }
+
+    #quiz-btn-mobile {
+      display: none;
+      position: fixed;
+      top: 0.8rem;
+      left: 3.6rem;
+      z-index: 20;
+      background: var(--bg-secondary);
+      border: 1px solid var(--hr-color);
+      border-radius: 6px;
+      padding: 0.35rem 0.6rem;
+      cursor: pointer;
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      font-family: inherit;
+      line-height: 1.4;
+      transition: color 0.15s;
+    }
+    #quiz-btn-mobile:hover { color: var(--text-primary); }
+
+    #quiz-overlay {
+      position: fixed;
+      inset: 0;
+      z-index: 30;
+      background: var(--bg-primary);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      overflow-y: auto;
+      transform: translateY(100%);
+      transition: transform 0.2s ease;
+    }
+    #quiz-overlay.quiz-overlay--open { transform: translateY(0); }
+
+    #quiz-close {
+      position: sticky;
+      top: 1rem;
+      align-self: flex-end;
+      margin: 1rem 1.5rem 0 0;
+      background: none;
+      border: none;
+      font-size: 1.2rem;
+      cursor: pointer;
+      color: var(--text-muted);
+      padding: 0.3rem 0.6rem;
+      border-radius: 6px;
+      transition: color 0.15s, background 0.15s;
+      z-index: 31;
+    }
+    #quiz-close:hover { color: var(--text-primary); background: var(--bg-secondary); }
+
+    #quiz-inner {
+      max-width: 640px;
+      width: 100%;
+      padding: 0.5rem 1.5rem 3rem;
+    }
+
+    .quiz-title {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: var(--text-primary);
+      margin-bottom: 0.3rem;
+      margin-top: 1rem;
+    }
+    .quiz-subtitle { color: var(--text-muted); font-size: 0.9rem; margin-bottom: 2rem; }
+    .quiz-section-label {
+      font-size: 0.78rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+      margin-bottom: 0.6rem;
+    }
+    .quiz-topic-pills { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.5rem; }
+    .quiz-pill {
+      background: none;
+      border: 1px solid var(--hr-color);
+      border-radius: 999px;
+      padding: 0.3rem 0.8rem;
+      font-size: 0.8rem;
+      cursor: pointer;
+      color: var(--text-muted);
+      font-family: inherit;
+      transition: all 0.15s;
+    }
+    .quiz-pill:hover { border-color: var(--text-accent); color: var(--text-accent); }
+    .quiz-pill.selected { background: var(--text-accent); border-color: var(--text-accent); color: #fff; }
+
+    .quiz-count-row { display: flex; gap: 0.5rem; margin-bottom: 2rem; flex-wrap: wrap; }
+    .quiz-count-btn {
+      background: none;
+      border: 1px solid var(--hr-color);
+      border-radius: 8px;
+      padding: 0.4rem 1rem;
+      font-size: 0.85rem;
+      cursor: pointer;
+      color: var(--text-muted);
+      font-family: inherit;
+      transition: all 0.15s;
+    }
+    .quiz-count-btn:hover { border-color: var(--text-accent); color: var(--text-accent); }
+    .quiz-count-btn.selected { background: var(--text-accent); border-color: var(--text-accent); color: #fff; }
+
+    .quiz-start-btn {
+      background: var(--text-accent);
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      padding: 0.7rem 2rem;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      font-family: inherit;
+      transition: opacity 0.15s;
+    }
+    .quiz-start-btn:hover { opacity: 0.88; }
+
+    .quiz-progress-bar-wrap { height: 4px; background: var(--hr-color); border-radius: 2px; margin-bottom: 0.4rem; }
+    .quiz-progress-bar-fill { height: 100%; background: var(--text-accent); border-radius: 2px; transition: width 0.3s ease; }
+    .quiz-progress-text { font-size: 0.78rem; color: var(--text-muted); margin-bottom: 1.8rem; text-align: right; }
+
+    .quiz-question-text { font-size: 1.15rem; font-weight: 600; color: var(--text-primary); margin-bottom: 0.4rem; line-height: 1.5; }
+    .quiz-multi-note { font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-bottom: 1rem; }
+
+    .quiz-options { display: flex; flex-direction: column; gap: 0.6rem; margin-bottom: 1.2rem; }
+    .quiz-option {
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+      width: 100%;
+      background: none;
+      border: 1px solid var(--hr-color);
+      border-radius: 8px;
+      padding: 0.8rem 1rem;
+      min-height: 48px;
+      cursor: pointer;
+      text-align: left;
+      font-family: inherit;
+      font-size: 0.95rem;
+      color: var(--text-primary);
+      transition: border-color 0.15s, background 0.15s;
+    }
+    .quiz-option:hover:not(:disabled) { border-color: var(--text-accent); background: rgba(112,93,207,0.04); }
+    .quiz-option:disabled { cursor: default; }
+    .quiz-option .option-label { font-weight: 700; font-size: 0.8rem; color: var(--text-muted); flex-shrink: 0; width: 1.2rem; }
+    .quiz-option.selected { border-color: var(--text-accent); background: rgba(112,93,207,0.08); }
+    .quiz-option.option--correct { border-color: var(--quiz-correct); background: rgba(46,160,67,0.1); }
+    .quiz-option.option--correct .option-label { color: var(--quiz-correct); }
+    .quiz-option.option--incorrect { border-color: var(--quiz-incorrect); background: rgba(215,58,73,0.08); }
+    .quiz-option.option--incorrect .option-label { color: var(--quiz-incorrect); }
+
+    .quiz-explanation {
+      background: var(--bg-secondary);
+      border-radius: 8px;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      line-height: 1.6;
+      margin-bottom: 1.2rem;
+      animation: fadeIn 0.25s ease;
+    }
+
+    .quiz-confirm-btn, .quiz-next-btn {
+      background: var(--text-accent);
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      padding: 0.65rem 1.8rem;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      font-family: inherit;
+      transition: opacity 0.15s;
+    }
+    .quiz-confirm-btn:hover, .quiz-next-btn:hover { opacity: 0.88; }
+
+    .quiz-results-score { font-size: 2rem; font-weight: 700; color: var(--text-accent); margin: 1.5rem 0 0.2rem; }
+    .quiz-results-pct { font-size: 1rem; color: var(--text-muted); margin-bottom: 2rem; }
+
+    .quiz-breakdown-section { margin-bottom: 1.5rem; }
+    .quiz-breakdown-row { display: flex; align-items: center; gap: 0.7rem; margin-bottom: 0.45rem; font-size: 0.87rem; }
+    .quiz-breakdown-label { width: 160px; flex-shrink: 0; color: var(--text-muted); text-transform: capitalize; }
+    .quiz-breakdown-bar-wrap { flex: 1; height: 6px; background: var(--hr-color); border-radius: 3px; }
+    .quiz-breakdown-bar-fill { height: 100%; border-radius: 3px; background: var(--text-accent); }
+    .quiz-breakdown-fraction { font-size: 0.82rem; color: var(--text-muted); flex-shrink: 0; width: 3rem; text-align: right; }
+
+    .quiz-results-btns { display: flex; gap: 0.8rem; margin-top: 2rem; flex-wrap: wrap; }
+    .quiz-try-again-btn {
+      background: var(--text-accent);
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      padding: 0.65rem 1.8rem;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      font-family: inherit;
+      transition: opacity 0.15s;
+    }
+    .quiz-try-again-btn:hover { opacity: 0.88; }
+    .quiz-new-quiz-btn {
+      background: none;
+      color: var(--text-accent);
+      border: 1px solid var(--text-accent);
+      border-radius: 8px;
+      padding: 0.65rem 1.8rem;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      font-family: inherit;
+      transition: background 0.15s;
+    }
+    .quiz-new-quiz-btn:hover { background: rgba(112,93,207,0.08); }
+
+    @media (max-width: 768px) {
+      #quiz-btn-mobile { display: block; }
+      #quiz-inner { padding: 0.5rem 1rem 3rem; }
+      .quiz-title { font-size: 1.4rem; }
+      .quiz-breakdown-label { width: 110px; }
+    }
   </style>
 </head>
 <body>
   <button id="sidebar-toggle" aria-label="Toggle navigation">&#9776;</button>
+  <button id="quiz-btn-mobile" aria-label="Open quiz">Quiz</button>
   <div id="breadcrumb-bar">
     <div id="breadcrumb"></div>
+    <div style="display:flex;align-items:center;flex-shrink:0;">
+      <button id="quiz-btn" aria-label="Open quiz">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+        Quiz
+      </button>
     <a class="github-link" href="https://github.com/sveppalicious/sveppalicious.github.io" target="_blank" rel="noopener">
       <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
       GitHub
     </a>
+    </div>
   </div>
   <nav id="sidebar">
     <div class="toc-title">Table of Contents</div>
@@ -636,6 +883,11 @@
         <li>Clade descriptions researched with AI assistance; individual sources cited inline.</li>
       </ol>
     </footer>
+  </div>
+
+  <div id="quiz-overlay" role="dialog" aria-modal="true" aria-label="Ornithology Quiz">
+    <button id="quiz-close" aria-label="Close quiz">✕</button>
+    <div id="quiz-inner"></div>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
@@ -1255,6 +1507,267 @@
         sidebar.classList.remove('open');
       }
     });
+
+    // ── Quiz ──────────────────────────────────────────────────────────────
+    const QUIZ_TOPICS = [
+      'Palaeognathae', 'Galloanserae', 'Mirandornithes', 'Columbaves',
+      'Elementaves', 'Strisores', 'Phaethontimorphae', 'Aequinornithia',
+      'Telluraves \u2014 Afroaves', 'Telluraves \u2014 Australaves'
+    ];
+
+    let quizAllQuestions = null;
+    let quizState = {};
+
+    async function fetchQuestions() {
+      if (quizAllQuestions) return quizAllQuestions;
+      const res = await fetch('./questions.json');
+      const data = await res.json();
+      quizAllQuestions = data.questions;
+      return quizAllQuestions;
+    }
+
+    function fisherYates(arr) {
+      const a = arr.slice();
+      for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [a[i], a[j]] = [a[j], a[i]];
+      }
+      return a;
+    }
+
+    function openQuiz() {
+      const overlay = document.getElementById('quiz-overlay');
+      overlay.classList.add('quiz-overlay--open');
+      overlay.removeAttribute('hidden');
+      document.body.style.overflow = 'hidden';
+      fetchQuestions().then(() => renderStartScreen());
+    }
+
+    function closeQuiz() {
+      const overlay = document.getElementById('quiz-overlay');
+      overlay.classList.remove('quiz-overlay--open');
+      document.body.style.overflow = '';
+    }
+
+    function renderStartScreen() {
+      quizState.selectedTopics = ['all'];
+      quizState.questionCount = 20;
+      quizState.lastFilters = null;
+      quizState.lastCount = null;
+      const inner = document.getElementById('quiz-inner');
+      inner.innerHTML = `
+        <h1 class="quiz-title">Ornithology Quiz</h1>
+        <p class="quiz-subtitle">Test your knowledge of bird orders and their characteristics.</p>
+        <div class="quiz-section-label">Topics</div>
+        <div class="quiz-topic-pills" id="quiz-topic-pills">
+          <button class="quiz-pill selected" data-topic="all">All Topics</button>
+          ${QUIZ_TOPICS.map(t => `<button class="quiz-pill" data-topic="${t}">${t}</button>`).join('')}
+        </div>
+        <div class="quiz-section-label">Number of Questions</div>
+        <div class="quiz-count-row" id="quiz-count-row">
+          <button class="quiz-count-btn" data-count="10">10</button>
+          <button class="quiz-count-btn selected" data-count="20">20</button>
+          <button class="quiz-count-btn" data-count="30">30</button>
+          <button class="quiz-count-btn" data-count="all">All</button>
+        </div>
+        <button class="quiz-start-btn" id="quiz-start-btn">Start Quiz</button>
+      `;
+
+      document.querySelectorAll('.quiz-pill').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const topic = btn.dataset.topic;
+          if (topic === 'all') {
+            quizState.selectedTopics = ['all'];
+            document.querySelectorAll('.quiz-pill').forEach(b => b.classList.remove('selected'));
+            btn.classList.add('selected');
+          } else {
+            const allBtn = document.querySelector('.quiz-pill[data-topic="all"]');
+            allBtn.classList.remove('selected');
+            btn.classList.toggle('selected');
+            const sel = Array.from(document.querySelectorAll('.quiz-pill.selected')).map(b => b.dataset.topic);
+            quizState.selectedTopics = sel.length ? sel : ['all'];
+            if (!sel.length) allBtn.classList.add('selected');
+          }
+        });
+      });
+
+      document.querySelectorAll('.quiz-count-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          document.querySelectorAll('.quiz-count-btn').forEach(b => b.classList.remove('selected'));
+          btn.classList.add('selected');
+          quizState.questionCount = btn.dataset.count === 'all' ? 'all' : parseInt(btn.dataset.count);
+        });
+      });
+
+      document.getElementById('quiz-start-btn').addEventListener('click', () => {
+        startQuiz(quizState.selectedTopics, quizState.questionCount);
+      });
+
+      document.getElementById('quiz-inner').scrollTop = 0;
+      document.getElementById('quiz-overlay').scrollTop = 0;
+    }
+
+    function startQuiz(topics, count) {
+      quizState.lastFilters = topics;
+      quizState.lastCount = count;
+      let pool = quizAllQuestions;
+      if (!topics.includes('all')) {
+        pool = pool.filter(q => topics.includes(q.topic));
+      }
+      pool = fisherYates(pool);
+      if (count !== 'all') pool = pool.slice(0, Math.min(count, pool.length));
+      quizState.questions = pool;
+      quizState.index = 0;
+      quizState.score = 0;
+      quizState.categoryStats = {};
+      quizState.topicStats = {};
+      renderQuestion(0);
+    }
+
+    function renderQuestion(idx) {
+      const q = quizState.questions[idx];
+      const total = quizState.questions.length;
+      const pct = Math.round((idx / total) * 100);
+      const labels = ['A', 'B', 'C', 'D', 'E'];
+      const inner = document.getElementById('quiz-inner');
+      inner.innerHTML = `
+        <div class="quiz-progress-bar-wrap">
+          <div class="quiz-progress-bar-fill" style="width:${pct}%"></div>
+        </div>
+        <div class="quiz-progress-text">${idx + 1} / ${total}</div>
+        <div class="quiz-question-text">${q.question}</div>
+        ${q.multiple ? '<div class="quiz-multi-note">Select all that apply.</div>' : ''}
+        <div class="quiz-options" id="quiz-options">
+          ${q.options.map((opt, i) => `
+            <button class="quiz-option" data-index="${i}">
+              <span class="option-label">${labels[i]}</span>
+              <span>${opt.text}</span>
+            </button>
+          `).join('')}
+        </div>
+        <div id="quiz-explanation" style="display:none"></div>
+        <div id="quiz-action"></div>
+      `;
+      document.getElementById('quiz-overlay').scrollTop = 0;
+
+      if (q.multiple) {
+        const selected = new Set();
+        document.querySelectorAll('.quiz-option').forEach(btn => {
+          btn.addEventListener('click', () => {
+            const i = parseInt(btn.dataset.index);
+            if (selected.has(i)) { selected.delete(i); btn.classList.remove('selected'); }
+            else { selected.add(i); btn.classList.add('selected'); }
+            const action = document.getElementById('quiz-action');
+            if (selected.size > 0 && !action.querySelector('.quiz-confirm-btn')) {
+              action.innerHTML = '<button class="quiz-confirm-btn">Confirm</button>';
+              action.querySelector('.quiz-confirm-btn').addEventListener('click', () => {
+                handleAnswer(Array.from(selected), q);
+              });
+            } else if (selected.size === 0) {
+              action.innerHTML = '';
+            }
+          });
+        });
+      } else {
+        document.querySelectorAll('.quiz-option').forEach(btn => {
+          btn.addEventListener('click', () => handleAnswer([parseInt(btn.dataset.index)], q));
+        });
+      }
+    }
+
+    function handleAnswer(selectedIndices, q) {
+      const correctIndices = q.options.reduce((acc, opt, i) => { if (opt.correct) acc.push(i); return acc; }, []);
+      const isCorrect = correctIndices.length === selectedIndices.length &&
+        selectedIndices.every(i => correctIndices.includes(i));
+
+      document.querySelectorAll('.quiz-option').forEach((btn, i) => {
+        btn.disabled = true;
+        btn.classList.remove('selected');
+        if (correctIndices.includes(i)) btn.classList.add('option--correct');
+        else if (selectedIndices.includes(i)) btn.classList.add('option--incorrect');
+      });
+
+      if (isCorrect) quizState.score++;
+
+      // Track stats
+      const cat = q.category;
+      const top = q.topic;
+      if (!quizState.categoryStats[cat]) quizState.categoryStats[cat] = { correct: 0, total: 0 };
+      if (!quizState.topicStats[top]) quizState.topicStats[top] = { correct: 0, total: 0 };
+      quizState.categoryStats[cat].total++;
+      quizState.topicStats[top].total++;
+      if (isCorrect) { quizState.categoryStats[cat].correct++; quizState.topicStats[top].correct++; }
+
+      const expDiv = document.getElementById('quiz-explanation');
+      expDiv.style.display = 'block';
+      expDiv.className = 'quiz-explanation';
+      expDiv.textContent = q.explanation;
+
+      const action = document.getElementById('quiz-action');
+      const isLast = quizState.index === quizState.questions.length - 1;
+      action.innerHTML = `<button class="quiz-next-btn">${isLast ? 'See Results' : 'Next \u2192'}</button>`;
+      action.querySelector('.quiz-next-btn').addEventListener('click', () => {
+        if (isLast) { renderResults(); }
+        else { quizState.index++; renderQuestion(quizState.index); }
+      });
+    }
+
+    function renderResults() {
+      const total = quizState.questions.length;
+      const score = quizState.score;
+      const pct = Math.round((score / total) * 100);
+
+      function breakdownHTML(stats) {
+        return Object.entries(stats).map(([label, { correct, total: t }]) => {
+          const fillPct = Math.round((correct / t) * 100);
+          const display = label.replace(/_/g, ' ');
+          return `
+            <div class="quiz-breakdown-row">
+              <span class="quiz-breakdown-label">${display}</span>
+              <div class="quiz-breakdown-bar-wrap"><div class="quiz-breakdown-bar-fill" style="width:${fillPct}%"></div></div>
+              <span class="quiz-breakdown-fraction">${correct}/${t}</span>
+            </div>`;
+        }).join('');
+      }
+
+      const inner = document.getElementById('quiz-inner');
+      inner.innerHTML = `
+        <h1 class="quiz-title">Results</h1>
+        <div class="quiz-results-score">${score} / ${total}</div>
+        <div class="quiz-results-pct">${pct}% correct</div>
+        <div class="quiz-breakdown-section">
+          <div class="quiz-section-label">By Category</div>
+          ${breakdownHTML(quizState.categoryStats)}
+        </div>
+        <div class="quiz-breakdown-section">
+          <div class="quiz-section-label">By Topic</div>
+          ${breakdownHTML(quizState.topicStats)}
+        </div>
+        <div class="quiz-results-btns">
+          <button class="quiz-try-again-btn">Try Again</button>
+          <button class="quiz-new-quiz-btn">New Quiz</button>
+        </div>
+      `;
+      document.getElementById('quiz-overlay').scrollTop = 0;
+
+      inner.querySelector('.quiz-try-again-btn').addEventListener('click', () => {
+        startQuiz(quizState.lastFilters, quizState.lastCount);
+      });
+      inner.querySelector('.quiz-new-quiz-btn').addEventListener('click', () => {
+        renderStartScreen();
+      });
+    }
+
+    // Event wiring
+    document.getElementById('quiz-btn').addEventListener('click', openQuiz);
+    document.getElementById('quiz-btn-mobile').addEventListener('click', openQuiz);
+    document.getElementById('quiz-close').addEventListener('click', closeQuiz);
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && document.getElementById('quiz-overlay').classList.contains('quiz-overlay--open')) {
+        closeQuiz();
+      }
+    });
+    // ── End Quiz ───────────────────────────────────────────────────────────
 
     render();
   </script>
