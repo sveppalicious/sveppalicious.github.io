@@ -3833,36 +3833,6 @@
       "multiple": false
     },
     {
-      "id": "q128",
-      "question": "European Herring Gulls (Larus argentatus) are considered what type of bird within the gull guild?",
-      "options": [
-        {
-          "text": "Kleptoparasitic species stealing food exclusively from other birds",
-          "correct": false
-        },
-        {
-          "text": "Large generalist omnivore/scavenger exploiting diverse marine and terrestrial food sources",
-          "correct": true
-        },
-        {
-          "text": "Specialized fish-eating piscivore requiring deep ocean waters",
-          "correct": false
-        },
-        {
-          "text": "Cryptic ground-nesting species avoiding humans",
-          "correct": false
-        }
-      ],
-      "explanation": "European Herring Gulls are large, adaptable gulls that have become familiar in coastal settlements and inland areas across the Northern Hemisphere. As generalist omnivores/scavengers, they exploit fish, invertebrates, seeds, refuse, and dead animals. Their behavioral flexibility and opportunistic feeding have made them one of the most abundant gull species globally.",
-      "category": "feeding",
-      "difficulty": "easy",
-      "topic": "Elementaves",
-      "related_orders": [
-        "Charadriiformes"
-      ],
-      "multiple": false
-    },
-    {
       "id": "q129",
       "question": "Which water rail characteristic allows it to navigate through dense wetland vegetation?",
       "options": [
