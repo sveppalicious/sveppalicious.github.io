@@ -893,8 +893,46 @@
     }
     .quiz-discard-btn:hover { color: var(--text-primary); border-color: var(--text-muted); }
 
+    .quiz-topic-row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.3rem 0.5rem;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin-bottom: 0.75rem;
+    }
+    .quiz-topic-row-label { opacity: 0.75; }
+    .quiz-topic-row-sep { opacity: 0.5; }
+    .quiz-section-link {
+      color: var(--text-accent);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.15s;
+    }
+    .quiz-section-link:hover { border-bottom-color: var(--text-accent); }
+
+    #quiz-resume-bar-btn {
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+      padding: 0.3rem 0.7rem;
+      border-radius: 6px;
+      border: 1px solid var(--hr-color);
+      background: transparent;
+      color: var(--text-muted);
+      font-size: 0.8rem;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: color 0.15s, border-color 0.15s;
+      margin-right: 0.5rem;
+      font-family: inherit;
+    }
+    #quiz-resume-bar-btn:hover { color: var(--text-primary); border-color: var(--text-muted); }
+
     @media (max-width: 768px) {
       #quiz-btn-mobile { display: block; }
+      #quiz-resume-bar-btn { display: none !important; }
       #quiz-inner { padding: 0.5rem 1rem 3rem; }
       .quiz-title { font-size: 1.4rem; }
       .quiz-breakdown-label { width: 110px; }
@@ -907,6 +945,7 @@
   <div id="breadcrumb-bar">
     <div id="breadcrumb"></div>
     <div style="display:flex;align-items:center;flex-shrink:0;">
+      <button id="quiz-resume-bar-btn" aria-label="Resume quiz" style="display:none">↩ Resume</button>
       <button id="quiz-btn" aria-label="Open quiz">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
         Quiz
@@ -1598,6 +1637,13 @@
       fetchQuestions().then(() => renderStartScreen());
     }
 
+    function updateResumeBarBtn() {
+      const btn = document.getElementById('quiz-resume-bar-btn');
+      if (!btn) return;
+      const saved = loadSession();
+      btn.style.display = (saved && saved.questions && saved.questions.length) ? '' : 'none';
+    }
+
     function saveSession() {
       if (!quizState.questions || !quizState.questions.length) return;
       try {
@@ -1606,6 +1652,7 @@
           timestamp: new Date().toISOString()
         }));
       } catch (e) {}
+      updateResumeBarBtn();
     }
 
     function loadSession() {
@@ -1617,6 +1664,7 @@
 
     function clearSession() {
       localStorage.removeItem('ornithology_quiz_session');
+      updateResumeBarBtn();
     }
 
     function disclaimerHTML() {
@@ -1815,10 +1863,32 @@
       expDiv.textContent = q.explanation;
       const action = document.getElementById('quiz-action');
       const isLast = quizState.index === quizState.questions.length - 1;
-      action.innerHTML = `<button class="quiz-next-btn">${isLast ? 'See Results' : 'Next \u2192'}</button>`;
+      const relatedLinks = (q.related_orders && q.related_orders.length)
+        ? `<span class="quiz-topic-row-sep">&middot;</span><span class="quiz-topic-row-label">Related:</span>${q.related_orders.map(r => `<a class="quiz-section-link" data-section="${r}" href="#">${r}</a>`).join('')}`
+        : '';
+      action.innerHTML = `
+        <div class="quiz-topic-row">
+          <span class="quiz-topic-row-label">Topic:</span>
+          <a class="quiz-section-link" data-section="${q.topic}" href="#">${q.topic}</a>
+          ${relatedLinks}
+        </div>
+        <button class="quiz-next-btn">${isLast ? 'See Results' : 'Next \u2192'}</button>`;
       action.querySelector('.quiz-next-btn').addEventListener('click', () => {
         if (isLast) { renderResults(); }
         else { quizState.index++; renderQuestion(quizState.index); }
+      });
+      action.querySelectorAll('.quiz-section-link').forEach(link => {
+        link.addEventListener('click', e => {
+          e.preventDefault();
+          const name = link.dataset.section;
+          closeQuiz();
+          const tocA = Array.from(document.querySelectorAll('#toc a'))
+            .find(a => a.textContent.trim() === name);
+          if (tocA) {
+            const el = document.getElementById(tocA.getAttribute('href').slice(1));
+            if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+        });
       });
     }
 
@@ -1893,11 +1963,24 @@
     document.getElementById('quiz-btn').addEventListener('click', openQuiz);
     document.getElementById('quiz-btn-mobile').addEventListener('click', openQuiz);
     document.getElementById('quiz-close').addEventListener('click', closeQuiz);
+    document.getElementById('quiz-resume-bar-btn').addEventListener('click', () => {
+      const saved = loadSession();
+      if (!saved || !saved.questions || !saved.questions.length) { openQuiz(); return; }
+      const overlay = document.getElementById('quiz-overlay');
+      overlay.classList.add('quiz-overlay--open');
+      overlay.removeAttribute('hidden');
+      document.body.style.overflow = 'hidden';
+      fetchQuestions().then(() => {
+        Object.assign(quizState, saved);
+        renderQuestion(quizState.index);
+      });
+    });
     document.addEventListener('keydown', (e) => {
       if (e.key === 'Escape' && document.getElementById('quiz-overlay').classList.contains('quiz-overlay--open')) {
         closeQuiz();
       }
     });
+    updateResumeBarBtn();
     // ── End Quiz ───────────────────────────────────────────────────────────
 
     render();
