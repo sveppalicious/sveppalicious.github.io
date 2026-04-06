@@ -1740,6 +1740,7 @@
       quizState.score = 0;
       quizState.categoryStats = {};
       quizState.topicStats = {};
+      quizState.answers = [];
       renderQuestion(0);
     }
 
@@ -1793,6 +1794,32 @@
           btn.addEventListener('click', () => handleAnswer([parseInt(btn.dataset.index)], q));
         });
       }
+
+      // If resuming a session where this question was already answered, lock it immediately
+      if (quizState.answers && quizState.answers[idx] !== undefined) {
+        showAnswerFeedback(quizState.answers[idx], q);
+      }
+    }
+
+    function showAnswerFeedback(selectedIndices, q) {
+      const correctIndices = q.options.reduce((acc, opt, i) => { if (opt.correct) acc.push(i); return acc; }, []);
+      document.querySelectorAll('.quiz-option').forEach((btn, i) => {
+        btn.disabled = true;
+        btn.classList.remove('selected');
+        if (correctIndices.includes(i)) btn.classList.add('option--correct');
+        else if (selectedIndices.includes(i)) btn.classList.add('option--incorrect');
+      });
+      const expDiv = document.getElementById('quiz-explanation');
+      expDiv.style.display = 'block';
+      expDiv.className = 'quiz-explanation';
+      expDiv.textContent = q.explanation;
+      const action = document.getElementById('quiz-action');
+      const isLast = quizState.index === quizState.questions.length - 1;
+      action.innerHTML = `<button class="quiz-next-btn">${isLast ? 'See Results' : 'Next \u2192'}</button>`;
+      action.querySelector('.quiz-next-btn').addEventListener('click', () => {
+        if (isLast) { renderResults(); }
+        else { quizState.index++; renderQuestion(quizState.index); }
+      });
     }
 
     function handleAnswer(selectedIndices, q) {
@@ -1800,16 +1827,7 @@
       const isCorrect = correctIndices.length === selectedIndices.length &&
         selectedIndices.every(i => correctIndices.includes(i));
 
-      document.querySelectorAll('.quiz-option').forEach((btn, i) => {
-        btn.disabled = true;
-        btn.classList.remove('selected');
-        if (correctIndices.includes(i)) btn.classList.add('option--correct');
-        else if (selectedIndices.includes(i)) btn.classList.add('option--incorrect');
-      });
-
       if (isCorrect) quizState.score++;
-
-      // Track stats
       const cat = q.category;
       const top = q.topic;
       if (!quizState.categoryStats[cat]) quizState.categoryStats[cat] = { correct: 0, total: 0 };
@@ -1818,20 +1836,10 @@
       quizState.topicStats[top].total++;
       if (isCorrect) { quizState.categoryStats[cat].correct++; quizState.topicStats[top].correct++; }
 
+      if (!quizState.answers) quizState.answers = [];
+      quizState.answers[quizState.index] = selectedIndices;
       saveSession();
-
-      const expDiv = document.getElementById('quiz-explanation');
-      expDiv.style.display = 'block';
-      expDiv.className = 'quiz-explanation';
-      expDiv.textContent = q.explanation;
-
-      const action = document.getElementById('quiz-action');
-      const isLast = quizState.index === quizState.questions.length - 1;
-      action.innerHTML = `<button class="quiz-next-btn">${isLast ? 'See Results' : 'Next \u2192'}</button>`;
-      action.querySelector('.quiz-next-btn').addEventListener('click', () => {
-        if (isLast) { renderResults(); }
-        else { quizState.index++; renderQuestion(quizState.index); }
-      });
+      showAnswerFeedback(selectedIndices, q);
     }
 
     function renderResults() {
