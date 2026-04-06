@@ -838,6 +838,61 @@
     }
     .quiz-new-quiz-btn:hover { background: rgba(112,93,207,0.08); }
 
+    .quiz-disclaimer {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      opacity: 0.75;
+      line-height: 1.5;
+      margin-bottom: 1.5rem;
+    }
+    .quiz-disclaimer a { color: var(--text-muted); text-decoration: underline; margin-right: 0.8rem; }
+    .quiz-disclaimer a:hover { color: var(--text-primary); opacity: 1; }
+
+    .quiz-report-line {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      opacity: 0.65;
+      margin-top: 1.2rem;
+    }
+    .quiz-report-line a { color: var(--text-muted); text-decoration: underline; margin-right: 0.7rem; }
+    .quiz-report-line a:hover { color: var(--text-primary); }
+
+    .quiz-resume-card {
+      border: 1px solid var(--hr-color);
+      border-radius: 8px;
+      padding: 1rem 1.2rem;
+      margin-bottom: 1.5rem;
+      background: var(--bg-secondary);
+    }
+    .quiz-resume-card-title { font-weight: 600; font-size: 0.95rem; margin-bottom: 0.3rem; }
+    .quiz-resume-card-meta { font-size: 0.83rem; color: var(--text-muted); margin-bottom: 0.8rem; line-height: 1.5; }
+    .quiz-resume-btns { display: flex; gap: 0.6rem; }
+    .quiz-resume-btn {
+      background: var(--text-accent);
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      padding: 0.5rem 1.2rem;
+      font-size: 0.88rem;
+      font-weight: 600;
+      cursor: pointer;
+      font-family: inherit;
+      transition: opacity 0.15s;
+    }
+    .quiz-resume-btn:hover { opacity: 0.88; }
+    .quiz-discard-btn {
+      background: none;
+      color: var(--text-muted);
+      border: 1px solid var(--hr-color);
+      border-radius: 8px;
+      padding: 0.5rem 1.2rem;
+      font-size: 0.88rem;
+      cursor: pointer;
+      font-family: inherit;
+      transition: color 0.15s, border-color 0.15s;
+    }
+    .quiz-discard-btn:hover { color: var(--text-primary); border-color: var(--text-muted); }
+
     @media (max-width: 768px) {
       #quiz-btn-mobile { display: block; }
       #quiz-inner { padding: 0.5rem 1rem 3rem; }
@@ -1543,7 +1598,37 @@
       fetchQuestions().then(() => renderStartScreen());
     }
 
+    function saveSession() {
+      if (!quizState.questions || !quizState.questions.length) return;
+      try {
+        localStorage.setItem('ornithology_quiz_session', JSON.stringify({
+          ...quizState,
+          timestamp: new Date().toISOString()
+        }));
+      } catch (e) {}
+    }
+
+    function loadSession() {
+      try {
+        const raw = localStorage.getItem('ornithology_quiz_session');
+        return raw ? JSON.parse(raw) : null;
+      } catch { return null; }
+    }
+
+    function clearSession() {
+      localStorage.removeItem('ornithology_quiz_session');
+    }
+
+    function disclaimerHTML() {
+      return `<div class="quiz-disclaimer">Questions generated with AI assistance, based on: Hosner, P. <em>A Higher-Level Classification of Birds</em>. University of Copenhagen. Content has not been individually verified. <a href="mailto:sverrir.sigurdarson@gmail.com?subject=Quiz%20error%20report" target="_blank">Report via email</a><a href="https://github.com/sveppalicious/sveppalicious.github.io/issues/new?title=Quiz+error+report" target="_blank">Open GitHub issue</a></div>`;
+    }
+
+    function reportLineHTML() {
+      return `<div class="quiz-report-line">Spot an error? <a href="mailto:sverrir.sigurdarson@gmail.com?subject=Quiz%20error%20report" target="_blank">Email</a><a href="https://github.com/sveppalicious/sveppalicious.github.io/issues/new?title=Quiz+error+report" target="_blank">GitHub issue</a></div>`;
+    }
+
     function closeQuiz() {
+      saveSession();
       const overlay = document.getElementById('quiz-overlay');
       overlay.classList.remove('quiz-overlay--open');
       document.body.style.overflow = '';
@@ -1554,10 +1639,33 @@
       quizState.questionCount = 20;
       quizState.lastFilters = null;
       quizState.lastCount = null;
+      const saved = loadSession();
       const inner = document.getElementById('quiz-inner');
+
+      let resumeCard = '';
+      if (saved && saved.questions && saved.questions.length) {
+        const topicLabel = saved.lastFilters && !saved.lastFilters.includes('all')
+          ? saved.lastFilters.join(', ')
+          : 'All Topics';
+        const answered = saved.index;
+        const total = saved.questions.length;
+        const date = new Date(saved.timestamp).toLocaleDateString();
+        resumeCard = `
+          <div class="quiz-resume-card">
+            <div class="quiz-resume-card-title">Resume Quiz</div>
+            <div class="quiz-resume-card-meta">${topicLabel} &middot; ${answered} / ${total} answered &middot; ${saved.score} correct &middot; ${date}</div>
+            <div class="quiz-resume-btns">
+              <button class="quiz-resume-btn" id="quiz-resume-btn">Resume</button>
+              <button class="quiz-discard-btn" id="quiz-discard-btn">Discard</button>
+            </div>
+          </div>`;
+      }
+
       inner.innerHTML = `
+        ${resumeCard}
         <h1 class="quiz-title">Ornithology Quiz</h1>
         <p class="quiz-subtitle">Test your knowledge of bird orders and their characteristics.</p>
+        ${disclaimerHTML()}
         <div class="quiz-section-label">Topics</div>
         <div class="quiz-topic-pills" id="quiz-topic-pills">
           <button class="quiz-pill selected" data-topic="all">All Topics</button>
@@ -1572,6 +1680,17 @@
         </div>
         <button class="quiz-start-btn" id="quiz-start-btn">Start Quiz</button>
       `;
+
+      if (saved && document.getElementById('quiz-resume-btn')) {
+        document.getElementById('quiz-resume-btn').addEventListener('click', () => {
+          quizState = { ...saved };
+          renderQuestion(quizState.index);
+        });
+        document.getElementById('quiz-discard-btn').addEventListener('click', () => {
+          clearSession();
+          renderStartScreen();
+        });
+      }
 
       document.querySelectorAll('.quiz-pill').forEach(btn => {
         btn.addEventListener('click', () => {
@@ -1647,6 +1766,7 @@
         </div>
         <div id="quiz-explanation" style="display:none"></div>
         <div id="quiz-action"></div>
+        ${reportLineHTML()}
       `;
       document.getElementById('quiz-overlay').scrollTop = 0;
 
@@ -1698,6 +1818,8 @@
       quizState.topicStats[top].total++;
       if (isCorrect) { quizState.categoryStats[cat].correct++; quizState.topicStats[top].correct++; }
 
+      saveSession();
+
       const expDiv = document.getElementById('quiz-explanation');
       expDiv.style.display = 'block';
       expDiv.className = 'quiz-explanation';
@@ -1713,6 +1835,7 @@
     }
 
     function renderResults() {
+      clearSession();
       const total = quizState.questions.length;
       const score = quizState.score;
       const pct = Math.round((score / total) * 100);
