@@ -5221,7 +5221,7 @@
           "correct": true
         }
       ],
-      "explanation": "Honeyguides (Piciformes) have specialized digestive systems allowing them to metabolize beeswax, a diet unavailable to most other birds. They also famously lead humans and honey badgers to beehives.",
+      "explanation": "Honeyguides (Piciformes) have specialized digestive systems allowing them to metabolize beeswax, a diet unavailable to most other birds.",
       "category": "traits",
       "difficulty": "medium",
       "topic": "Telluraves — Afroaves",
@@ -6319,37 +6319,6 @@
       "topic": "Telluraves — Afroaves",
       "related_orders": [
         "Accipitriformes"
-      ],
-      "multiple": false
-    },
-    {
-      "id": "q210",
-      "question": "Trogons have an unusual foot configuration called heterodactyl. What does this mean?",
-      "options": [
-        {
-          "text": "Two pairs of toes face each other for gripping",
-          "correct": false
-        },
-        {
-          "text": "Toes can rotate 180 degrees from their sockets",
-          "correct": false
-        },
-        {
-          "text": "All four toes are directed forward in a line",
-          "correct": false
-        },
-        {
-          "text": "Toes 1-2 are directed backward, and toes 3-4 are forward",
-          "correct": true
-        }
-      ],
-      "explanation": "Heterodactyl feet have toes 1-2 directed backward and toes 3-4 directed forward, a unique arrangement among birds that slightly differs from the typical zygodactyl configuration.",
-      "category": "feet",
-      "difficulty": "hard",
-      "topic": "Telluraves — Afroaves",
-      "related_orders": [
-        "Piciformes",
-        "Trogoniformes"
       ],
       "multiple": false
     },
