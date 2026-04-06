@@ -1399,7 +1399,7 @@
           "correct": false
         },
         {
-          "text": "Chicks are semiprecocial and ride on parents' backs with zebra-striped downy plumage",
+          "text": "Chicks are semiprecocial and ride on parents' backs",
           "correct": true
         },
         {
@@ -1407,7 +1407,7 @@
           "correct": false
         }
       ],
-      "explanation": "Grebe chicks are semiprecocial, initially dependent on parents for warmth and transport. They famously ride on their parents' backs, and their downy plumage displays striking zebra stripes that may serve as camouflage or familial recognition.",
+      "explanation": "Grebe chicks are semiprecocial, initially dependent on parents for warmth and transport.",
       "category": "development",
       "difficulty": "medium",
       "topic": "Mirandornithes",
@@ -1508,7 +1508,7 @@
     },
     {
       "id": "q051",
-      "question": "Which clade encompasses both pigeons and sandgrouse within a larger taxonomic grouping?",
+      "question": "Which clade encompasses pigeons, sandgrouse, turacos, and cuckoos within a larger taxonomic grouping?",
       "options": [
         {
           "text": "Mirandornithes",
@@ -1523,7 +1523,7 @@
           "correct": true
         },
         {
-          "text": "Neoaves",
+          "text": "Australaves",
           "correct": false
         }
       ],
@@ -6343,7 +6343,7 @@
           "correct": false
         }
       ],
-      "explanation": "Trogons are hover-gleaners that pick large insects and fruits from vegetation while hovering, a feeding technique that matches their overall morphology of large head, short wings, and long tail.",
+      "explanation": "Trogons are hover-gleaners that pick large insects and fruits from vegetation while hovering.",
       "category": "feeding",
       "difficulty": "medium",
       "topic": "Telluraves — Afroaves",
