@@ -53,23 +53,23 @@
       "question": "What is the maximum speed at which an ostrich can run?",
       "options": [
         {
-          "text": "90 mph",
+          "text": "110 km/h",
           "correct": false
         },
         {
-          "text": "70 mph",
+          "text": "70 km/h",
           "correct": true
         },
         {
-          "text": "35 mph",
+          "text": "45 km/h",
           "correct": false
         },
         {
-          "text": "50 mph",
+          "text": "90 km/h",
           "correct": false
         }
       ],
-      "explanation": "Ostriches can reach speeds of up to 70 mph, making them the fastest-running birds on Earth.",
+      "explanation": "Ostriches can reach speeds of up to 70 km/h, making them the fastest-running birds on Earth.",
       "category": "fun_facts",
       "difficulty": "easy",
       "topic": "Palaeognathae",
@@ -228,37 +228,6 @@
       "topic": "Palaeognathae",
       "related_orders": [
         "Struthioniformes",
-        "Apterygiformes"
-      ],
-      "multiple": false
-    },
-    {
-      "id": "q008",
-      "question": "Rheas practice polyandry. What does this mean in terms of their breeding?",
-      "options": [
-        {
-          "text": "Multiple males mate with one female",
-          "correct": true
-        },
-        {
-          "text": "One male mates with multiple females simultaneously",
-          "correct": false
-        },
-        {
-          "text": "Males and females alternate nesting duties monthly",
-          "correct": false
-        },
-        {
-          "text": "Females compete for access to males",
-          "correct": false
-        }
-      ],
-      "explanation": "In polyandrous rheas, multiple females lay eggs in a single male's nest (up to 60 eggs), and the male incubates and raises the chicks alone.",
-      "category": "breeding",
-      "difficulty": "easy",
-      "topic": "Palaeognathae",
-      "related_orders": [
-        "Tinamiformes",
         "Apterygiformes"
       ],
       "multiple": false

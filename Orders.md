@@ -30,7 +30,7 @@
 - **Chick development:** Precocial
 
 > [!Tip] Fun Facts
-> Largest bird, can run 70 mph, sometimes broods will join and become as large as 300 chicks
+> Largest bird, can run 70 km/h, sometimes broods will join and become as large as 300 chicks
 
 > [!Source]- Handbook of Bird Biology
 > The Ostrich (Struthio camelus), the largest living bird, is found today only in Sub-Saharan Africa. The flightless Ostrich is an extremely fast runner. Males care for the eggs and chicks of many females simultaneously
