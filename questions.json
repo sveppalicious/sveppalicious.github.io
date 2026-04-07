@@ -1444,36 +1444,6 @@
       "multiple": false
     },
     {
-      "id": "q054",
-      "question": "How do carrier pigeons navigate over long distances?",
-      "options": [
-        {
-          "text": "Through olfactory navigation, likely detecting odor gradients",
-          "correct": true
-        },
-        {
-          "text": "Via magnetic field detection in specialized retinal cells",
-          "correct": false
-        },
-        {
-          "text": "Using visual landmarks and memorized routes",
-          "correct": false
-        },
-        {
-          "text": "By following the sun's position and polarized light patterns",
-          "correct": false
-        }
-      ],
-      "explanation": "Research suggests that carrier pigeons rely heavily on olfaction (sense of smell) for navigation, detecting odor gradients that allow them to locate home. This olfactory-based navigation system is more sophisticated than previously understood.",
-      "category": "fun_facts",
-      "difficulty": "medium",
-      "topic": "Columbaves",
-      "related_orders": [
-        "Columbiformes"
-      ],
-      "multiple": false
-    },
-    {
       "id": "q055",
       "question": "What is the ecological importance of pigeons and doves?",
       "options": [
@@ -1914,7 +1884,7 @@
           "correct": false
         }
       ],
-      "explanation": "Bustards are restricted to arid and semi-arid habitats of the Old World (Eurasia, Africa, Australia). They are not found in the Americas or tropical rainforests.",
+      "explanation": "Bustards are restricted to arid and semi-arid habitats of the Old World (Eurasia, Africa, Australia).",
       "category": "distribution",
       "difficulty": "easy",
       "topic": "Columbaves",
