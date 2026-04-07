@@ -7758,7 +7758,8 @@
       "id": "q263"
     },
     {
-      "question": "To which order does Leptosomus discolor (Cuckoo-Roller) belong?",
+      "id": "q264",
+      "question": "To which order does the Cuckoo-Roller belong?",
       "options": [
         {
           "text": "Leptosomiformes",
@@ -7780,12 +7781,11 @@
       "explanation": "The Cuckoo-Roller is the sole member of Leptosomiformes, a monotypic order endemic to Madagascar and the Comoros Islands.",
       "category": "specimens",
       "difficulty": "easy",
-      "topic": "Telluraves — Afroaves",
+      "topic": "Leptosomiformes",
       "related_orders": [
-        "Leptosomiformes"
+        "Afroaves"
       ],
-      "multiple": false,
-      "id": "q264"
+      "multiple": false
     },
     {
       "question": "What unique foot type is found in trogons (Trogoniformes)?",
