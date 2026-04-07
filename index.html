@@ -799,6 +799,7 @@
       transition: opacity 0.15s;
     }
     .quiz-confirm-btn:hover, .quiz-next-btn:hover { opacity: 0.88; }
+    .quiz-select-count { font-size: 0.85rem; color: var(--text-muted, #888); margin-right: 0.5rem; vertical-align: middle; }
 
     .quiz-results-score { font-size: 2rem; font-weight: 700; color: var(--text-accent); margin: 1.5rem 0 0.2rem; }
     .quiz-results-pct { font-size: 1rem; color: var(--text-muted); margin-bottom: 2rem; }
@@ -1804,6 +1805,7 @@
       const total = quizState.questions.length;
       const pct = Math.round((idx / total) * 100);
       const labels = ['A', 'B', 'C', 'D', 'E'];
+      const requiredCount = q.multiple ? q.options.filter(o => o.correct).length : 0;
       const inner = document.getElementById('quiz-inner');
       inner.innerHTML = `
         <div class="quiz-progress-bar-wrap">
@@ -1811,7 +1813,7 @@
         </div>
         <div class="quiz-progress-text">${idx + 1} / ${total}</div>
         <div class="quiz-question-text">${q.question}</div>
-        ${q.multiple ? '<div class="quiz-multi-note">Select all that apply.</div>' : ''}
+        ${q.multiple ? `<div class="quiz-multi-note">Select ${requiredCount} answer${requiredCount !== 1 ? 's' : ''}.</div>` : ''}
         <div class="quiz-options" id="quiz-options">
           ${q.options.map((opt, i) => `
             <button class="quiz-option" data-index="${i}">
@@ -1828,20 +1830,26 @@
 
       if (q.multiple) {
         const selected = new Set();
+        function updateConfirmState() {
+          const action = document.getElementById('quiz-action');
+          const n = selected.size;
+          if (n === 0) {
+            action.innerHTML = '';
+          } else if (n === requiredCount) {
+            action.innerHTML = `<span class="quiz-select-count">${n}\u202f/\u202f${requiredCount} selected</span><button class="quiz-confirm-btn">Confirm</button>`;
+            action.querySelector('.quiz-confirm-btn').addEventListener('click', () => {
+              handleAnswer(Array.from(selected), q);
+            });
+          } else {
+            action.innerHTML = `<span class="quiz-select-count">${n}\u202f/\u202f${requiredCount} selected</span>`;
+          }
+        }
         document.querySelectorAll('.quiz-option').forEach(btn => {
           btn.addEventListener('click', () => {
             const i = parseInt(btn.dataset.index);
             if (selected.has(i)) { selected.delete(i); btn.classList.remove('selected'); }
             else { selected.add(i); btn.classList.add('selected'); }
-            const action = document.getElementById('quiz-action');
-            if (selected.size > 0 && !action.querySelector('.quiz-confirm-btn')) {
-              action.innerHTML = '<button class="quiz-confirm-btn">Confirm</button>';
-              action.querySelector('.quiz-confirm-btn').addEventListener('click', () => {
-                handleAnswer(Array.from(selected), q);
-              });
-            } else if (selected.size === 0) {
-              action.innerHTML = '';
-            }
+            updateConfirmState();
           });
         });
       } else {
