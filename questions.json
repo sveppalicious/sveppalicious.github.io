@@ -6285,11 +6285,12 @@
           "correct": false
         }
       ],
-      "explanation": "All Bucerotiformes possess syndactyl feet, where the middle and outer toe are fused together, creating a distinctive foot structure unique to this order.",
+      "explanation": "All Bucerotiformes possess syndactyl feet, where the middle and outer toe are fused together, creating a distinctive foot structure, unique among Bucerotiformes and Coraciiformes.",
       "category": "feet",
       "difficulty": "medium",
-      "topic": "Telluraves — Afroaves",
+      "topic": "Bucerotiformes",
       "related_orders": [
+        "Afroaves",
         "Coraciiformes"
       ],
       "multiple": false
