@@ -3879,13 +3879,13 @@
       "difficulty": "medium",
       "topic": "Elementaves — Aequinornithia",
       "related_orders": [
-        "Sphenisciformes"
+        "Gaviiformes"
       ],
       "multiple": false
     },
     {
       "id": "q146",
-      "question": "Common Loons produce one of the most haunting sounds in North American wildlife. What additional challenge do loons face due to their body adaptations?",
+      "question": "What challenge do loons face due to their body adaptations?",
       "options": [
         {
           "text": "They cannot swim backwards",
@@ -4035,7 +4035,7 @@
     },
     {
       "id": "q151",
-      "question": "Procellariiform chicks are fed on specialized stomach oil produced by their parents. What are two functions of this stomach oil?",
+      "question": "In many of the Procellariiformes species, chicks are fed on specialized stomach oil produced by their parents. What are two functions of this stomach oil?",
       "options": [
         {
           "text": "To waterproof chick plumage and to stimulate feather growth",
@@ -4054,7 +4054,7 @@
           "correct": false
         }
       ],
-      "explanation": "Procellariiform birds produce a rich stomach oil that provides high-energy nutrition to chicks, enabling them to grow during the long fledging period. Additionally, chicks can regurgitate this oil as a defensive spray against predators and rival birds.",
+      "explanation": "Many Procellariiform birds produce a rich stomach oil that provides high-energy nutrition to chicks, enabling them to grow during the long fledging period. Additionally, chicks can regurgitate this oil as a defensive spray against predators and rival birds.",
       "category": "breeding",
       "difficulty": "easy",
       "topic": "Elementaves — Aequinornithia",
@@ -4144,11 +4144,12 @@
           "correct": false
         }
       ],
-      "explanation": "Storks and herons are both in Pelecaniformes but can be distinguished in flight. Storks fly with their long necks fully extended, whereas herons fold their necks into an S-shape during flight. This is a key field identification feature.",
+      "explanation": "Storks fly with their long necks fully extended, whereas herons fold their necks into an S-shape during flight. This is a key field identification feature.",
       "category": "identification",
       "difficulty": "medium",
       "topic": "Elementaves — Aequinornithia",
       "related_orders": [
+        "Ciconiiformes",
         "Pelecaniformes"
       ],
       "multiple": false
@@ -4205,66 +4206,6 @@
         }
       ],
       "explanation": "Cormorants and anhingas have less preen oil than other waterbirds, meaning their feathers get soaked during diving. Unlike penguins and loons, they must spend time on rocks, logs, or driftwood with their wings spread out to dry after feeding.",
-      "category": "traits",
-      "difficulty": "medium",
-      "topic": "Elementaves — Aequinornithia",
-      "related_orders": [
-        "Suliformes"
-      ],
-      "multiple": false
-    },
-    {
-      "id": "q157",
-      "question": "Frigatebirds (Suliformes) are highly specialized seabirds. Which of the following describes their primary feeding strategy?",
-      "options": [
-        {
-          "text": "Filter-feeding for plankton in surface waters",
-          "correct": false
-        },
-        {
-          "text": "Underwater pursuit-diving like cormorants",
-          "correct": false
-        },
-        {
-          "text": "Kleptoparasitism—stealing food from other seabirds",
-          "correct": true
-        },
-        {
-          "text": "High-altitude plunge-diving like gannets",
-          "correct": false
-        }
-      ],
-      "explanation": "Frigatebirds are obligate kleptoparasites—they harass and chase other seabirds (especially boobies and terns) until they drop or regurgitate their food, which the frigatebird then catches mid-air. This is their primary feeding strategy.",
-      "category": "feeding",
-      "difficulty": "easy",
-      "topic": "Elementaves — Aequinornithia",
-      "related_orders": [
-        "Suliformes"
-      ],
-      "multiple": false
-    },
-    {
-      "id": "q158",
-      "question": "Frigatebirds have reduced legs and cannot walk or swim. How are they adapted for their kleptoparasitic lifestyle despite these limitations?",
-      "options": [
-        {
-          "text": "They have extremely long wingspans and are highly maneuverable in the air",
-          "correct": true
-        },
-        {
-          "text": "They produce a loud call that frightens other birds into dropping food",
-          "correct": false
-        },
-        {
-          "text": "They have enhanced vision for spotting prey from extreme heights",
-          "correct": false
-        },
-        {
-          "text": "They nest in large colonies that help them defend food resources",
-          "correct": false
-        }
-      ],
-      "explanation": "While frigatebirds have reduced legs (they can't walk or swim), they have evolved an enormous wingspan relative to body mass, making them extremely agile fliers. This aerial maneuverability is perfect for chasing and harassing other seabirds until they relinquish their food.",
       "category": "traits",
       "difficulty": "medium",
       "topic": "Elementaves — Aequinornithia",
@@ -4334,36 +4275,6 @@
       "multiple": false
     },
     {
-      "id": "q161",
-      "question": "Ibises and Spoonbills (Pelecaniformes) are tactile feeders that probe and sweep through water. Which Spoonbill species is found in Eurasia?",
-      "options": [
-        {
-          "text": "Eurasian Spoonbill (Platalea leucorodia)",
-          "correct": true
-        },
-        {
-          "text": "Black Spoonbill (Platalea minor)",
-          "correct": false
-        },
-        {
-          "text": "African Spoonbill (Platalea alba)",
-          "correct": false
-        },
-        {
-          "text": "Roseate Spoonbill (Platalea ajaja)",
-          "correct": false
-        }
-      ],
-      "explanation": "The Eurasian Spoonbill (Platalea leucorodia) is the Spoonbill species found in Europe and Asia. Spoonbills use their distinctive flattened bill tips to sweep through water, detecting prey by touch rather than sight.",
-      "category": "identification",
-      "difficulty": "easy",
-      "topic": "Elementaves — Aequinornithia",
-      "related_orders": [
-        "Pelecaniformes"
-      ],
-      "multiple": false
-    },
-    {
       "id": "q162",
       "question": "The Shoebill (Balaeniceps rex) is one of the most remarkable birds in Africa. What prey species does the Shoebill primarily hunt?",
       "options": [
@@ -4420,102 +4331,6 @@
       "topic": "Elementaves — Aequinornithia",
       "related_orders": [
         "Pelecaniformes"
-      ],
-      "multiple": false
-    },
-    {
-      "id": "q164",
-      "question": "What is the primary shared adaptation among all birds in the Aequinornithia clade?",
-      "options": [
-        {
-          "text": "Tubenose-like nostrils for salt excretion",
-          "correct": false
-        },
-        {
-          "text": "Large gular pouches for food storage",
-          "correct": false
-        },
-        {
-          "text": "Dense bones and webbed feet for aquatic living",
-          "correct": true
-        },
-        {
-          "text": "Flightlessness and inability to walk on land",
-          "correct": false
-        }
-      ],
-      "explanation": "The ~370 species in Aequinornithia share aquatic adaptations including dense bones (for ballast while diving) and webbed feet (for underwater propulsion). This unifies highly diverse groups from loons and penguins to pelicans and storks.",
-      "category": "phylogeny",
-      "difficulty": "medium",
-      "topic": "Elementaves — Aequinornithia",
-      "related_orders": [
-        "Gaviiformes",
-        "Sphenisciformes",
-        "Procellariiformes",
-        "Ciconiiformes",
-        "Suliformes",
-        "Pelecaniformes"
-      ],
-      "multiple": false
-    },
-    {
-      "id": "q165",
-      "question": "Comparing Procellariiformes and Gaviiformes, which statement correctly describes their breeding strategies?",
-      "options": [
-        {
-          "text": "Gaviiformes produce eggs every year while Procellariiformes skip years",
-          "correct": false
-        },
-        {
-          "text": "Both are K-strategists producing few eggs and showing high parental investment",
-          "correct": true
-        },
-        {
-          "text": "Procellariiformes are K-strategists while Gaviiformes are r-strategists",
-          "correct": false
-        },
-        {
-          "text": "Both are r-strategists producing many eggs with minimal care",
-          "correct": false
-        }
-      ],
-      "explanation": "Both Procellariiformes and Gaviiformes are K-strategists with slow reproduction. Loons produce one egg per season and both parents care for semiprecocial chicks. Albatrosses may produce eggs only every two years with extremely long chick-rearing periods.",
-      "category": "breeding",
-      "difficulty": "medium",
-      "topic": "Elementaves — Aequinornithia",
-      "related_orders": [
-        "Gaviiformes",
-        "Procellariiformes"
-      ],
-      "multiple": false
-    },
-    {
-      "id": "q166",
-      "question": "All Aequinornithian birds show various diving adaptations. Which order uses dynamic soaring rather than powered diving?",
-      "options": [
-        {
-          "text": "Sphenisciformes (penguins)",
-          "correct": false
-        },
-        {
-          "text": "Suliformes (gannets and cormorants)",
-          "correct": false
-        },
-        {
-          "text": "Procellariiformes (albatrosses and petrels)",
-          "correct": true
-        },
-        {
-          "text": "Gaviiformes (loons)",
-          "correct": false
-        }
-      ],
-      "explanation": "While most Aequinornithians actively dive for prey, Procellariiformes use dynamic soaring—an energy-efficient gliding technique exploiting wind gradients over the ocean. They still feed on fish and squid but obtain them through skimming and surface feeding rather than diving.",
-      "category": "feeding",
-      "difficulty": "medium",
-      "topic": "Elementaves — Aequinornithia",
-      "related_orders": [
-        "Procellariiformes"
       ],
       "multiple": false
     },
@@ -6564,7 +6379,7 @@
     },
     {
       "id": "q238",
-      "question": "Which of these orders includes the only fully marine, wing-propelled diving birds in the Southern Hemisphere?",
+      "question": "Which of these orders includes the only fully marine, wing-propelled diving birds?",
       "options": [
         {
           "text": "Gaviiformes",
@@ -6583,7 +6398,7 @@
           "correct": true
         }
       ],
-      "explanation": "Penguins (Sphenisciformes) are the only fully marine, wing-propelled diving birds, restricted to the Southern Hemisphere. Loons (Gaviiformes) are foot-propelled divers restricted to the Northern Hemisphere, while Procellariiformes are primarily surface feeders and gliders.",
+      "explanation": "Penguins (Sphenisciformes) are the only fully marine, wing-propelled diving birds. Loons (Gaviiformes) are foot-propelled divers restricted to the Northern Hemisphere, while Procellariiformes are primarily surface feeders and gliders.",
       "category": "traits",
       "difficulty": "medium",
       "topic": "Elementaves — Aequinornithia",
@@ -6613,7 +6428,7 @@
           "correct": false
         }
       ],
-      "explanation": "Totipalmate feet (all four toes connected by webbing) are found in Suliformes (frigatebirds, gannets, cormorants, anhingas) and Phaethontiformes (tropicbirds). Most other waterbirds have palmate (three front toes webbed) or lobate feet.",
+      "explanation": "Totipalmate feet (all four toes connected by webbing) are found in Suliformes (frigatebirds, gannets, cormorants, anhingas) and Phaethontiformes (tropicbirds).",
       "category": "feet",
       "difficulty": "hard",
       "topic": "Elementaves — Aequinornithia",

@@ -838,7 +838,7 @@
 ##### Aequinornithia: core waterbirds
 
 > [!Clade]
-> Aequinornithia (core waterbirds) includes loons, penguins, petrels, storks, pelicans, cormorants, and allies. Members share aquatic adaptations (e.g. dense bones, webbed feet). This group has ~370 species and is strongly supported by molecular studies.
+> Aequinornithia (core waterbirds) includes loons, penguins, petrels, storks, pelicans, cormorants, and allies. Many members share aquatic adaptations (e.g. webbed feet). This group has ~370 species and is strongly supported by molecular studies.
 >
 > Sources: [Wikipedia](https://en.wikipedia.org/wiki/Aequornithes) · [Stiller et al. 2024](https://www.nature.com/articles/s41586-024-07323-1)
 
