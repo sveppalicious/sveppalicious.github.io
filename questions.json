@@ -4057,8 +4057,7 @@
       "difficulty": "medium",
       "topic": "Telluraves — Afroaves",
       "related_orders": [
-        "Strigiformes",
-        "Psittaciformes"
+        "Accipitriformes"
       ],
       "multiple": false
     },
@@ -4088,7 +4087,7 @@
       "difficulty": "medium",
       "topic": "Telluraves — Afroaves",
       "related_orders": [
-        "Accipitriformes"
+        "Strigiformes"
       ],
       "multiple": false
     },
@@ -4118,40 +4117,7 @@
       "difficulty": "medium",
       "topic": "Telluraves — Afroaves",
       "related_orders": [
-        "Piciformes",
-        "Psittaciformes",
         "Coliiformes"
-      ],
-      "multiple": false
-    },
-    {
-      "id": "q170",
-      "question": "The Cuckoo-Roller (Leptosomus discolor) exhibits sexual dimorphism, unlike most members of which superficially similar order?",
-      "options": [
-        {
-          "text": "Cuckoos (Cuculiformes)",
-          "correct": false
-        },
-        {
-          "text": "Woodpeckers (Piciformes)",
-          "correct": false
-        },
-        {
-          "text": "Rollers (Coraciiformes)",
-          "correct": true
-        },
-        {
-          "text": "Hornbills (Bucerotiformes)",
-          "correct": false
-        }
-      ],
-      "explanation": "Cuckoo-Rollers are sexually dimorphic (males black/iridescent, females brown/spotted), which distinguishes them from true rollers in Coraciiformes, which lack such sexual differences in plumage.",
-      "category": "identification",
-      "difficulty": "hard",
-      "topic": "Telluraves — Afroaves",
-      "related_orders": [
-        "Coraciiformes",
-        "Leptosomiformes"
       ],
       "multiple": false
     },
@@ -4181,7 +4147,6 @@
       "difficulty": "hard",
       "topic": "Telluraves — Afroaves",
       "related_orders": [
-        "Coraciiformes",
         "Trogoniformes"
       ],
       "multiple": false
@@ -4212,8 +4177,7 @@
       "difficulty": "easy",
       "topic": "Telluraves — Afroaves",
       "related_orders": [
-        "Coraciiformes",
-        "Piciformes"
+        "Bucerotiformes"
       ],
       "multiple": false
     },
@@ -4243,7 +4207,7 @@
       "difficulty": "medium",
       "topic": "Telluraves — Afroaves",
       "related_orders": [
-        "Coraciiformes"
+        "Piciformes"
       ],
       "multiple": false
     },
@@ -4273,7 +4237,7 @@
       "difficulty": "medium",
       "topic": "Telluraves — Afroaves",
       "related_orders": [
-        "Accipitriformes"
+        "Coraciiformes"
       ],
       "multiple": false
     },
@@ -4303,7 +4267,7 @@
       "difficulty": "easy",
       "topic": "Telluraves — Afroaves",
       "related_orders": [
-        "Piciformes"
+        "Coraciiformes"
       ],
       "multiple": false
     },
@@ -4523,37 +4487,6 @@
       "multiple": false
     },
     {
-      "id": "q183",
-      "question": "Approximately how many species comprise the entire Telluraves clade?",
-      "options": [
-        {
-          "text": "Approximately 12,000 species",
-          "correct": false
-        },
-        {
-          "text": "Approximately 8,450 species",
-          "correct": false
-        },
-        {
-          "text": "Approximately 5,250 species",
-          "correct": true
-        },
-        {
-          "text": "Approximately 3,500 species",
-          "correct": false
-        }
-      ],
-      "explanation": "Telluraves consists of Afroaves (~1,250 species) and Australaves (~7,200 species), totaling approximately 8,450 species.",
-      "category": "fun_facts",
-      "difficulty": "easy",
-      "topic": "Telluraves — Afroaves",
-      "related_orders": [
-        "Accipitriformes",
-        "Passeriformes"
-      ],
-      "multiple": false
-    },
-    {
       "id": "q184",
       "question": "Which order contains the fastest animal on the planet?",
       "options": [
@@ -4699,7 +4632,7 @@
       "difficulty": "hard",
       "topic": "Telluraves — Afroaves",
       "related_orders": [
-        "Strigiformes"
+        "Accipitriformes"
       ],
       "multiple": false
     },
@@ -4729,7 +4662,7 @@
       "difficulty": "medium",
       "topic": "Telluraves — Afroaves",
       "related_orders": [
-        "Coraciiformes"
+        "Piciformes"
       ],
       "multiple": false
     },
@@ -4759,7 +4692,7 @@
       "difficulty": "easy",
       "topic": "Telluraves — Afroaves",
       "related_orders": [
-        "Falconiformes"
+        "Accipitriformes"
       ],
       "multiple": false
     },
@@ -4789,7 +4722,7 @@
       "difficulty": "hard",
       "topic": "Telluraves — Afroaves",
       "related_orders": [
-        "Accipitriformes"
+        "Strigiformes"
       ],
       "multiple": false
     },
@@ -4819,7 +4752,6 @@
       "difficulty": "easy",
       "topic": "Telluraves — Afroaves",
       "related_orders": [
-        "Bucerotiformes",
         "Coliiformes"
       ],
       "multiple": false
@@ -4850,39 +4782,7 @@
       "difficulty": "medium",
       "topic": "Telluraves — Afroaves",
       "related_orders": [
-        "Telluraves",
-        "Afroaves"
-      ],
-      "multiple": false
-    },
-    {
-      "id": "q194",
-      "question": "What is the primary distinguishing feature of trogon bill morphology?",
-      "options": [
-        {
-          "text": "It is large, wide, and short with a distinctive appearance",
-          "correct": true
-        },
-        {
-          "text": "It is strongly hooked for tearing flesh",
-          "correct": false
-        },
-        {
-          "text": "It has a pronounced casque for resonance",
-          "correct": false
-        },
-        {
-          "text": "It is long and pointed for spearing insects",
-          "correct": false
-        }
-      ],
-      "explanation": "Trogons have characteristically large, wide, short bills that are distinctly different from the hooked raptorial bills of hawks or the pointed bills of many insectivores.",
-      "category": "identification",
-      "difficulty": "easy",
-      "topic": "Telluraves — Afroaves",
-      "related_orders": [
-        "Piciformes",
-        "Trogoniformes"
+        "Coliiformes"
       ],
       "multiple": false
     },
@@ -4912,38 +4812,7 @@
       "difficulty": "hard",
       "topic": "Telluraves — Afroaves",
       "related_orders": [
-        "Coraciiformes"
-      ],
-      "multiple": false
-    },
-    {
-      "id": "q196",
-      "question": "What behavioral adaptation allows mousebirds to survive without drinking water regularly?",
-      "options": [
-        {
-          "text": "They obtain sufficient water from plant material consumed",
-          "correct": false
-        },
-        {
-          "text": "They enter torpor to reduce metabolic water loss",
-          "correct": false
-        },
-        {
-          "text": "They possess specialized kidneys that concentrate urine",
-          "correct": false
-        },
-        {
-          "text": "They avoid water and dust bathe instead.",
-          "correct": true
-        }
-      ],
-      "explanation": "Mousebirds avoid water and prefer dust bathing to maintain feather condition.",
-      "category": "fun_facts",
-      "difficulty": "medium",
-      "topic": "Telluraves — Afroaves",
-      "related_orders": [
-        "Passeriformes",
-        "Coliiformes"
+        "Piciformes"
       ],
       "multiple": false
     },
@@ -5033,7 +4902,7 @@
       "difficulty": "easy",
       "topic": "Telluraves — Afroaves",
       "related_orders": [
-        "Strigiformes"
+        "Accipitriformes"
       ],
       "multiple": false
     },
@@ -5063,7 +4932,6 @@
       "difficulty": "easy",
       "topic": "Telluraves — Afroaves",
       "related_orders": [
-        "Coraciiformes",
         "Leptosomiformes"
       ],
       "multiple": false
@@ -5094,7 +4962,6 @@
       "difficulty": "easy",
       "topic": "Telluraves — Afroaves",
       "related_orders": [
-        "Bucerotiformes",
         "Trogoniformes"
       ],
       "multiple": false
@@ -5125,7 +4992,7 @@
       "difficulty": "easy",
       "topic": "Telluraves — Afroaves",
       "related_orders": [
-        "Piciformes"
+        "Bucerotiformes"
       ],
       "multiple": false
     },
@@ -5185,37 +5052,7 @@
       "difficulty": "medium",
       "topic": "Telluraves — Afroaves",
       "related_orders": [
-        "Coraciiformes"
-      ],
-      "multiple": false
-    },
-    {
-      "id": "q205",
-      "question": "How do New World vultures and Old World vultures relate to each other evolutionarily?",
-      "options": [
-        {
-          "text": "New World vultures evolved from Old World species",
-          "correct": false
-        },
-        {
-          "text": "They are sister taxa within Accipitriformes",
-          "correct": false
-        },
-        {
-          "text": "Old World vultures are polyphyletic within New World lineages",
-          "correct": false
-        },
-        {
-          "text": "They are not closely related despite similar ecology and appearance",
-          "correct": true
-        }
-      ],
-      "explanation": "New World vultures and Old World vultures are not closely related, representing a case of convergent evolution. New World vultures are now classified in Accipitriformes alongside other raptors.",
-      "category": "phylogeny",
-      "difficulty": "hard",
-      "topic": "Telluraves — Afroaves",
-      "related_orders": [
-        "Falconiformes"
+        "Accipitriformes"
       ],
       "multiple": false
     },
@@ -5245,37 +5082,7 @@
       "difficulty": "hard",
       "topic": "Telluraves — Afroaves",
       "related_orders": [
-        "Passeriformes"
-      ],
-      "multiple": false
-    },
-    {
-      "id": "q207",
-      "question": "Which Strigiformes family member is famous for using asymmetrical ear openings to triangulate prey location?",
-      "options": [
-        {
-          "text": "Tawny Owls",
-          "correct": false
-        },
-        {
-          "text": "Screech-Owls",
-          "correct": false
-        },
-        {
-          "text": "Barn Owls",
-          "correct": true
-        },
-        {
-          "text": "Eagle-Owls",
-          "correct": false
-        }
-      ],
-      "explanation": "Barn Owls (Tyto alba) possess uniquely asymmetrical ear openings that allow them to locate prey in complete darkness by comparing sound arrival times between ears.",
-      "category": "identification",
-      "difficulty": "medium",
-      "topic": "Telluraves — Afroaves",
-      "related_orders": [
-        "Accipitriformes"
+        "Strigiformes"
       ],
       "multiple": false
     },
@@ -5288,7 +5095,7 @@
           "correct": false
         },
         {
-          "text": "They do not build nests; they use cavities, old nests, or cliff ledges",
+          "text": "They do not build nests; they mostly use cavities, old nests, or cliff ledges",
           "correct": true
         },
         {
@@ -5300,12 +5107,12 @@
           "correct": false
         }
       ],
-      "explanation": "Owls do not construct their own nests; instead, they occupy existing cavities, adopt old raptor nests, or nest on cliff ledges, demonstrating behavioral flexibility.",
+      "explanation": "Owls do not construct their own nests; instead, they occupy existing cavities, adopt old raptor nests, nest on cliff ledges or even on the ground, depending on the species and habitat.",
       "category": "breeding",
       "difficulty": "easy",
       "topic": "Telluraves — Afroaves",
       "related_orders": [
-        "Accipitriformes"
+        "Strigiformes"
       ],
       "multiple": false
     },
@@ -5335,7 +5142,7 @@
       "difficulty": "medium",
       "topic": "Telluraves — Afroaves",
       "related_orders": [
-        "Afroaves"
+        "Strigiformes"
       ],
       "multiple": false
     },
@@ -5365,38 +5172,6 @@
       "difficulty": "medium",
       "topic": "Telluraves — Afroaves",
       "related_orders": [
-        "Coraciiformes",
-        "Trogoniformes"
-      ],
-      "multiple": false
-    },
-    {
-      "id": "q212",
-      "question": "What does it mean that a trogon is 'conserved' in morphology?",
-      "options": [
-        {
-          "text": "The species is only found in protected nature reserves",
-          "correct": false
-        },
-        {
-          "text": "The species has been legally protected from hunting",
-          "correct": false
-        },
-        {
-          "text": "The plumage patterns reflect historical color preservation",
-          "correct": false
-        },
-        {
-          "text": "The body form has remained relatively unchanged across evolutionary time",
-          "correct": true
-        }
-      ],
-      "explanation": "Conserved morphology indicates that trogons have maintained a consistent body form (large head, short wings, long tail) throughout their evolutionary history, suggesting strong ecological specialization.",
-      "category": "traits",
-      "difficulty": "medium",
-      "topic": "Telluraves — Afroaves",
-      "related_orders": [
-        "Passeriformes",
         "Trogoniformes"
       ],
       "multiple": false
@@ -5427,7 +5202,7 @@
       "difficulty": "medium",
       "topic": "Telluraves — Afroaves",
       "related_orders": [
-        "Afroaves",
+        "Bucerotiformes",
         "Coraciiformes"
       ],
       "multiple": false
@@ -5458,7 +5233,7 @@
       "difficulty": "medium",
       "topic": "Telluraves — Afroaves",
       "related_orders": [
-        "Piciformes"
+        "Bucerotiformes"
       ],
       "multiple": false
     },
@@ -5467,7 +5242,7 @@
       "question": "What special anatomical adaptation do hornbills possess in their cervical vertebrae?",
       "options": [
         {
-          "text": "The 1st and 2nd vertebrae are fused for structural support of the casque",
+          "text": "The 1st and 2nd vertebrae are fused for structural support.",
           "correct": true
         },
         {
@@ -5483,12 +5258,12 @@
           "correct": false
         }
       ],
-      "explanation": "Hornbills have fused 1st and 2nd cervical vertebrae providing structural support for their heavy casques and reducing stress on the spine during flight.",
+      "explanation": "Hornbills have fused 1st and 2nd cervical vertebrae providing structural support for their heavy bills and casque. Hornbills are the only birds with this specific vertebral fusion, which is an adaptation to their unique bill morphology.",
       "category": "traits",
       "difficulty": "hard",
       "topic": "Telluraves — Afroaves",
       "related_orders": [
-        "Accipitriformes"
+        "Bucerotiformes"
       ],
       "multiple": false
     },
@@ -5518,6 +5293,7 @@
       "difficulty": "medium",
       "topic": "Telluraves — Afroaves",
       "related_orders": [
+        "Bucerotiformes",
         "Piciformes"
       ],
       "multiple": false
@@ -5548,37 +5324,7 @@
       "difficulty": "medium",
       "topic": "Telluraves — Afroaves",
       "related_orders": [
-        "Coraciiformes"
-      ],
-      "multiple": false
-    },
-    {
-      "id": "q220",
-      "question": "What anatomical feature allows woodpeckers to locate insect prey within wood?",
-      "options": [
-        {
-          "text": "Modified ear structures for echolocation",
-          "correct": false
-        },
-        {
-          "text": "Highly developed olfactory bulbs in the brain",
-          "correct": false
-        },
-        {
-          "text": "Barbed tongue with sensory receptors to detect vibrations",
-          "correct": true
-        },
-        {
-          "text": "Thermal sensing organs in the bill",
-          "correct": false
-        }
-      ],
-      "explanation": "Woodpeckers possess long barbed tongues with sensory receptors that can detect insect vibrations and movements within wood, guiding them to prey locations.",
-      "category": "traits",
-      "difficulty": "medium",
-      "topic": "Telluraves — Afroaves",
-      "related_orders": [
-        "Bucerotiformes"
+        "Piciformes"
       ],
       "multiple": false
     },
@@ -5608,37 +5354,7 @@
       "difficulty": "medium",
       "topic": "Telluraves — Afroaves",
       "related_orders": [
-        "Afroaves"
-      ],
-      "multiple": false
-    },
-    {
-      "id": "q222",
-      "question": "What behavior do many kingfisher species exhibit that distinguishes them from other Coraciiformes?",
-      "options": [
-        {
-          "text": "They are nocturnal hunters that fly silently",
-          "correct": false
-        },
-        {
-          "text": "They build elaborate stick nests in trees",
-          "correct": false
-        },
-        {
-          "text": "They are primarily insectivores rather than piscivores",
-          "correct": true
-        },
-        {
-          "text": "They hunt insects exclusively and never eat fish",
-          "correct": false
-        }
-      ],
-      "explanation": "Despite their name suggesting fish-hunting, many kingfisher species are primarily insectivores, hunting flying insects or gleaning them from vegetation.",
-      "category": "feeding",
-      "difficulty": "easy",
-      "topic": "Telluraves — Afroaves",
-      "related_orders": [
-        "Piciformes"
+        "Coraciiformes"
       ],
       "multiple": false
     },
@@ -5668,7 +5384,7 @@
       "difficulty": "easy",
       "topic": "Telluraves — Afroaves",
       "related_orders": [
-        "Psittaciformes"
+        "Coraciiformes"
       ],
       "multiple": false
     },
@@ -5698,7 +5414,7 @@
       "difficulty": "medium",
       "topic": "Telluraves — Afroaves",
       "related_orders": [
-        "Piciformes"
+        "Coraciiformes"
       ],
       "multiple": false
     },
@@ -6156,15 +5872,13 @@
           "correct": false
         }
       ],
-      "explanation": "Syndactyl feet are characteristic of both Bucerotiformes (hornbills, hoopoes, wood-hoopoes) and Coraciiformes (kingfishers, bee-eaters, rollers). In contrast, Piciformes and Psittaciformes have zygodactyl feet, and Trogoniformes have heterodactyl feet.",
+      "explanation": "Syndactyl feet are characteristic of both Bucerotiformes (hornbills, hoopoes, wood-hoopoes) and Coraciiformes (kingfishers, bee-eaters, rollers).",
       "category": "feet",
       "difficulty": "easy",
       "topic": "Telluraves — Afroaves",
       "related_orders": [
         "Bucerotiformes",
-        "Coraciiformes",
-        "Coliiformes",
-        "Trogoniformes"
+        "Coraciiformes"
       ],
       "multiple": false
     },
@@ -6529,7 +6243,7 @@
       "id": "q252"
     },
     {
-      "question": "To which order does Indicator indicator (Greater Honeyguide) belong?",
+      "question": "To which order does Greater Honeyguide belong?",
       "options": [
         {
           "text": "Coraciiformes",
@@ -6672,7 +6386,7 @@
           "correct": true
         }
       ],
-      "explanation": "Hornbills and allies (Bucerotiformes), woodpeckers and allies (Piciformes), and parrots (Psittaciformes) are all obligate cavity nesters. Hawks (Accipitriformes) build stick nests, and pigeons (Columbiformes) build simple platform nests.",
+      "explanation": "Hornbills and allies (Bucerotiformes), woodpeckers and allies (Piciformes), and parrots (Psittaciformes) are all obligate cavity nesters. Most hawks (Accipitriformes) build stick nests, and pigeons (Columbiformes) build simple platform nests.",
       "category": "breeding",
       "difficulty": "hard",
       "topic": "Telluraves — Afroaves",
@@ -6745,7 +6459,7 @@
       "id": "q259"
     },
     {
-      "question": "To which order does the Blue-naped Mousebird (Colius macrourus) belong?",
+      "question": "To which order does the Blue-naped Mousebird belong?",
       "options": [
         {
           "text": "Strigiformes",
@@ -6890,7 +6604,7 @@
       "difficulty": "easy",
       "topic": "Telluraves — Afroaves",
       "related_orders": [
-        "Afroaves"
+        "Leptosomiformes"
       ],
       "multiple": false
     },
@@ -6953,66 +6667,6 @@
       ],
       "multiple": false,
       "id": "q266"
-    },
-    {
-      "question": "Why are trogons (Trogoniformes) considered among the most difficult birds to prepare as museum skins?",
-      "options": [
-        {
-          "text": "Their feathers are venomous",
-          "correct": false
-        },
-        {
-          "text": "Their plumage dissolves in preservative chemicals",
-          "correct": false
-        },
-        {
-          "text": "They are too large to fit standard preparation trays",
-          "correct": false
-        },
-        {
-          "text": "They have extremely thin, fragile skin",
-          "correct": true
-        }
-      ],
-      "explanation": "Trogons have notoriously thin skin, sometimes described as 'wet toilet paper,' making them among the most challenging birds for taxidermists and museum preparators to skin without tearing.",
-      "category": "fun_facts",
-      "difficulty": "medium",
-      "topic": "Telluraves — Afroaves",
-      "related_orders": [
-        "Trogoniformes"
-      ],
-      "multiple": false,
-      "id": "q267"
-    },
-    {
-      "question": "To which order does Trogon collaris (Collared Trogon) belong?",
-      "options": [
-        {
-          "text": "Bucerotiformes",
-          "correct": false
-        },
-        {
-          "text": "Trogoniformes",
-          "correct": true
-        },
-        {
-          "text": "Piciformes",
-          "correct": false
-        },
-        {
-          "text": "Coraciiformes",
-          "correct": false
-        }
-      ],
-      "explanation": "The Collared Trogon belongs to Trogoniformes, a pantropical order of colorful forest birds with iridescent plumage and a distinctive conserved morphology.",
-      "category": "specimens",
-      "difficulty": "easy",
-      "topic": "Telluraves — Afroaves",
-      "related_orders": [
-        "Trogoniformes"
-      ],
-      "multiple": false,
-      "id": "q268"
     },
     {
       "question": "Which bird order has a semi-extensile second toe claw reminiscent of their recently extinct relatives, the terrorbirds?",
