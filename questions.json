@@ -1072,11 +1072,8 @@
       "difficulty": "easy",
       "topic": "Galloanserae",
       "related_orders": [
-        "Struthioniformes",
-        "Rheiformes",
-        "Tinamiformes",
-        "Apterygiformes",
-        "Casuariiformes"
+        "Anseriformes",
+        "Galliformes"
       ],
       "multiple": false
     },
