@@ -1274,7 +1274,7 @@
 ##### Australaves
 
 > [!Clade]
-> Australaves is the clade of Cariamiformes (seriemas) plus Eufalconimorphae (passerines, parrots, falcons). It includes approximately 6,700 songbirds, 410 parrots, 65 falcons, and 2 seriemas (~7,200 species total). The name reflects a Southern Hemisphere origin. Genome studies consistently recover this grouping.
+> Australaves is the clade of Cariamiformes (seriemas) plus Eufalconimorphae (passerines, parrots, falcons). It includes approximately 6,700 passerines, 410 parrots, 65 falcons, and 2 seriemas (~7,200 species total). The name reflects a Southern Hemisphere origin. Genome studies consistently recover this grouping.
 >
 > Sources: [Wikipedia](https://en.wikipedia.org/wiki/Australaves) · [Stiller et al. 2024](https://www.nature.com/articles/s41586-024-07323-1)
 
@@ -1294,7 +1294,8 @@
 - **Chick development:** Altricial
 
 > [!Tip] Fun Facts
-> - Their name "Seriema" comes from the Tupi word for "crested." Known for their loud, barking calls that can be heard for over a mile, often described as sounding like a "maniacal laugh" or a yelping dog.
+> - Their name "Seriema" comes from the Tupi word for "crested." 
+> - Known for their loud, barking calls that can be heard for over a mile, often described as sounding like a "maniacal laugh" or a yelping dog.
 > - Second toe claw semi-extensile, reminiscent of recently extinct relatives the terrorbirds
 
 > [!Source]- Handbook of Bird Biology
