@@ -5710,10 +5710,10 @@
       "explanation": "Mousebirds huddle together in tight roosting groups at night for thermoregulation, allowing them to conserve body heat in their cool African savanna and scrubland habitats.",
       "category": "fun_facts",
       "difficulty": "medium",
-      "topic": "Telluraves — Afroaves",
+      "topic": "Coliiformes",
       "related_orders": [
-        "Passeriformes",
-        "Coliiformes"
+        "Telluraves",
+        "Afroaves"
       ],
       "multiple": false
     },
