@@ -2982,36 +2982,6 @@
       "multiple": false
     },
     {
-      "id": "q109",
-      "question": "Which Charadriiform families have specialized feeding strategies that diverge most from typical invertebrate predation?",
-      "options": [
-        {
-          "text": "Buttonquails and seedsnipes (granivorous); Skuas (kleptoparasitic)",
-          "correct": true
-        },
-        {
-          "text": "Alcids and auks (marine specialists only)",
-          "correct": false
-        },
-        {
-          "text": "Gulls and terns (exclusive fish predators)",
-          "correct": false
-        },
-        {
-          "text": "Plovers and oystercatchers (benthic predators)",
-          "correct": false
-        }
-      ],
-      "explanation": "Charadriiformes exhibits remarkable feeding diversity. While most are invertebrate predators, buttonquails and seedsnipes have evolved granivory (seed-eating), and skuas have evolved kleptoparasitism (stealing food from other birds). This adaptive radiation demonstrates the evolutionary flexibility of the clade.",
-      "category": "feeding",
-      "difficulty": "hard",
-      "topic": "Elementaves",
-      "related_orders": [
-        "Charadriiformes"
-      ],
-      "multiple": false
-    },
-    {
       "id": "q110",
       "question": "What is the primary foot adaptation found in many aquatic charadriiforms that differs from typical webbing?",
       "options": [
