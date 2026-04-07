@@ -1671,8 +1671,9 @@
       return `<div class="quiz-disclaimer">Questions generated with AI assistance, based on: Hosner, P. <em>A Higher-Level Classification of Birds</em>. University of Copenhagen. Content has not been individually verified. <a href="mailto:sverrir.sigurdarson@gmail.com?subject=Quiz%20error%20report" target="_blank">Report via email</a><a href="https://github.com/sveppalicious/sveppalicious.github.io/issues/new?title=Quiz+error+report" target="_blank">Open GitHub issue</a></div>`;
     }
 
-    function reportLineHTML() {
-      return `<div class="quiz-report-line">Spot an error? <a href="mailto:sverrir.sigurdarson@gmail.com?subject=Quiz%20error%20report" target="_blank">Email</a><a href="https://github.com/sveppalicious/sveppalicious.github.io/issues/new?title=Quiz+error+report" target="_blank">GitHub issue</a></div>`;
+    function reportLineHTML(q) {
+      const suffix = q ? `+%28${q.id}%29` : '';
+      return `<div class="quiz-report-line">Spot an error? <a href="mailto:sverrir.sigurdarson@gmail.com?subject=Quiz+error+report${suffix}" target="_blank">Email</a><a href="https://github.com/sveppalicious/sveppalicious.github.io/issues/new?title=Quiz+error+report${suffix}" target="_blank">GitHub issue</a></div>`;
     }
 
     function closeQuiz() {
@@ -1815,7 +1816,7 @@
         </div>
         <div id="quiz-explanation" style="display:none"></div>
         <div id="quiz-action"></div>
-        ${reportLineHTML()}
+        ${reportLineHTML(q)}
       `;
       document.getElementById('quiz-overlay').scrollTop = 0;
 
@@ -1871,6 +1872,8 @@
           <span class="quiz-topic-row-label">Topic:</span>
           <a class="quiz-section-link" data-section="${q.topic}" href="#">${q.topic}</a>
           ${relatedLinks}
+          <span class="quiz-topic-row-sep">&middot;</span>
+          <span class="quiz-topic-row-label" title="Question ID">${q.id}</span>
         </div>
         <button class="quiz-next-btn">${isLast ? 'See Results' : 'Next \u2192'}</button>`;
       action.querySelector('.quiz-next-btn').addEventListener('click', () => {

@@ -2,7 +2,6 @@
   "metadata": {
     "generated": "2026-04-06",
     "source": "Orders.md",
-    "total_questions": 271,
     "categories": [
       "identification",
       "traits",
@@ -6502,36 +6501,6 @@
       "topic": "Telluraves — Afroaves",
       "related_orders": [
         "Piciformes"
-      ],
-      "multiple": false
-    },
-    {
-      "id": "q218",
-      "question": "Which Piciformes family is unique in its feeding behavior of leading humans to beehives?",
-      "options": [
-        {
-          "text": "Honeyguides",
-          "correct": true
-        },
-        {
-          "text": "Jacamars",
-          "correct": false
-        },
-        {
-          "text": "Puffbirds",
-          "correct": false
-        },
-        {
-          "text": "Barbets",
-          "correct": false
-        }
-      ],
-      "explanation": "Honeyguides are famous for their mutualistic behavior of leading humans and honey badgers to beehives, where they benefit from exposed bee brood after the animal opens the hive.",
-      "category": "fun_facts",
-      "difficulty": "easy",
-      "topic": "Telluraves — Afroaves",
-      "related_orders": [
-        "Coraciiformes"
       ],
       "multiple": false
     },
