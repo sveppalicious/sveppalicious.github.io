@@ -4230,36 +4230,6 @@
       "multiple": false
     },
     {
-      "id": "q142",
-      "question": "Tropicbirds have distinctive extremely long streamer-like central tail feathers and vibrant colored bills. Which of the following is NOT a characteristic of tropicbird feet?",
-      "options": [
-        {
-          "text": "Located far back on the body",
-          "correct": false
-        },
-        {
-          "text": "Very small and weak",
-          "correct": false
-        },
-        {
-          "text": "Totipalmate webbing",
-          "correct": false
-        },
-        {
-          "text": "Anisodactyl arrangement",
-          "correct": true
-        }
-      ],
-      "explanation": "Tropicbirds have totipalmate (fully webbed) feet arranged anisodactylously, not anisodactylously. Wait—actually tropicbirds ARE anisodactyl but WITH totipalmate webbing. The feet are totipalmate, very small and weak, and positioned far back. The incorrect statement is that they're NOT anisodactyl—they actually ARE anisodactyl with totipalmate webbing.",
-      "category": "identification",
-      "difficulty": "hard",
-      "topic": "Phaethontimorphae",
-      "related_orders": [
-        "Suliformes"
-      ],
-      "multiple": false
-    },
-    {
       "id": "q143",
       "question": "The Phaethontimorphae is a surprising genomic clade that unites tropicbirds with the sunbittern and kagu. What makes this grouping unexpected?",
       "options": [
