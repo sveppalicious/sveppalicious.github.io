@@ -1504,36 +1504,6 @@
       "multiple": false
     },
     {
-      "id": "q057",
-      "question": "Which feature distinguishes mesites from other Columbaves, making them superficially similar to both rails and pigeons?",
-      "options": [
-        {
-          "text": "Their terrestrial lifestyle and small-to-medium size with short wings and long tails",
-          "correct": true
-        },
-        {
-          "text": "Their ability to sing complex duets",
-          "correct": false
-        },
-        {
-          "text": "Their iridescent plumage and elaborate courtship displays",
-          "correct": false
-        },
-        {
-          "text": "Their specialized filter-feeding adaptations",
-          "correct": false
-        }
-      ],
-      "explanation": "Mesites are ground-dwelling birds endemic to Madagascar with cryptic plumage, short rounded wings, and long tails. They look superficially like small pigeons or rails despite being distinct members of Columbaves.",
-      "category": "identification",
-      "difficulty": "medium",
-      "topic": "Columbaves",
-      "related_orders": [
-        "Mesitornithiformes"
-      ],
-      "multiple": false
-    },
-    {
       "id": "q058",
       "question": "What unusual feature do mesites possess that links them more closely to herons and parrots than to their close relatives?",
       "options": [
