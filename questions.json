@@ -5855,11 +5855,11 @@
           "correct": false
         },
         {
-          "text": "They avoid water and dust bathe instead, extracting moisture from dust particles",
+          "text": "They avoid water and dust bathe instead.",
           "correct": true
         }
       ],
-      "explanation": "Mousebirds avoid water and prefer dust bathing to maintain feather condition and hydration. They derive sufficient moisture from their frugivorous diet and avoid open water sources.",
+      "explanation": "Mousebirds avoid water and prefer dust bathing to maintain feather condition.",
       "category": "fun_facts",
       "difficulty": "medium",
       "topic": "Telluraves — Afroaves",
