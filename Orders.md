@@ -496,9 +496,9 @@
 #### Elementaves
 
 > [!Clade]
-> Elementaves is a newly defined clade comprising the hoatzin (Opisthocomiformes), cranes & rails (Gruiformes), and shorebirds (Charadriiformes). It is supported by recent genomic analyses and contains ~590 species (mostly rails and shorebirds).
+> Elementaves is a phenotypically diverse clade containing Strisores (nightbirds, swifts, hummingbirds), Phaethontimorphae (tropicbirds, kagu, sunbittern), Aequinornithia (core waterbirds), Opisthocomiformes (hoatzin), and Cursorimorphae (cranes, rails, shorebirds). The name reflects its lineages diversifying into terrestrial, aquatic, and aerial niches — the classical elements of earth, water, and air.
 >
-> Sources: [Wikipedia](https://en.wikipedia.org/wiki/Elementaves) · [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC12409627/)
+> Sources: [Wikipedia](https://en.wikipedia.org/wiki/Elementaves) · [Stiller et al. 2024](https://www.nature.com/articles/s41586-024-07323-1)
 
 ![[Pasted image 20260323151331.png]]
 ![[Pasted image 20260323154742.png]]
@@ -607,7 +607,7 @@
 
 ---
 
-#### Strisores: nightbirds, swifts, hummingbirds
+##### Strisores: nightbirds, swifts, hummingbirds
 
 > [!Clade]
 > Strisores (Caprimulgimorphae) includes all nightbirds (Caprimulgiformes, Steatornithiformes, etc.) together with Apodiformes (swifts and hummingbirds). This group (~608 species) is united by genetic evidence and subtle skeletal traits. Members often have wide gapes with rictal bristles (nightjars) or highly modified wings (swifts) reflecting their nocturnal or aerial specializations.
@@ -776,7 +776,7 @@
 
 ---
 
-#### Phaethontimorphae: tropicbirds, kagu, sunbittern
+##### Phaethontimorphae: tropicbirds, kagu, sunbittern
 
 > [!Clade]
 > Phaethontimorphae (a.k.a. Eurypygimorphae) links the tropicbirds (Phaethontiformes, 3 species) with the Eurypygiformes (kagu and sunbittern, 2 species). This surprising clade of only 5 species was discovered by genomic analysis, with no obvious shared ecology or gross anatomy.
@@ -835,7 +835,7 @@
 
 ---
 
-#### Aequinornithia: core waterbirds
+##### Aequinornithia: core waterbirds
 
 > [!Clade]
 > Aequinornithia (core waterbirds) includes loons, penguins, petrels, storks, pelicans, cormorants, and allies. Members share aquatic adaptations (e.g. dense bones, webbed feet). This group has ~370 species and is strongly supported by molecular studies.
