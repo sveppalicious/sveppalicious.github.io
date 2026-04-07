@@ -6234,37 +6234,6 @@
       "multiple": false
     },
     {
-      "id": "q213",
-      "question": "What is notable about the 'tail' of a quetzal (Trogoniformes)?",
-      "options": [
-        {
-          "text": "It is the longest tail of any Neotropical bird",
-          "correct": false
-        },
-        {
-          "text": "It consists of elongated uppertail coverts, not true tail feathers",
-          "correct": true
-        },
-        {
-          "text": "It is composed of specially modified tail feathers",
-          "correct": false
-        },
-        {
-          "text": "It molts twice per year for display purposes",
-          "correct": false
-        }
-      ],
-      "explanation": "The spectacular 'tail' of male quetzals is actually composed of elongated uppertail coverts (feathers overlying the true tail base), not the tail feathers themselves.",
-      "category": "identification",
-      "difficulty": "medium",
-      "topic": "Telluraves — Afroaves",
-      "related_orders": [
-        "Passeriformes",
-        "Trogoniformes"
-      ],
-      "multiple": false
-    },
-    {
       "id": "q214",
       "question": "What foot structure is shared by hornbills, hoopoes, and wood-hoopoes in Bucerotiformes?",
       "options": [
