@@ -891,7 +891,7 @@
       "difficulty": "medium",
       "topic": "Galloanserae",
       "related_orders": [
-        "Galliformes"
+        "Anseriformes"
       ],
       "multiple": false
     },
@@ -921,7 +921,7 @@
       "difficulty": "easy",
       "topic": "Galloanserae",
       "related_orders": [
-        "Galliformes"
+        "Anseriformes"
       ],
       "multiple": false
     },
@@ -951,6 +951,7 @@
       "difficulty": "easy",
       "topic": "Galloanserae",
       "related_orders": [
+        "Anseriformes",
         "Galliformes"
       ],
       "multiple": false
