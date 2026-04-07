@@ -1834,36 +1834,6 @@
       "multiple": false
     },
     {
-      "id": "q067",
-      "question": "Which foot structure is characteristic of sandgrouse despite their appearance?",
-      "options": [
-        {
-          "text": "Palmate (fully webbed) feet",
-          "correct": false
-        },
-        {
-          "text": "Zygodactyl (reversible) feet",
-          "correct": false
-        },
-        {
-          "text": "Completely fused feet with no individual toes",
-          "correct": false
-        },
-        {
-          "text": "Anisodactyl or tridactyl feet",
-          "correct": true
-        }
-      ],
-      "explanation": "Most sandgrouse have anisodactyl feet (three forward, one backward), while the genus Syrrhaptes has tridactyl feet. Despite their pigeon-like appearance, they do not have webbed feet.",
-      "category": "feet",
-      "difficulty": "medium",
-      "topic": "Columbaves",
-      "related_orders": [
-        "Pterocliformes"
-      ],
-      "multiple": false
-    },
-    {
       "id": "q068",
       "question": "What type of nesting substrate do sandgrouse prefer?",
       "options": [
