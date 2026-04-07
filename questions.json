@@ -2489,8 +2489,7 @@
       "difficulty": "medium",
       "topic": "Elementaves — Cursorimorphae",
       "related_orders": [
-        "Gruiformes",
-        "Charadriiformes"
+        "Ophistocomiformes"
       ],
       "multiple": false
     },
@@ -2520,69 +2519,7 @@
       "difficulty": "hard",
       "topic": "Elementaves — Cursorimorphae",
       "related_orders": [
-        "Gruiformes"
-      ],
-      "multiple": false
-    },
-    {
-      "id": "q094",
-      "question": "Elementaves includes three major groups: Opisthocomiformes, Gruiformes, and Charadriiformes. Which statement best describes a key difference between them?",
-      "options": [
-        {
-          "text": "Hoatzins are precocial, rails are altricial, and charadriiforms are semialtricial",
-          "correct": false
-        },
-        {
-          "text": "All three groups exclusively nest in trees and use stick construction",
-          "correct": false
-        },
-        {
-          "text": "Hoatzins are folivorous, rails are omnivorous, and charadriiform diet varies widely from invertebrates to fish to seeds",
-          "correct": true
-        },
-        {
-          "text": "All three groups possess webbed feet for aquatic hunting",
-          "correct": false
-        }
-      ],
-      "explanation": "The three major clades of Elementaves show remarkable diversity in feeding ecology. Hoatzins are unique folivores; most Gruiformes are omnivorous generalists; and Charadriiformes show extreme adaptive radiation with diets ranging from small invertebrates to fish to seeds and even kleptoparasitic scavenging in skuas.",
-      "category": "phylogeny",
-      "difficulty": "hard",
-      "topic": "Elementaves — Cursorimorphae",
-      "related_orders": [
-        "Opisthocomiformes",
-        "Gruiformes",
-        "Charadriiformes"
-      ],
-      "multiple": false
-    },
-    {
-      "id": "q095",
-      "question": "Rails have become famous for being the order most prone to flightlessness. Which island-dwelling phenomenon best explains this pattern?",
-      "options": [
-        {
-          "text": "Human colonization created ecological opportunities that favored flightless ground-dwelling species",
-          "correct": true
-        },
-        {
-          "text": "Limited insect prey on islands reduced the need for aerial foraging",
-          "correct": false
-        },
-        {
-          "text": "Island volcanic activity directly damages flight muscles over generations",
-          "correct": false
-        },
-        {
-          "text": "Island climates produce rapid mutations causing wing degeneration",
-          "correct": false
-        }
-      ],
-      "explanation": "Rails are estimated to have had hundreds of extinct species on islands worldwide, most due to flightlessness. Island colonization by humans and introduced predators created selection pressure for ground-dwelling behavior, and the absence of terrestrial predators and abundant ground resources favored the evolution of flightlessness in isolated rail populations.",
-      "category": "phylogeny",
-      "difficulty": "medium",
-      "topic": "Elementaves — Cursorimorphae",
-      "related_orders": [
-        "Gruiformes"
+        "Ophistocomiformes"
       ],
       "multiple": false
     },
@@ -2947,36 +2884,6 @@
       "multiple": false
     },
     {
-      "id": "q110",
-      "question": "What is the primary foot adaptation found in many aquatic charadriiforms that differs from typical webbing?",
-      "options": [
-        {
-          "text": "Pamprodactyl feet with all toes pointing forward",
-          "correct": false
-        },
-        {
-          "text": "Lobate toes (flaps on each toe) rather than webbing between toes",
-          "correct": true
-        },
-        {
-          "text": "Zygodactyl feet for gripping vegetation",
-          "correct": false
-        },
-        {
-          "text": "Palmate feet with complete webbing",
-          "correct": false
-        }
-      ],
-      "explanation": "Many Charadriiformes, particularly aquatic species, have evolved lobate feet where each toe bears a separate flap or lobe. This differs from true webbing (palmate or semipalmate feet) and allows for efficient swimming while maintaining terrestrial mobility. Some charadriiforms have reduced or vestigial hallux (big toe).",
-      "category": "feet",
-      "difficulty": "medium",
-      "topic": "Elementaves — Cursorimorphae",
-      "related_orders": [
-        "Charadriiformes"
-      ],
-      "multiple": false
-    },
-    {
       "id": "q111",
       "question": "Cranes are famous within Gruiformes for what elaborate behavioral display?",
       "options": [
@@ -3003,96 +2910,6 @@
       "topic": "Elementaves — Cursorimorphae",
       "related_orders": [
         "Gruiformes"
-      ],
-      "multiple": false
-    },
-    {
-      "id": "q112",
-      "question": "Which Gruiforme order member has unusual hunting behavior involving deep diving and spear-like bill strikes?",
-      "options": [
-        {
-          "text": "Black Crowned-Crane (Balearica pavonina), a grassland forager",
-          "correct": false
-        },
-        {
-          "text": "Limpkin (Aramus guarauna), a specialized apple snail predator",
-          "correct": true
-        },
-        {
-          "text": "Water Rail (Rallus aquaticus), an omnivorous generalist",
-          "correct": false
-        },
-        {
-          "text": "Western Swamphen (Porphyrio porphyrio), a marsh seed-eater",
-          "correct": false
-        }
-      ],
-      "explanation": "The Limpkin is a highly specialized gruiform with a unique long, slightly curved bill perfectly adapted for extracting apple snails (Pomacea species) from their shells. It probes into shallow water and uses its bill to dislodge and crack snails with precision strikes.",
-      "category": "feeding",
-      "difficulty": "medium",
-      "topic": "Elementaves — Cursorimorphae",
-      "related_orders": [
-        "Gruiformes"
-      ],
-      "multiple": false
-    },
-    {
-      "id": "q113",
-      "question": "Gruiformes are notable for having the widest distribution of any terrestrial bird order. Which factor best explains this?",
-      "options": [
-        {
-          "text": "Their ability to migrate vast distances exceeding all other bird orders",
-          "correct": false
-        },
-        {
-          "text": "Their presence on islands and diverse wetland habitats across every continent except Antarctica",
-          "correct": true
-        },
-        {
-          "text": "Their capacity to exploit exclusively marine resources globally",
-          "correct": false
-        },
-        {
-          "text": "Their convergent evolution with raptors allowing them to inhabit any ecosystem",
-          "correct": false
-        }
-      ],
-      "explanation": "Gruiformes are the most widely distributed terrestrial bird order, found on islands and in wetlands across virtually every continent and climate zone except Antarctica. Their ecological flexibility, ability to exploit diverse wetland and grassland habitats, and successful colonization of remote islands have enabled their remarkable global distribution.",
-      "category": "distribution",
-      "difficulty": "medium",
-      "topic": "Elementaves — Cursorimorphae",
-      "related_orders": [
-        "Gruiformes"
-      ],
-      "multiple": false
-    },
-    {
-      "id": "q115",
-      "question": "Which oystercatcher species is widely distributed across Eurasia and represents one of the most familiar Charadriiformes?",
-      "options": [
-        {
-          "text": "Black Oystercatcher (Haematopus bachmani)",
-          "correct": false
-        },
-        {
-          "text": "American Oystercatcher (Haematopus palliatus)",
-          "correct": false
-        },
-        {
-          "text": "Eurasian Oystercatcher (Haematopus ostralegus)",
-          "correct": true
-        },
-        {
-          "text": "Pied Oystercatcher (Haematopus longirostris)",
-          "correct": false
-        }
-      ],
-      "explanation": "The Eurasian Oystercatcher (Haematopus ostralegus) is one of the most widely recognized and abundant oystercatcher species, found across Europe, Asia, and Africa. Its striking black-and-white plumage and characteristic long orange-red bill make it easily identifiable along coastal and estuarine habitats.",
-      "category": "identification",
-      "difficulty": "easy",
-      "topic": "Elementaves — Cursorimorphae",
-      "related_orders": [
-        "Charadriiformes"
       ],
       "multiple": false
     },
@@ -3188,7 +3005,7 @@
     },
     {
       "id": "q119",
-      "question": "Which geographic region contains the greatest diversity of Hoatzin populations?",
+      "question": "Where can the Hoatzin be found?",
       "options": [
         {
           "text": "Central American cloud forests and mountains",
@@ -3363,126 +3180,6 @@
       "topic": "Elementaves — Strisores",
       "related_orders": [
         "Apodiformes"
-      ],
-      "multiple": false
-    },
-    {
-      "id": "q126",
-      "question": "Which Dunlin (Calidris alpina) characteristic makes it one of the most recognizable sandpipers?",
-      "options": [
-        {
-          "text": "Webbed feet and exclusively marine habitat use",
-          "correct": false
-        },
-        {
-          "text": "Bright red bill and legs visible year-round",
-          "correct": false
-        },
-        {
-          "text": "Large size and heavily spotted plumage",
-          "correct": false
-        },
-        {
-          "text": "Distinctive black belly patch in breeding plumage, subtle overall coloration, and long slightly curved bill",
-          "correct": true
-        }
-      ],
-      "explanation": "The Dunlin is one of the most abundant and widespread small sandpipers, easily identified in breeding plumage by its characteristic black belly patch contrasting with buff-brown back and head. Its long, slightly curved bill and small size are diagnostic features, making it one of the most recognizable charadriiforms across its broad northern hemisphere range.",
-      "category": "identification",
-      "difficulty": "medium",
-      "topic": "Elementaves — Cursorimorphae",
-      "related_orders": [
-        "Charadriiformes"
-      ],
-      "multiple": false
-    },
-    {
-      "id": "q129",
-      "question": "Which water rail characteristic allows it to navigate through dense wetland vegetation?",
-      "options": [
-        {
-          "text": "Ability to dive deeply and remain submerged for extended periods",
-          "correct": false
-        },
-        {
-          "text": "Long curved bill for probing through plant material",
-          "correct": false
-        },
-        {
-          "text": "Laterally compressed body and long toes allowing passage through marsh vegetation",
-          "correct": true
-        },
-        {
-          "text": "Fully webbed feet providing rapid swimming through cattails",
-          "correct": false
-        }
-      ],
-      "explanation": "Water Rails exhibit the classic 'rail-like' body plan: a laterally compressed (thin side-to-side) body with relatively long toes that spread their weight across vegetation. This morphology allows them to navigate dense marsh vegetation with ease, moving through stands of cattails and reeds where heavier-bodied birds would sink. This is a typical Gruiforme adaptation.",
-      "category": "traits",
-      "difficulty": "easy",
-      "topic": "Elementaves — Cursorimorphae",
-      "related_orders": [
-        "Gruiformes"
-      ],
-      "multiple": false
-    },
-    {
-      "id": "q130",
-      "question": "What is the primary function of the distinctive blue-violet plumage of the Western Swamphen (Porphyrio porphyrio)?",
-      "options": [
-        {
-          "text": "Cryptic camouflage blending with blue water and sky",
-          "correct": false
-        },
-        {
-          "text": "Thermoregulatory adaptation reflecting excess heat",
-          "correct": false
-        },
-        {
-          "text": "Sexual and territorial signaling display visible across open marsh habitats",
-          "correct": true
-        },
-        {
-          "text": "Predator deterrence through appearing toxic to potential threats",
-          "correct": false
-        }
-      ],
-      "explanation": "The Western Swamphen's striking blue-violet plumage is highly conspicuous, particularly in open marsh and wetland settings. This bold coloration functions in sexual displays and territorial signaling, allowing males and females to communicate visually across their typically open habitats. This contrasts with the cryptic coloration of more secretive rails.",
-      "category": "traits",
-      "difficulty": "medium",
-      "topic": "Elementaves — Cursorimorphae",
-      "related_orders": [
-        "Gruiformes"
-      ],
-      "multiple": false
-    },
-    {
-      "id": "q131",
-      "question": "Black Crowned-Cranes (Balearica pavonina) are distinguished by which unique behavioral feature during breeding?",
-      "options": [
-        {
-          "text": "Colonial nesting in large mixed-species groups",
-          "correct": false
-        },
-        {
-          "text": "Aggressive combat between males using sharp spurs",
-          "correct": false
-        },
-        {
-          "text": "Year-round monogamous pair bonding with no display behaviors",
-          "correct": false
-        },
-        {
-          "text": "Elaborate synchronized dancing displays accompanied by vocalizations during pair courtship",
-          "correct": true
-        }
-      ],
-      "explanation": "Cranes, including the Black Crowned-Crane, are justly famous for their elaborate and graceful dancing displays during courtship and pair bonding. These synchronized performances involve precise coordinated movements, jumps, running, and often object-tossing, making them among the most visually spectacular of all bird behaviors.",
-      "category": "breeding",
-      "difficulty": "easy",
-      "topic": "Elementaves — Cursorimorphae",
-      "related_orders": [
-        "Gruiformes"
       ],
       "multiple": false
     },
