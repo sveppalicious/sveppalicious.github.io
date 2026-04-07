@@ -3102,37 +3102,6 @@
       "multiple": false
     },
     {
-      "id": "q114",
-      "question": "What is the primary difference in chick development patterns between Hoatzins and most other Gruiformes?",
-      "options": [
-        {
-          "text": "Hoatzin chicks are semialtricial; most Gruiformes chicks are precocial",
-          "correct": true
-        },
-        {
-          "text": "Hoatzin chicks are precocial; most Gruiformes chicks are altricial",
-          "correct": false
-        },
-        {
-          "text": "Hoatzin chicks are altricial; most Gruiformes chicks are semi-altricial",
-          "correct": false
-        },
-        {
-          "text": "Both groups have identical development patterns",
-          "correct": false
-        }
-      ],
-      "explanation": "Hoatzins produce semialtricial chicks that require parental care and cannot immediately fend for themselves. In contrast, most Gruiformes are precocial, producing chicks that are relatively independent and mobile shortly after hatching. This difference reflects their different ecological niches and parental investment strategies.",
-      "category": "development",
-      "difficulty": "medium",
-      "topic": "Elementaves",
-      "related_orders": [
-        "Opisthocomiformes",
-        "Gruiformes"
-      ],
-      "multiple": false
-    },
-    {
       "id": "q115",
       "question": "Which oystercatcher species is widely distributed across Eurasia and represents one of the most familiar Charadriiformes?",
       "options": [
