@@ -1076,36 +1076,6 @@
       "multiple": false
     },
     {
-      "id": "q038",
-      "question": "What breeding system is employed by some Galliformes?",
-      "options": [
-        {
-          "text": "Polygynous with leks or harems",
-          "correct": true
-        },
-        {
-          "text": "Communal breeding with shared chick care",
-          "correct": false
-        },
-        {
-          "text": "Polyandrous with female-defended nests",
-          "correct": false
-        },
-        {
-          "text": "Monogamous pair bonding exclusively",
-          "correct": false
-        }
-      ],
-      "explanation": "Many Galliformes employ polygynous breeding systems featuring leks (communal display grounds) or harems, where males compete for access to females.",
-      "category": "breeding",
-      "difficulty": "medium",
-      "topic": "Galloanserae",
-      "related_orders": [
-        "Anseriformes"
-      ],
-      "multiple": false
-    },
-    {
       "id": "q039",
       "question": "What is the sister group relationship of Galloanserae within Neognathae?",
       "options": [
