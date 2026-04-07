@@ -2292,7 +2292,7 @@
           "correct": false
         },
         {
-          "text": "All cuckoos possess zygodactyl feet and long tails",
+          "text": "All cuckoos possess zygodactyl feet",
           "correct": true
         },
         {
@@ -2304,7 +2304,7 @@
           "correct": false
         }
       ],
-      "explanation": "Cuckoos are characterized by zygodactyl feet (reversible fourth toe) and long tails. However, not all cuckoos are brood parasites—this behavior evolved multiple times independently within the order.",
+      "explanation": "Cuckoos are characterized by zygodactyl feet (reversible fourth toe). However, not all cuckoos are brood parasites—this behavior evolved multiple times independently within the order.",
       "category": "identification",
       "difficulty": "medium",
       "topic": "Columbaves",
