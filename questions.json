@@ -6495,12 +6495,12 @@
           "correct": false
         }
       ],
-      "explanation": "Kingfishers represent the largest family within Coraciiformes, with about 90 species distributed across all continents except Antarctica.",
+      "explanation": "Kingfishers represent the largest family within Coraciiformes, with 117 species distributed across all continents except Antarctica.",
       "category": "distribution",
       "difficulty": "medium",
-      "topic": "Telluraves — Afroaves",
+      "topic": "Coraciiformes",
       "related_orders": [
-        "Piciformes"
+        "Afroaves"
       ],
       "multiple": false
     },
