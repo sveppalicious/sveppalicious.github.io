@@ -2667,7 +2667,7 @@
           "correct": false
         }
       ],
-      "explanation": "Nightjars (Caprimulgiformes) are nocturnal aerial insectivores with incredibly wide gapes bordered by rictal bristles (hair-like feathers) that act as a catching net. Combined with their cryptic mottled plumage that mimics leaf litter and bark, and their crepuscular/nocturnal activity patterns, they are masters of stealth hunters.",
+      "explanation": "Nightjars (Caprimulgiformes) are nocturnal aerial insectivores with incredibly wide gapes bordered by rictal bristles (hair-like feathers) that act as a catching net. Combined with their cryptic mottled plumage that mimics leaf litter and bark, and their crepuscular/nocturnal activity patterns.",
       "category": "traits",
       "difficulty": "medium",
       "topic": "Elementaves — Strisores",
@@ -2727,7 +2727,7 @@
           "correct": true
         }
       ],
-      "explanation": "The Oilbird (Steatornis caripennis) is the sole nocturnal frugivore among all birds, specializing exclusively on oily palm and laurel fruits. This unique dietary specialization is accompanied by cave roosting and nesting, echolocation for navigation, and extremely altricial chicks that accumulate copious fat reserves.",
+      "explanation": "The Oilbird (Steatornis caripennis) is the sole nocturnal frugivore among all birds, specializing exclusively on oily palm and laurel fruits.",
       "category": "traits",
       "difficulty": "medium",
       "topic": "Elementaves — Strisores",
@@ -2757,7 +2757,7 @@
           "correct": false
         }
       ],
-      "explanation": "Oilbirds use echolocation based on audible clicking sounds to navigate the total darkness of caves, a trait shared with bats and some swifts. This is a remarkable convergent evolution where unrelated animals independently evolved similar sensory solutions to the same ecological challenge.",
+      "explanation": "Oilbirds use echolocation based on audible clicking sounds to navigate the total darkness of caves, a trait shared with bats and some swiftlets (a tribe within the swift family). This is a remarkable convergent evolution where unrelated animals independently evolved similar sensory solutions to the same ecological challenge.",
       "category": "traits",
       "difficulty": "hard",
       "topic": "Elementaves — Strisores",
@@ -2912,41 +2912,6 @@
       "difficulty": "hard",
       "topic": "Elementaves — Strisores",
       "related_orders": [
-        "Apodiformes"
-      ],
-      "multiple": false
-    },
-    {
-      "id": "q107",
-      "question": "Strisores is united by which shared characteristics related to their specialized niches?",
-      "options": [
-        {
-          "text": "Wide gapes with rictal bristles (nightbirds) or highly modified wings (swifts/hummingbirds) for nocturnal or aerial specialization",
-          "correct": true
-        },
-        {
-          "text": "Webbed feet and exclusive aquatic feeding strategies",
-          "correct": false
-        },
-        {
-          "text": "Large hooked beaks and raptorial hunting behavior",
-          "correct": false
-        },
-        {
-          "text": "Precocial chicks and communal breeding systems",
-          "correct": false
-        }
-      ],
-      "explanation": "Strisores is a clade united by adaptations for specialized ecological niches. Caprimulgiformes and related nightbirds evolved extremely wide gapes with rictal bristles for nocturnal aerial insect hunting. Apodiformes (swifts and hummingbirds) evolved highly modified wings for extreme aerial specialization. These represent convergent solutions within a related clade.",
-      "category": "phylogeny",
-      "difficulty": "hard",
-      "topic": "Elementaves — Strisores",
-      "related_orders": [
-        "Caprimulgiformes",
-        "Nyctibiiformes",
-        "Steatornithiformes",
-        "Podargiformes",
-        "Aegotheliformes",
         "Apodiformes"
       ],
       "multiple": false
@@ -3152,7 +3117,7 @@
           "correct": false
         }
       ],
-      "explanation": "Nightjars are masters of camouflage, with intricately mottled plumage in browns, grays, and blacks that perfectly matches leaf litter, deadwood, and tree bark. This cryptic coloration is so effective that birds perching on the ground or on branches during the day are nearly impossible to spot, making them archetypal examples of concealment through background matching.",
+      "explanation": "Nightjars are masters of camouflage, with intricately mottled plumage in browns, grays, and blacks that perfectly matches leaf litter, deadwood, and tree bark. This cryptic coloration is so effective that birds perching on the ground or on branches during the day are nearly impossible to spot.",
       "category": "identification",
       "difficulty": "easy",
       "topic": "Elementaves — Strisores",
@@ -3312,36 +3277,6 @@
       "multiple": false
     },
     {
-      "id": "q122",
-      "question": "What is unique about the bill morphology of the Sword-billed Hummingbird (Ensifera ensifera)?",
-      "options": [
-        {
-          "text": "Its bill is short and stout, similar to finches",
-          "correct": false
-        },
-        {
-          "text": "It has a curved sickle-shaped bill for probing flowers",
-          "correct": false
-        },
-        {
-          "text": "It possesses a dramatically long, straight sword-like bill longer than its body",
-          "correct": true
-        },
-        {
-          "text": "Its bill is split at the tip into two separate points",
-          "correct": false
-        }
-      ],
-      "explanation": "The Sword-billed Hummingbird is the only bird with a bill longer than its body—a remarkable adaptation for accessing nectar from deep, tubular flowers in Andean cloud forests. This extreme morphology represents the pinnacle of hummingbird specialization for nectarivory, though it creates significant physical challenges for feeding and flight.",
-      "category": "identification",
-      "difficulty": "easy",
-      "topic": "Elementaves — Strisores",
-      "related_orders": [
-        "Apodiformes"
-      ],
-      "multiple": false
-    },
-    {
       "id": "q123",
       "question": "Which statement best describes the relationship between swifts' tiny weak feet and their extreme aerial specialization?",
       "options": [
@@ -3362,7 +3297,7 @@
           "correct": false
         }
       ],
-      "explanation": "Swifts have evolved extreme aerial specialization at the expense of terrestrial capability. Their tiny, weak feet are essentially vestigial—inadequate for normal perching or walking. This trade-off reflects the evolutionary cost of becoming one of the most aerial of all birds; they spend most of their lives aloft, feeding, sleeping, and mating in the air.",
+      "explanation": "Swifts have evolved extreme aerial specialization at the expense of terrestrial capability. Their tiny, weak feet are essentially vestigial—inadequate for normal perching or walking.",
       "category": "phylogeny",
       "difficulty": "hard",
       "topic": "Elementaves — Strisores",
@@ -3422,7 +3357,7 @@
           "correct": false
         }
       ],
-      "explanation": "Hummingbirds are endemic to the Americas, ranging from the southwestern United States through Central America and South America. In contrast, swifts and treeswifts (the other Apodiformes) have paleotropical and pantropical distributions, making hummingbirds unique within their clade in being restricted to the New World.",
+      "explanation": "Hummingbirds are endemic to the Americas, ranging from the southwestern United States through Central America and South America. In contrast, swifts occur an all continents except Antarctica (excluding the far north, large deserts and many oceanic islands), while treeswifts are distributed from India to Southeast Asia.",
       "category": "distribution",
       "difficulty": "easy",
       "topic": "Elementaves — Strisores",
@@ -3553,7 +3488,7 @@
     },
     {
       "id": "q132",
-      "question": "Common Swifts (Apus apus) are unique among birds for which extraordinary behavior?",
+      "question": "Swifts are unique among birds for which extraordinary behavior?",
       "options": [
         {
           "text": "Diving to depths exceeding 100 meters for fish prey",
@@ -3572,7 +3507,7 @@
           "correct": false
         }
       ],
-      "explanation": "Common Swifts represent the pinnacle of aerial specialization, capable of remaining airborne for roughly 10 months after fledging. This continuous aerial lifestyle includes sleeping while flying in updrafts, feeding on aerial plankton, mating on the wing, and only returning to breeding sites to nest. Few terrestrial birds exhibit such extreme behavioral adaptation.",
+      "explanation": "Swifts represent the pinnacle of aerial specialization, capable of remaining airborne for roughly 10 months after fledging. This continuous aerial lifestyle includes sleeping while flying in updrafts, feeding on aerial plankton, mating on the wing, and only returning to breeding sites to nest. Few terrestrial birds exhibit such extreme behavioral adaptation.",
       "category": "fun_facts",
       "difficulty": "hard",
       "topic": "Elementaves — Strisores",
@@ -3787,7 +3722,7 @@
           "correct": true
         }
       ],
-      "explanation": "Despite being in different orders (Nyctibiiformes and Podargiformes respectively), both potoos and frogmouths employ nearly identical predator avoidance strategies: they freeze motionless in upright postures that precisely mimic dead branches and snags. This is a striking example of convergent evolution driven by similar ecological niches and selection pressures in forest environments.",
+      "explanation": "Despite being in different orders (Nyctibiiformes and Podargiformes respectively), both potoos and frogmouths employ nearly identical predator avoidance strategies: they freeze motionless in upright postures that precisely mimic dead branches and snags.",
       "category": "fun_facts",
       "difficulty": "hard",
       "topic": "Elementaves — Strisores",
