@@ -836,36 +836,6 @@
       "multiple": false
     },
     {
-      "id": "q029",
-      "question": "What feeding strategy is employed by some Anseriformes?",
-      "options": [
-        {
-          "text": "Exclusively piscivorous hunting",
-          "correct": false
-        },
-        {
-          "text": "Bark-gleaning for insects",
-          "correct": false
-        },
-        {
-          "text": "Filter-feeding using lamellae on the bill",
-          "correct": true
-        },
-        {
-          "text": "Aerial insectivory",
-          "correct": false
-        }
-      ],
-      "explanation": "Many Anseriformes, particularly ducks and geese, use lamellae (comb-like structures) on their flattened bills to filter-feed on aquatic organisms, seeds, and vegetation.",
-      "category": "feeding",
-      "difficulty": "easy",
-      "topic": "Galloanserae",
-      "related_orders": [
-        "Galliformes"
-      ],
-      "multiple": false
-    },
-    {
       "id": "q030",
       "question": "What is 'eclipse' plumage in Anseriformes?",
       "options": [
@@ -1012,7 +982,7 @@
       "difficulty": "hard",
       "topic": "Galloanserae",
       "related_orders": [
-        "Anseriformes"
+        "Galliformes"
       ],
       "multiple": false
     },
@@ -6705,7 +6675,7 @@
           "correct": true
         }
       ],
-      "explanation": "Galliformes (landfowl) and Anseriformes (waterfowl), united in the clade Galloanserae, both produce precocial chicks that are mobile and self-feeding shortly after hatching. All four other orders listed have altricial chicks.",
+      "explanation": "Galliformes (landfowl) and Anseriformes (waterfowl), united in the clade Galloanserae, both produce precocial chicks that are mobile and self-feeding shortly after hatching. All the other orders listed have altricial chicks.",
       "category": "development",
       "difficulty": "medium",
       "topic": "Galloanserae",
