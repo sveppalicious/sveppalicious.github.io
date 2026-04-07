@@ -982,7 +982,7 @@
       "difficulty": "easy",
       "topic": "Galloanserae",
       "related_orders": [
-        "Anseriformes"
+        "Galliformes"
       ],
       "multiple": false
     },
@@ -1073,40 +1073,6 @@
       "topic": "Galloanserae",
       "related_orders": [
         "Anseriformes"
-      ],
-      "multiple": false
-    },
-    {
-      "id": "q039",
-      "question": "What is the sister group relationship of Galloanserae within Neognathae?",
-      "options": [
-        {
-          "text": "Galloanserae is the sister group to all other neognaths",
-          "correct": true
-        },
-        {
-          "text": "Galloanserae has an unclear relationship to other birds",
-          "correct": false
-        },
-        {
-          "text": "Galloanserae is nested within Passeriformes",
-          "correct": false
-        },
-        {
-          "text": "Galloanserae is the sister group to Palaeognathae",
-          "correct": false
-        }
-      ],
-      "explanation": "Galloanserae (Anseriformes + Galliformes) is the sister group to all other Neognathae, making it a key phylogenetic position among living birds.",
-      "category": "phylogeny",
-      "difficulty": "hard",
-      "topic": "Galloanserae",
-      "related_orders": [
-        "Struthioniformes",
-        "Rheiformes",
-        "Tinamiformes",
-        "Apterygiformes",
-        "Casuariiformes"
       ],
       "multiple": false
     },
