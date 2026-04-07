@@ -1046,36 +1046,6 @@
       "multiple": false
     },
     {
-      "id": "q036",
-      "question": "Which Galliformes specimen is known for its elaborate head plumage in males?",
-      "options": [
-        {
-          "text": "Pavo cristatus (Indian Peafowl)",
-          "correct": true
-        },
-        {
-          "text": "Macrocephalon maleo (Maleo)",
-          "correct": false
-        },
-        {
-          "text": "Perdix perdix (Gray Partridge)",
-          "correct": false
-        },
-        {
-          "text": "Phasianus colchicus (Ring-necked Pheasant)",
-          "correct": false
-        }
-      ],
-      "explanation": "Pavo cristatus (Indian Peafowl) is famous for its elaborate erectile crest and iridescent plumage in males, used in elaborate courtship displays.",
-      "category": "identification",
-      "difficulty": "easy",
-      "topic": "Galloanserae",
-      "related_orders": [
-        "Anseriformes"
-      ],
-      "multiple": false
-    },
-    {
       "id": "q037",
       "question": "What dietary specialization characterizes guans and curassows within Galliformes?",
       "options": [
