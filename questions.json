@@ -3790,7 +3790,7 @@
       "difficulty": "easy",
       "topic": "Elementaves — Phaethontimorphae",
       "related_orders": [
-        "Suliformes"
+        "Phaethontiformes"
       ],
       "multiple": false
     },
@@ -3820,7 +3820,8 @@
       "difficulty": "medium",
       "topic": "Elementaves — Phaethontimorphae",
       "related_orders": [
-        "Eurypygiformes"
+        "Eurypygiformes",
+        "Phaethontiformes"
       ],
       "multiple": false
     },
@@ -6836,7 +6837,7 @@
       "id": "q246"
     },
     {
-      "question": "To which order does the Sunbittern (Eurypyga helias) belong?",
+      "question": "To which order does the Sunbittern belong?",
       "options": [
         {
           "text": "Ciconiiformes",
@@ -6866,7 +6867,7 @@
       "id": "q247"
     },
     {
-      "question": "To which order does Phaethon aethereus (Red-billed Tropicbird) belong?",
+      "question": "To which order does Red-billed Tropicbird belong?",
       "options": [
         {
           "text": "Suliformes",
