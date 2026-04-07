@@ -3742,36 +3742,6 @@
       "multiple": false
     },
     {
-      "id": "q127",
-      "question": "What ecological role does the Razorbill (Alca torda) occupy within alcid communities?",
-      "options": [
-        {
-          "text": "Pursuit-diving seabird exploiting fish resources in temperate North Atlantic waters",
-          "correct": true
-        },
-        {
-          "text": "Shallow-water dabbler in estuarine systems",
-          "correct": false
-        },
-        {
-          "text": "Kleptoparasitic pirate robbing other seabirds of food",
-          "correct": false
-        },
-        {
-          "text": "Plankton-feeding surface swimmer in tropical open ocean",
-          "correct": false
-        }
-      ],
-      "explanation": "The Razorbill is a medium-sized alcid specializing in pursuit-diving for fish in cold temperate North Atlantic waters. Its sleek body, stout winged flight mechanics (using wings as flippers), and diet of small fish typify the alcid ecological role. Like other auks, it represents convergent evolution with penguins for underwater propulsion.",
-      "category": "feeding",
-      "difficulty": "easy",
-      "topic": "Elementaves",
-      "related_orders": [
-        "Charadriiformes"
-      ],
-      "multiple": false
-    },
-    {
       "id": "q129",
       "question": "Which water rail characteristic allows it to navigate through dense wetland vegetation?",
       "options": [
