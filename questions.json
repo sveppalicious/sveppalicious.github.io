@@ -6195,9 +6195,9 @@
       "explanation": "Owls employ asynchronous hatching (eggs hatch at intervals), creating an age-gradient of chicks. This strategy ensures older chicks can compete successfully for food if prey becomes scarce.",
       "category": "breeding",
       "difficulty": "medium",
-      "topic": "Telluraves — Afroaves",
+      "topic": "Strigiformes",
       "related_orders": [
-        "Accipitriformes"
+        "Afroaves"
       ],
       "multiple": false
     },
