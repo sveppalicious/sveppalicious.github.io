@@ -1671,6 +1671,12 @@
       return `<div class="quiz-disclaimer">Questions generated with AI assistance, based on: Hosner, P. <em>A Higher-Level Classification of Birds</em>. University of Copenhagen. Content has not been individually verified. <a href="mailto:sverrir.sigurdarson@gmail.com?subject=Quiz%20error%20report" target="_blank">Report via email</a><a href="https://github.com/sveppalicious/sveppalicious.github.io/issues/new?title=Quiz+error+report" target="_blank">Open GitHub issue</a></div>`;
     }
 
+    function findTocLink(name) {
+      const search = name.includes(' \u2014 ') ? name.split(' \u2014 ')[1] : name;
+      return Array.from(document.querySelectorAll('#toc a'))
+        .find(a => a.textContent.trim().startsWith(search));
+    }
+
     function reportLineHTML(q) {
       const suffix = q ? `+%28${q.id}%29` : '';
       return `<div class="quiz-report-line">Spot an error? <a href="mailto:sverrir.sigurdarson@gmail.com?subject=Quiz+error+report${suffix}" target="_blank">Email</a><a href="https://github.com/sveppalicious/sveppalicious.github.io/issues/new?title=Quiz+error+report${suffix}" target="_blank">GitHub issue</a></div>`;
@@ -1885,8 +1891,7 @@
           e.preventDefault();
           const name = link.dataset.section;
           closeQuiz();
-          const tocA = Array.from(document.querySelectorAll('#toc a'))
-            .find(a => a.textContent.trim() === name);
+          const tocA = findTocLink(name);
           if (tocA) {
             const el = document.getElementById(tocA.getAttribute('href').slice(1));
             if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
