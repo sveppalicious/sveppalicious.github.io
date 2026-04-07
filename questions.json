@@ -6588,37 +6588,6 @@
       "multiple": false
     },
     {
-      "id": "q231",
-      "question": "Which of these orders produce crop milk to feed their young?",
-      "options": [
-        {
-          "text": "Gruiformes and Charadriiformes",
-          "correct": false
-        },
-        {
-          "text": "Sphenisciformes and Procellariiformes",
-          "correct": false
-        },
-        {
-          "text": "Anseriformes and Galliformes",
-          "correct": false
-        },
-        {
-          "text": "Phoenicopteriformes and Columbiformes",
-          "correct": true
-        }
-      ],
-      "explanation": "Both flamingos (Phoenicopteriformes) and pigeons/doves (Columbiformes) produce crop milk — a nutritious secretion from the lining of the crop — to feed their chicks. This is an unusual convergence between two unrelated orders.",
-      "category": "breeding",
-      "difficulty": "medium",
-      "topic": "Mirandornithes",
-      "related_orders": [
-        "Phoenicopteriformes",
-        "Columbiformes"
-      ],
-      "multiple": false
-    },
-    {
       "id": "q232",
       "question": "Which of these pairs of orders both have precocial chicks?",
       "options": [
