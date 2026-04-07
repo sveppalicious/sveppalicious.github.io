@@ -5417,7 +5417,7 @@
     },
     {
       "id": "q184",
-      "question": "Which order contains the fastest animal on the planet and is part of the Australaves clade?",
+      "question": "Which order contains the fastest animal on the planet?",
       "options": [
         {
           "text": "Passeriformes",
@@ -5439,9 +5439,9 @@
       "explanation": "The Peregrine Falcon (Falconiformes) achieves speeds exceeding 380 km/h during its stoop dive, making it the fastest animal on Earth.",
       "category": "fun_facts",
       "difficulty": "easy",
-      "topic": "Telluraves — Australaves",
+      "topic": "Falconiformes",
       "related_orders": [
-        "Accipitriformes"
+        "Australaves"
       ],
       "multiple": false
     },
