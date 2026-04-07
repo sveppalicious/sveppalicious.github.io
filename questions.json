@@ -1446,36 +1446,6 @@
       "multiple": false
     },
     {
-      "id": "q050",
-      "question": "What evidence indicates that flightlessness evolved multiple times within Podicipediformes?",
-      "options": [
-        {
-          "text": "All grebes are flightless and represent a single evolutionary transition",
-          "correct": false
-        },
-        {
-          "text": "The presence of flightless species scattered across different grebe clades with varying wing morphologies",
-          "correct": true
-        },
-        {
-          "text": "Genetic analysis showing independent loss of flight genes in different grebe lineages",
-          "correct": false
-        },
-        {
-          "text": "The discovery of fossil proto-grebes that were flightless",
-          "correct": false
-        }
-      ],
-      "explanation": "Flightlessness has evolved at least 4 times independently within grebes, as evidenced by the distribution of flightless species across different lineages and their varying anatomical modifications. This indicates multiple independent transitions from flight to flightlessness.",
-      "category": "phylogeny",
-      "difficulty": "hard",
-      "topic": "Mirandornithes",
-      "related_orders": [
-        "Podicipediformes"
-      ],
-      "multiple": false
-    },
-    {
       "id": "q051",
       "question": "Which clade encompasses pigeons, sandgrouse, turacos, and cuckoos within a larger taxonomic grouping?",
       "options": [
