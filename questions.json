@@ -2554,39 +2554,6 @@
       "multiple": false
     },
     {
-      "id": "q091",
-      "question": "Which of the following statements best describes the phylogenetic relationship between Mirandornithes and Columbaves?",
-      "options": [
-        {
-          "text": "Both clades are composed of disparate lineages defined by genomic data, not obvious morphological synapomorphies",
-          "correct": true
-        },
-        {
-          "text": "Columbaves is nested within Mirandornithes as a more derived clade",
-          "correct": false
-        },
-        {
-          "text": "Mirandornithes and Columbaves are sister taxa sharing a most recent common ancestor within Neoaves",
-          "correct": false
-        },
-        {
-          "text": "These clades share multiple unifying morphological characters visible across all members",
-          "correct": false
-        }
-      ],
-      "explanation": "Both Mirandornithes and Columbaves are genomically-defined clades that lack obvious unifying morphology. Mirandornithes unites flamingos and grebes through elongate neck vertebrae despite ecological differences, while Columbaves encompasses diverse landbirds with no single morphological character.",
-      "category": "phylogeny",
-      "difficulty": "medium",
-      "topic": "Mirandornithes",
-      "related_orders": [
-        "Phoenicopteriformes",
-        "Podicipediformes",
-        "Columbiformes",
-        "Pterocliformes"
-      ],
-      "multiple": false
-    },
-    {
       "id": "q092",
       "question": "Which of the following is the most distinctive characteristic of Hoatzins that makes them unique among birds?",
       "options": [
