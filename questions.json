@@ -438,37 +438,7 @@
       "difficulty": "easy",
       "topic": "Palaeognathae",
       "related_orders": [
-        "Struthioniformes"
-      ],
-      "multiple": false
-    },
-    {
-      "id": "q016",
-      "question": "What is remarkable about kiwi egg size relative to the female's body?",
-      "options": [
-        {
-          "text": "Eggs are only 5% of body weight",
-          "correct": false
-        },
-        {
-          "text": "Eggs are 20% of body weight",
-          "correct": true
-        },
-        {
-          "text": "Eggs are 50% of body weight",
-          "correct": false
-        },
-        {
-          "text": "Eggs are 40% of body weight",
-          "correct": false
-        }
-      ],
-      "explanation": "Kiwi eggs are exceptionally large relative to the female's body weight, comprising about 20% of her body weight, making them among the largest eggs relative to body size.",
-      "category": "breeding",
-      "difficulty": "medium",
-      "topic": "Palaeognathae",
-      "related_orders": [
-        "Casuariiformes"
+        "Apterygiformes"
       ],
       "multiple": false
     },
