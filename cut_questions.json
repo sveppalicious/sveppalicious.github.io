@@ -1098,5 +1098,40 @@
     ],
     "multiple": false,
     "id": "q271"
-  }
+    },
+        {
+        "id": "q287",
+        "question": "Which of the following traits are shared by BOTH Rheiformes and Tinamiformes? Select all that apply.",
+        "options": [
+          {
+            "text": "Multiple females lay eggs in a single male's nest",
+            "correct": true
+          },
+          {
+            "text": "The male incubates eggs and raises chicks alone",
+            "correct": true
+          },
+          {
+            "text": "Chicks are precocial",
+            "correct": true
+          },
+          {
+            "text": "Adults are flightless",
+            "correct": false
+          },
+          {
+            "text": "Sternum lacks a keel",
+            "correct": true
+          }
+        ],
+        "explanation": "Rheas and tinamous share a polyandrous system with sole male parental care, precocial chicks, and a keelless sternum. The key difference: rheas are flightless ratites, while tinamous can fly — making Tinamiformes the only flying Palaeognathae.",
+        "category": "breeding",
+        "difficulty": "hard",
+        "topic": "Palaeognathae",
+        "related_orders": [
+          "Rheiformes",
+          "Tinamiformes"
+        ],
+        "multiple": true
+      }
 ]

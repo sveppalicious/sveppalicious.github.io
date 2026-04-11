@@ -70,7 +70,7 @@ Distinctive, memorable facts from the Fun Facts sections.
 - *"Which bird order lost a war against Australia in 1932?"*
 
 ### 10. `specimens`
-Given a scientific or common name, identify the order it belongs to — **only when the placement is non-obvious** (e.g., falcons in Australaves rather than with hawks, or hoatzin in its own order).
+Given a common name, identify the order it belongs to — **only when the placement is non-obvious** (e.g., falcons in Australaves rather than with hawks, or hoatzin in its own order).
 - *"To which order does Falco peregrinus belong?"* ✓ (non-obvious — falcons aren't hawks)
 - *"To which order does Aquila chrysaetos belong?"* ✗ (obvious — eagles are clearly Accipitriformes)
 
